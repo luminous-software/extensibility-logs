@@ -1,0 +1,19 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Enhance Your Productivity\n\u00b6\n\n\nSave yourself the hassle of trying to remember where all of the extensibility-related log files are,\nand having to manually load them in your text editor of choice.\n\n\nThis extension puts each of them on a toolbar where they're loaded into Visual Studio with just one click.\n\n\n\n\nShare Your Time Savers Experience\n\n\nIf \nTime Savers\n has saved you time, please come back and show your support:\n\n\n\n\nor \nshout me a coke\n (as I don't drink coffee or beer lol)\n\n\n\n\n\n\nTime Savers Toolbar\n\u00b6\n\n\nThis extension adds a new toolbar that adds command buttons for each of the extensinility logs,  giving you a\n\none-click experience\n, saving you from having to go hunting for the command you want in a menu \nsomewhere\n.\n\n\nTo enable the toolbar, right-click in a blank spot on the toolbar area, and select \nExtensibility Logs\n.\nLike all other Visual Studio toolbars, you can remove any commands that you feel you don't need,\nor even add existing Visual Studio commands to it.",
+            "title": "Why Luminous Extensibility Logs?"
+        },
+        {
+            "location": "/#enhance-your-productivity",
+            "text": "Save yourself the hassle of trying to remember where all of the extensibility-related log files are,\nand having to manually load them in your text editor of choice.  This extension puts each of them on a toolbar where they're loaded into Visual Studio with just one click.   Share Your Time Savers Experience  If  Time Savers  has saved you time, please come back and show your support:   or  shout me a coke  (as I don't drink coffee or beer lol)",
+            "title": "Enhance Your Productivity"
+        },
+        {
+            "location": "/#time-savers-toolbar",
+            "text": "This extension adds a new toolbar that adds command buttons for each of the extensinility logs,  giving you a one-click experience , saving you from having to go hunting for the command you want in a menu  somewhere .  To enable the toolbar, right-click in a blank spot on the toolbar area, and select  Extensibility Logs .\nLike all other Visual Studio toolbars, you can remove any commands that you feel you don't need,\nor even add existing Visual Studio commands to it.",
+            "title": "Time Savers Toolbar"
+        }
+    ]
+}
