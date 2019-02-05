@@ -1,0 +1,94 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "You can download this extension from the Visual Studio Marketplace soon...\n\n\nSave Time and Hassle\n\u00b6\n\n\nSave yourself the hassle of trying to remember where the various extensibility-related log files are located.\nAnd once you've managed to find the file you're looking for, \nyou still have to manually load it in your text editor of choice.\n\n\nThis extension adds a new toolbar that adds command buttons for a set of extensibility-related logs, giving you a\n\none-click experience\n to open the selected log file in a document tab in Visual Studio.\n\n\nAfter installing the extension, simply right-click in a blank part of the toolbar area, and click on \nExtensibility Logs\n.\n\n\n\n\nShare Your Extensibility Logs Experience\n\n\nIf \nExtensibility Logs\n has saved you time, please come back and show your support:\n\n\n\n\nyou could \nrate \nExtensibility Logs\n (only takes a couple of seconds)\n\n\nor \nreview \nExtensibility Logs\n (help others benefit from your experience)\n\n\nor \nshout me a coke\n (I don't drink coffee or beer lol)",
+            "title": "Why Use This Extension?"
+        },
+        {
+            "location": "/#save-time-and-hassle",
+            "text": "Save yourself the hassle of trying to remember where the various extensibility-related log files are located.\nAnd once you've managed to find the file you're looking for, \nyou still have to manually load it in your text editor of choice.  This extension adds a new toolbar that adds command buttons for a set of extensibility-related logs, giving you a one-click experience  to open the selected log file in a document tab in Visual Studio.  After installing the extension, simply right-click in a blank part of the toolbar area, and click on  Extensibility Logs .   Share Your Extensibility Logs Experience  If  Extensibility Logs  has saved you time, please come back and show your support:   you could  rate  Extensibility Logs  (only takes a couple of seconds)  or  review  Extensibility Logs  (help others benefit from your experience)  or  shout me a coke  (I don't drink coffee or beer lol)",
+            "title": "Save Time and Hassle"
+        },
+        {
+            "location": "/getting-started/",
+            "text": "There are three ways you can install \nExtensibility Logs\n\n\n\n\nvia Visual Studio's \nExtensions and Updates\n dialog\n\n\nfrom the \nVisual Studio Marketplace\n website\n\n\ndownload the source code and compile the extension yourself\n\n\n\n\nInstall Via the Extensions and Updates Dialog\n\u00b6\n\n\n\n\nOpen the \nExtensions and Updates\n dialog in Visual Studio\n\n\nClick on the \nOnline\n tab\n\n\nType 'extensibility logs' in the search box\n\n\nClick on \nExtensibility Logs\n in the list\n\n\nClick the download button\n\n\n\n\nInstall Via the Visual Studio Marketplace website\n\u00b6\n\n\n\n\nClick on \nthis link\n to open the \nVisual Studio Marketplace\n website\n\n\nClick the \ndownload\n button\n\n\nClick or dbl-click the extension file that you downloaded\n\n\n\n\nDownload the Source Code\n\u00b6\n\n\nYou can find the source code on \nGitHub\n, then fork it or clone it.",
+            "title": "Getting Started"
+        },
+        {
+            "location": "/getting-started/#install-via-the-extensions-and-updates-dialog",
+            "text": "Open the  Extensions and Updates  dialog in Visual Studio  Click on the  Online  tab  Type 'extensibility logs' in the search box  Click on  Extensibility Logs  in the list  Click the download button",
+            "title": "Install Via the Extensions and Updates Dialog"
+        },
+        {
+            "location": "/getting-started/#install-via-the-visual-studio-marketplace-website",
+            "text": "Click on  this link  to open the  Visual Studio Marketplace  website  Click the  download  button  Click or dbl-click the extension file that you downloaded",
+            "title": "Install Via the Visual Studio Marketplace website"
+        },
+        {
+            "location": "/getting-started/#download-the-source-code",
+            "text": "You can find the source code on  GitHub , then fork it or clone it.",
+            "title": "Download the Source Code"
+        },
+        {
+            "location": "/features/",
+            "text": "Activity Log\n\u00b6\n\n\nDetails coming soon...\n\n\nDiagnostic Log\n\u00b6\n\n\nDetails coming soon...",
+            "title": "Features"
+        },
+        {
+            "location": "/features/#activity-log",
+            "text": "Details coming soon...",
+            "title": "Activity Log"
+        },
+        {
+            "location": "/features/#diagnostic-log",
+            "text": "Details coming soon...",
+            "title": "Diagnostic Log"
+        },
+        {
+            "location": "/changelog/",
+            "text": "Change Log\n\u00b6\n\n\nPublic Releases\n\u00b6\n\n\n\n\ncoming soon\n\n\n\n\nBeta Releases\n\u00b6\n\n\nv0.1 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub",
+            "title": "Change Log"
+        },
+        {
+            "location": "/changelog/#change-log",
+            "text": "",
+            "title": "Change Log"
+        },
+        {
+            "location": "/changelog/#public-releases",
+            "text": "coming soon",
+            "title": "Public Releases"
+        },
+        {
+            "location": "/changelog/#beta-releases",
+            "text": "",
+            "title": "Beta Releases"
+        },
+        {
+            "location": "/changelog/#v01-2019-02-03",
+            "text": "initial  master  branch on GitHub",
+            "title": "v0.1 - 2019-02-03"
+        },
+        {
+            "location": "/roadmap/",
+            "text": "Feature Ideas\n\u00b6\n\n\nThe list below is a list of \npotential\n \nfeatures\n or \nenhancements\n.\nThese might be entirely \nnew features\n or \nenhancements\n to existing features.\n\n\nThey may, or may not, end up being added into \nExtensibility Logs\n.\n\n\n\n\n Activity Log\n\n\n Diagnostic Log\n\n\n VSIX Installer Log\n\n\n MEF Error Log\n\n\n Service Hub Log\n\n\n\n\nContributions\n\u00b6\n\n\nIf you'd like to implement one of the \nfeature ideas\n,\nfeel free to \nopen an \nIssue\n on GitHub\n (with the same name as the feature),\nand we can start a discussion there.\n\n\nWe can then work toward developing a pull request,\nso the your feature can be incorporated into \nExtensibility Logs\n.\n\n\nDon't forget to check out the \nContribution Guidelines\n.\n\n\nBug Fixes\n\u00b6\n\n\nOnce bug fixes have been fully tested, they'll be included in the \nnext public release\n.\n\n\n\n\nThere are no bug fixes that need testing at the moment",
+            "title": "What's Coming"
+        },
+        {
+            "location": "/roadmap/#feature-ideas",
+            "text": "The list below is a list of  potential   features  or  enhancements .\nThese might be entirely  new features  or  enhancements  to existing features.  They may, or may not, end up being added into  Extensibility Logs .    Activity Log   Diagnostic Log   VSIX Installer Log   MEF Error Log   Service Hub Log",
+            "title": "Feature Ideas"
+        },
+        {
+            "location": "/roadmap/#contributions",
+            "text": "If you'd like to implement one of the  feature ideas ,\nfeel free to  open an  Issue  on GitHub  (with the same name as the feature),\nand we can start a discussion there.  We can then work toward developing a pull request,\nso the your feature can be incorporated into  Extensibility Logs .  Don't forget to check out the  Contribution Guidelines .",
+            "title": "Contributions"
+        },
+        {
+            "location": "/roadmap/#bug-fixes",
+            "text": "Once bug fixes have been fully tested, they'll be included in the  next public release .   There are no bug fixes that need testing at the moment",
+            "title": "Bug Fixes"
+        }
+    ]
+}
