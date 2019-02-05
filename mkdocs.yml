@@ -34,10 +34,10 @@ theme:
 # layout
 pages:
     - Why Use This Extension?: 'index.md'
-#    - How to Get Started: 'getting-started.md'
-#    - Features: 'features.md'
-#    - Change Log: 'changelog.md'
-#    - What's Coming: 'roadmap.md'
+    - Getting Started: 'getting-started.md'
+    - Features: 'features.md'
+    - Change Log: 'changelog.md'
+    - What's Coming: 'roadmap.md'
 
 # customisation
 extra:

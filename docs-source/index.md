@@ -11,10 +11,18 @@
 [paypal-badge]: https://img.shields.io/badge/donate-paypal-green.svg
 [paypal-url]: https://www.paypal.me/yannduran/10
 
-## To Enhance Your Productivity
+You can download this extension from the Visual Studio Marketplace soon...
+
+## Save Time and Hassle
 
 Save yourself the hassle of trying to remember where the various extensibility-related log files are located.
-And once you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.
+And once you've managed to find the file you're looking for, 
+you still have to manually load it in your text editor of choice.
+
+This extension adds a new toolbar that adds command buttons for a set of extensibility-related logs, giving you a
+**one-click experience** to open the selected log file in a document tab in Visual Studio.
+
+After installing the extension, simply right-click in a blank part of the toolbar area, and click on _Extensibility Logs_.
 
 !!! Note "Share Your Extensibility Logs Experience"
 
@@ -23,17 +31,6 @@ And once you've managed to find the file you're looking for, you still have to m
     - you could [***rate *Extensibility Logs****][rate-or-review-url] (only takes a couple of seconds)
     - or [***review *Extensibility Logs****][rate-or-review-url] (help others benefit from your experience)
     - or [***shout me a coke***](https://www.paypal.me/yannduran/5) (I don't drink coffee or beer lol)
-
-## The Extensibility Logs Toolbar
-
-This extension adds a new toolbar that adds command buttons for a set of extensibility-related logs, giving you a
-**one-click experience** to open the selected log file in a document tab in Visual Studio.
-
-## Getting Started
-
-To enable the toolbar, right-click in a blank spot on the toolbar area, and select *Extensibility Logs*.
-Like all other Visual Studio toolbars, you can remove any commands that you feel you don't need,
-or even add existing Visual Studio commands to it.
 
 [github-url]: http://www.github.com/luminous-software/extensibility-logs
 

@@ -15,8 +15,8 @@
 
 Download this extension from the Visual Studio Marketplace soon...
 
-[marketplace-url]: https://marketplace.visualstudio.com/vsgallery/049c7ac5-ba44-4a72-b4ee-7be7fb1b0edd
-[vsix-gallery-url]: http://vsixgallery.com/extension/049c7ac5-ba44-4a72-b4ee-7be7fb1b0edd/
+[marketplace-url]: https://marketplace.visualstudio.com/vsgallery
+[vsix-gallery-url]: http://vsixgallery.com
 
 Develop | Master
 --- | ---
@@ -29,7 +29,7 @@ See the [change log][changelog-url] for changes, and the [roadmap][roadmap-url] 
 
 ---
 
-## Enhance Your Productivity
+## Why Use This Extension
 
 Save yourself the hassle of trying to remember where all of the extensibility-related log files are,
 and having to manually load them in your text editor of choice.
@@ -42,11 +42,11 @@ If you find this extension useful, please come back and show your support:
 
 [rate-or-review-url]: https://marketplace.visualstudio.com/vsgallery/049c7ac5-ba44-4a72-b4ee-7be7fb1b0edd#review-details
 
-[website-url]: https://luminous-software.solutions/time-savers
-[features-url]: http://luminous-software.solutions/time-savers/#features
-[how-to-get-started-url]: http://luminous-software.solutions/time-savers/getting-started
-[changelog-url]: http://luminous-software.solutions/time-savers/changelog
-[whats-coming-url]: http://luminous-software.solutions/time-savers/roadmap
+[website-url]: https://luminous-software.solutions/extensibility-logs
+[features-url]: http://luminous-software.solutions/extensibility-logs/#features
+[how-to-get-started-url]: http://luminous-software.solutions/extensibility-logs/getting-started
+[changelog-url]: http://luminous-software.solutions/extensibility-logs/changelog
+[whats-coming-url]: http://luminous-software.solutions/extensibility-logs/roadmap
 
 ---
 
