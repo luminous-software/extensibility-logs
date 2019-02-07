@@ -3,15 +3,26 @@
 ![Rating][rating-badge-url]
 [![Donate][paypal-badge]](https://www.paypal.me/yannduran/5)
 
-[version-badge-url]: http://vsmarketplacebadge.apphb.com/version-short/YannDuran.ExtensibilityLogs.svg?label=version&colorB=7E57C2
-[installs-badge-url]: http://vsmarketplacebadge.apphb.com/installs-short/YannDuran.ExtensibilityLogs.svg?colorB=7E57C2
-[rating-badge-url]: http://vsmarketplacebadge.apphb.com/rating-short/YannDuran.ExtensibilityLogs.svg?colorB=7E57C2
-[license-badge]: https://img.shields.io/badge/license-MIT-7E57C2.svg
+[version-badge-url]: http://vsmarketplacebadge.apphb.com/version-short/YannDuran.ExtensibilityLogs.svg?label=version&colorB=7E57C2&style=flat-square
+[installs-badge-url]: http://vsmarketplacebadge.apphb.com/installs-short/YannDuran.ExtensibilityLogs.svg?colorB=7E57C2&style=flat-square
+[rating-badge-url]: http://vsmarketplacebadge.apphb.com/rating-short/YannDuran.ExtensibilityLogs.svg?colorB=7E57C2&style=flat-square
+[license-badge]: https://img.shields.io/badge/license-MIT-7E57C2.svg?style=flat-square
 [license-url]: http://luminous-software.solutions/extensibility-logs/license
-[paypal-badge]: https://img.shields.io/badge/donate-paypal-green.svg
+[paypal-badge]: https://img.shields.io/badge/donate-paypal-green.svg?style=flat-square
 [paypal-url]: https://www.paypal.me/yannduran/10
 
 You can download this extension from the Visual Studio Marketplace soon...
+
+Develop | Master
+:---: | :---:
+![Develop Badge][develop-badge-url] | ![Master Badge][master-badge-url]
+
+See the [change log][changelog-url] for changes, and the [roadmap][roadmap-url] for upcoming features.
+
+[develop-badge-url]: https://img.shields.io/azure-devops/build/lumiinus/107031f3-6e5a-4979-8e4a-a370199c9f9e/21.svg?style=flat-square
+[master-badge-url]: https://img.shields.io/azure-devops/build/lumiinus/107031f3-6e5a-4979-8e4a-a370199c9f9e/22.svg?style=flat-square
+
+---
 
 ## Save Time and Hassle
 
@@ -49,4 +60,3 @@ After installing the extension, simply right-click in a blank part of the toolba
 [extensibility-tools-url]: https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6
 
 [license-url]: https://github.com/luminous-software/extensibility-logs/blob/master/LICENSE
-
