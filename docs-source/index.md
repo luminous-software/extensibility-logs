@@ -1,26 +1,19 @@
 ![Version][version-badge-url]
 ![Installs][installs-badge-url]
 ![Rating][rating-badge-url]
+![Develop Badge][develop-badge-url]
+![Master Badge][master-badge-url]
 [![Donate][paypal-badge]](https://www.paypal.me/yannduran/5)
 
 [version-badge-url]: http://vsmarketplacebadge.apphb.com/version-short/YannDuran.ExtensibilityLogs.svg?label=version&colorB=7E57C2&style=flat-square
 [installs-badge-url]: http://vsmarketplacebadge.apphb.com/installs-short/YannDuran.ExtensibilityLogs.svg?colorB=7E57C2&style=flat-square
 [rating-badge-url]: http://vsmarketplacebadge.apphb.com/rating-short/YannDuran.ExtensibilityLogs.svg?colorB=7E57C2&style=flat-square
-[license-badge]: https://img.shields.io/badge/license-MIT-7E57C2.svg?style=flat-square
-[license-url]: http://luminous-software.solutions/extensibility-logs/license
+[develop-badge-url]: https://img.shields.io/azure-devops/build/lumiinus/107031f3-6e5a-4979-8e4a-a370199c9f9e/21.svg?label=Develop&style=flat-square
+[master-badge-url]: https://img.shields.io/azure-devops/build/lumiinus/107031f3-6e5a-4979-8e4a-a370199c9f9e/22.svg?label=Master&style=flat-square
 [paypal-badge]: https://img.shields.io/badge/donate-paypal-green.svg?style=flat-square
 [paypal-url]: https://www.paypal.me/yannduran/10
 
 You can download this extension from the Visual Studio Marketplace soon...
-
-Develop | Master
-:---: | :---:
-![Develop Badge][develop-badge-url] | ![Master Badge][master-badge-url]
-
-See the [change log][changelog-url] for changes, and the [roadmap][roadmap-url] for upcoming features.
-
-[develop-badge-url]: https://img.shields.io/azure-devops/build/lumiinus/107031f3-6e5a-4979-8e4a-a370199c9f9e/21.svg?style=flat-square
-[master-badge-url]: https://img.shields.io/azure-devops/build/lumiinus/107031f3-6e5a-4979-8e4a-a370199c9f9e/22.svg?style=flat-square
 
 ---
 
@@ -35,13 +28,13 @@ This extension adds a new toolbar that adds command buttons for a set of extensi
 
 After installing the extension, simply right-click in a blank part of the toolbar area, and click on _Extensibility Logs_.
 
-!!! Note "Share Your Extensibility Logs Experience"
+## Support the Project
 
-    If *Extensibility Logs* has saved you time, please come back and show your support:
+If *Extensibility Logs* has saved you time, please come back and show your support:
 
-    - you could [***rate *Extensibility Logs****][rate-or-review-url] (only takes a couple of seconds)
-    - or [***review *Extensibility Logs****][rate-or-review-url] (help others benefit from your experience)
-    - or [***shout me a coke***](https://www.paypal.me/yannduran/5) (I don't drink coffee or beer lol)
+- you could [***rate *Extensibility Logs****][rate-or-review-url] (only takes a couple of seconds)
+- or [***review *Extensibility Logs****][rate-or-review-url] (help others benefit from your experience)
+- or [***shout me a coke***](https://www.paypal.me/yannduran/5) (I don't drink coffee or beer lol)
 
 [github-url]: http://www.github.com/luminous-software/extensibility-logs
 
@@ -58,5 +51,3 @@ After installing the extension, simply right-click in a blank part of the toolba
 
 [contributing-url]: https://github.com/luminous-software/extensibility-logs/blob/master/.github/CONTRIBUTING.md
 [extensibility-tools-url]: https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6
-
-[license-url]: https://github.com/luminous-software/extensibility-logs/blob/master/LICENSE

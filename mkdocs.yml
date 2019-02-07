@@ -33,11 +33,11 @@ theme:
 
 # layout
 pages:
-    - Why Use This Extension?: 'index.md'
+    - Description: 'index.md'
     - Getting Started: 'getting-started.md'
     - Features: 'features.md'
-    - Change Log: 'changelog.md'
-    - What's Coming: 'roadmap.md'
+    - Changelog: 'changelog.md'
+    - Roadmap: 'roadmap.md'
 
 # customisation
 extra:
