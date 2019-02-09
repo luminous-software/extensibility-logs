@@ -1,0 +1,28 @@
+// 20190206102836
+// https://dev.azure.com/lumiinus/_apis/projects/extensibility-logs
+
+{
+  "id": "107031f3-6e5a-4979-8e4a-a370199c9f9e",
+  "name": "extensibility-logs",
+  "url": "https://dev.azure.com/lumiinus/_apis/projects/107031f3-6e5a-4979-8e4a-a370199c9f9e",
+  "state": "wellFormed",
+  "revision": 264,
+  "_links": {
+    "self": {
+      "href": "https://dev.azure.com/lumiinus/_apis/projects/107031f3-6e5a-4979-8e4a-a370199c9f9e"
+    },
+    "collection": {
+      "href": "https://dev.azure.com/lumiinus/_apis/projectCollections/1a42e9a8-4b7e-4b3c-adfe-c0ef729586ba"
+    },
+    "web": {
+      "href": "https://dev.azure.com/lumiinus/extensibility-logs"
+    }
+  },
+  "visibility": "private",
+  "defaultTeam": {
+    "id": "43986873-8c21-4db2-b495-65e765d45e68",
+    "name": "extensibility-logs Team",
+    "url": "https://dev.azure.com/lumiinus/_apis/projects/107031f3-6e5a-4979-8e4a-a370199c9f9e/teams/43986873-8c21-4db2-b495-65e765d45e68"
+  },
+  "lastUpdateTime": "0001-01-01T00:00:00"
+}

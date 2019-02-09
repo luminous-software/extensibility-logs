@@ -2,13 +2,18 @@
     "docs": [
         {
             "location": "/",
-            "text": "You can download this extension from the Visual Studio Marketplace soon...\n\n\nSave Time and Hassle\n\u00b6\n\n\nSave yourself the hassle of trying to remember where the various extensibility-related log files are located.\nAnd once you've managed to find the file you're looking for, \nyou still have to manually load it in your text editor of choice.\n\n\nThis extension adds a new toolbar that adds command buttons for a set of extensibility-related logs, giving you a\n\none-click experience\n to open the selected log file in a document tab in Visual Studio.\n\n\nAfter installing the extension, simply right-click in a blank part of the toolbar area, and click on \nExtensibility Logs\n.\n\n\n\n\nShare Your Extensibility Logs Experience\n\n\nIf \nExtensibility Logs\n has saved you time, please come back and show your support:\n\n\n\n\nyou could \nrate \nExtensibility Logs\n (only takes a couple of seconds)\n\n\nor \nreview \nExtensibility Logs\n (help others benefit from your experience)\n\n\nor \nshout me a coke\n (I don't drink coffee or beer lol)",
-            "title": "Why Use This Extension?"
+            "text": "You can download this extension from the Visual Studio Marketplace soon...\n\n\n\n\nSave Time and Hassle\n\u00b6\n\n\nSave yourself the hassle of trying to remember where the various extensibility-related log files are located.\nAnd once you've managed to find the file you're looking for, \nyou still have to manually load it in your text editor of choice.\n\n\nThis extension adds a new toolbar that adds command buttons for a set of extensibility-related logs, giving you a\n\none-click experience\n to open the selected log file in a document tab in Visual Studio.\n\n\nAfter installing the extension, simply right-click in a blank part of the toolbar area, and click on \nExtensibility Logs\n.\n\n\nSupport the Project\n\u00b6\n\n\nIf \nExtensibility Logs\n has saved you time, please come back and show your support:\n\n\n\n\nyou could \nrate \nExtensibility Logs\n (only takes a couple of seconds)\n\n\nor \nreview \nExtensibility Logs\n (help others benefit from your experience)\n\n\nor \nshout me a coke\n (I don't drink coffee or beer lol)",
+            "title": "Description"
         },
         {
             "location": "/#save-time-and-hassle",
-            "text": "Save yourself the hassle of trying to remember where the various extensibility-related log files are located.\nAnd once you've managed to find the file you're looking for, \nyou still have to manually load it in your text editor of choice.  This extension adds a new toolbar that adds command buttons for a set of extensibility-related logs, giving you a one-click experience  to open the selected log file in a document tab in Visual Studio.  After installing the extension, simply right-click in a blank part of the toolbar area, and click on  Extensibility Logs .   Share Your Extensibility Logs Experience  If  Extensibility Logs  has saved you time, please come back and show your support:   you could  rate  Extensibility Logs  (only takes a couple of seconds)  or  review  Extensibility Logs  (help others benefit from your experience)  or  shout me a coke  (I don't drink coffee or beer lol)",
+            "text": "Save yourself the hassle of trying to remember where the various extensibility-related log files are located.\nAnd once you've managed to find the file you're looking for, \nyou still have to manually load it in your text editor of choice.  This extension adds a new toolbar that adds command buttons for a set of extensibility-related logs, giving you a one-click experience  to open the selected log file in a document tab in Visual Studio.  After installing the extension, simply right-click in a blank part of the toolbar area, and click on  Extensibility Logs .",
             "title": "Save Time and Hassle"
+        },
+        {
+            "location": "/#support-the-project",
+            "text": "If  Extensibility Logs  has saved you time, please come back and show your support:   you could  rate  Extensibility Logs  (only takes a couple of seconds)  or  review  Extensibility Logs  (help others benefit from your experience)  or  shout me a coke  (I don't drink coffee or beer lol)",
+            "title": "Support the Project"
         },
         {
             "location": "/getting-started/",
@@ -47,8 +52,8 @@
         },
         {
             "location": "/changelog/",
-            "text": "Change Log\n\u00b6\n\n\nPublic Releases\n\u00b6\n\n\n\n\ncoming soon\n\n\n\n\nBeta Releases\n\u00b6\n\n\nv0.1 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub",
-            "title": "Change Log"
+            "text": "Change Log\n\u00b6\n\n\nPublic Releases\n\u00b6\n\n\n\n\ncoming soon\n\n\n\n\nBeta Releases\n\u00b6\n\n\nv0.1.1 - 2019-02-08\n\u00b6\n\n\n\n\nupdated documentation\n\n\n\n\nv0.1.0 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub",
+            "title": "Changelog"
         },
         {
             "location": "/changelog/#change-log",
@@ -66,14 +71,19 @@
             "title": "Beta Releases"
         },
         {
-            "location": "/changelog/#v01-2019-02-03",
+            "location": "/changelog/#v011-2019-02-08",
+            "text": "updated documentation",
+            "title": "v0.1.1 - 2019-02-08"
+        },
+        {
+            "location": "/changelog/#v010-2019-02-03",
             "text": "initial  master  branch on GitHub",
-            "title": "v0.1 - 2019-02-03"
+            "title": "v0.1.0 - 2019-02-03"
         },
         {
             "location": "/roadmap/",
             "text": "Feature Ideas\n\u00b6\n\n\nThe list below is a list of \npotential\n \nfeatures\n or \nenhancements\n.\nThese might be entirely \nnew features\n or \nenhancements\n to existing features.\n\n\nThey may, or may not, end up being added into \nExtensibility Logs\n.\n\n\n\n\n Activity Log\n\n\n Diagnostic Log\n\n\n VSIX Installer Log\n\n\n MEF Error Log\n\n\n Service Hub Log\n\n\n\n\nContributions\n\u00b6\n\n\nIf you'd like to implement one of the \nfeature ideas\n,\nfeel free to \nopen an \nIssue\n on GitHub\n (with the same name as the feature),\nand we can start a discussion there.\n\n\nWe can then work toward developing a pull request,\nso the your feature can be incorporated into \nExtensibility Logs\n.\n\n\nDon't forget to check out the \nContribution Guidelines\n.\n\n\nBug Fixes\n\u00b6\n\n\nOnce bug fixes have been fully tested, they'll be included in the \nnext public release\n.\n\n\n\n\nThere are no bug fixes that need testing at the moment",
-            "title": "What's Coming"
+            "title": "Roadmap"
         },
         {
             "location": "/roadmap/#feature-ideas",
