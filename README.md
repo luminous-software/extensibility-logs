@@ -31,11 +31,8 @@ Save yourself the hassle of trying to remember where the various extensibility-r
 
 This extension adds a new toolbar that adds command buttons for a set of helpful extensibility-related logs, giving you a one-click experience to open the selected log file in a document tab in Visual Studio.
 
-You can read more about _Extensibility Logs_ on its [website][website-url]:
-  - [Getting Started][getting-started-url]
-  - [Features][features-url]
-  - [Changelog][changelog-url]
-  - [Roadmap][roadmap-url]
+You can read more about _Extensibility Logs_ on its website:
+[Description][website-url]  *  [Getting Started][getting-started-url]  *  [Features][features-url]  *  [Changelog][changelog-url]  *  [Roadmap][roadmap-url]
 
 [website-url]: https://luminous-software.solutions/extensibility-logs
 [getting-started-url]: https://luminous-software.solutions/extensibility-logs/getting-started
@@ -63,6 +60,10 @@ extension for Visual Studio which enables some features used by this project.
 
 [contributing-url]: https://github.com/luminous-software/extensibility-logs/blob/master/.github/CONTRIBUTING.md
 [extensibility-tools-url]: https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6
+
+## License
+
+This project is licensed under the MIT License - [click here][license-url] for details
 
 ---
 
