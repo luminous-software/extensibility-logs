@@ -1,13 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Luminous.Code.VisualStudio.Packages;
+using System.Threading;
+using Microsoft.VisualStudio.Shell;
+using Task = System.Threading.Tasks.Task;
 
 namespace ExtensibilityLogs
 {
-    class Package : AsyncPackageBase
+    using Luminous.Code.VisualStudio.Packages;
+
+    public class PackageClass : AsyncPackageBase
     {
+        public PackageClass() : base()
+        { }
+
+        protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
+        {
+            await JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
+
+        }
     }
 }
