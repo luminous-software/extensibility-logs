@@ -3,10 +3,10 @@ using System.Threading;
 using Microsoft.VisualStudio.Shell;
 using Task = System.Threading.Tasks.Task;
 
+using Luminous.Code.VisualStudio.Packages;
+
 namespace ExtensibilityLogs
 {
-    using Luminous.Code.VisualStudio.Packages;
-
     public class PackageClass : AsyncPackageBase
     {
         public PackageClass() : base()
@@ -15,7 +15,6 @@ namespace ExtensibilityLogs
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
             await JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
-
         }
     }
 }

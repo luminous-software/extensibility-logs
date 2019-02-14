@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+  <Include href="KnownImageIds.vsct" />
+
+  <Commands package="Package">
+    <Menus>
+      <Menu guid="PackageCommandSet" id="PackageToolbar" type="Toolbar" priority="0xFFFF">
+        <CommandFlag>AlwaysCreate</CommandFlag>
+        <Strings>
+          <ButtonText>Extensibility Logs</ButtonText>
+        </Strings>
+      </Menu>
+    </Menus>
+
+    <Groups>
+      <Group guid="PackageCommandSet" id="LogGroup" priority="0x0000" />
+    </Groups>
+
+  </Commands>
+
+  <CommandPlacements>
+    <CommandPlacement guid="PackageCommandSet" id="LogGroup" priority="0x0400">
+      <Parent guid="PackageCommandSet" id="PackageToolbar" />
+    </CommandPlacement>
+  </CommandPlacements>
+
+  <Symbols>
+    <GuidSymbol name="Package" value="{7eec6573-16c8-4fab-9de3-0b9520f4b08d}" />
+
+    <GuidSymbol name="PackageCommandSet" value="{ce6c0c30-b2b2-432e-96fa-0acd36855968}">
+      <IDSymbol name="PackageToolbar" value="0xA001" />
+
+      <IDSymbol name="LogGroup" value="0x0700" />
+
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
