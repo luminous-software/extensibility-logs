@@ -44,6 +44,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Commands\ExtensibilityLogsCommand.cs" />
     <Compile Include="Package.class.cs" />
     <Compile Include="Package.cs">
       <AutoGen>True</AutoGen>
