@@ -4,9 +4,9 @@
   "repository": "github.com/luminous-software/extensibility-logs",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "3.9.1",
-    "gulp-all-tasks": "1.1.4",
+    "gulp": "^4.0.0",
+    "gulp-all-tasks": "^1.1.4",
     "gulp-util": "^3.0.8",
-    "opn": "^5.1.0"
+    "opn": "^5.4.0"
   }
 }
