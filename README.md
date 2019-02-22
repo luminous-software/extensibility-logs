@@ -20,7 +20,7 @@
 
 You can download this extension from the Visual Studio Marketplace soon...
 
-[marketplace-url]: https://marketplace.visualstudio.com/vsgallery
+[marketplace-url]: https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs
 [vsix-gallery-url]: http://vsixgallery.com
 
 ---
@@ -47,7 +47,7 @@ If you find this extension useful, please come back and show your support:
   - or [***review *Extensibility Logs****][rate-or-review-url] (help others benefit from your experience)
   - or [***shout me a coke***](https://www.paypal.me/yannduran/5) (as I don't drink coffee or beer lol)
 
-[rate-or-review-url]: https://marketplace.visualstudio.com/vsgallery/049c7ac5-ba44-4a72-b4ee-7be7fb1b0edd#review-details
+[rate-or-review-url]: https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs#review-details
 
 ## Contribute
 
