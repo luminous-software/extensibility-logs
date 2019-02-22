@@ -52,7 +52,7 @@
         },
         {
             "location": "/changelog/",
-            "text": "Change Log\n\u00b6\n\n\nPublic Releases\n\u00b6\n\n\n\n\ncoming soon\n\n\n\n\nBeta Releases\n\u00b6\n\n\nv0.1.1 - 2019-02-08\n\u00b6\n\n\n\n\nupdated documentation\n\n\n\n\nv0.1.0 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub",
+            "text": "Change Log\n\u00b6\n\n\nPublic Releases\n\u00b6\n\n\n\n\ncoming soon\n\n\n\n\nNon-Public Releases\n\u00b6\n\n\nv0.1.1 - 2019-02-08\n\u00b6\n\n\n\n\nadded documentation\n\n\n\n\nv0.1.0 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub",
             "title": "Changelog"
         },
         {
@@ -66,13 +66,13 @@
             "title": "Public Releases"
         },
         {
-            "location": "/changelog/#beta-releases",
+            "location": "/changelog/#non-public-releases",
             "text": "",
-            "title": "Beta Releases"
+            "title": "Non-Public Releases"
         },
         {
             "location": "/changelog/#v011-2019-02-08",
-            "text": "updated documentation",
+            "text": "added documentation",
             "title": "v0.1.1 - 2019-02-08"
         },
         {
