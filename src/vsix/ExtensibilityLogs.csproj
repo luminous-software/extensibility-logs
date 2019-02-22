@@ -70,6 +70,10 @@
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.0.298" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LightHouse-128x128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Package.vsct">
       <Generator>VsctGenerator</Generator>
       <LastGenOutput>Package.cs</LastGenOutput>
