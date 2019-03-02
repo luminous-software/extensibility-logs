@@ -20,12 +20,21 @@ const config = {
     port: '8005'
 };
 
+const consts = {
+    address: config.address + ':' + config.port
+};
+
+const options = {
+    pretty_format: ' --pretty=format:"  * %s"'
+};
+
 const script = {
     generate: 'mkdocs build',
-    serve: 'mkdocs serve --dev-addr=' + config.address + ':' + config.port,
+    serve: 'mkdocs serve --dev-addr=' + consts.address,
 
-    changes: 'git log -n 1 HEAD --pretty=format:"  * %s"',
-    log: 'git log HEAD --pretty=format:"  * %s"'
+    log: 'echo. && git log HEAD' + options.pretty_format,
+    changes: 'echo. && git log -n 1 HEAD' + options.pretty_format,
+    features: 'echo. && git log HEAD --grep="^feature" --no-merges' + options.pretty_format
 };
 
 gulp.task('log', function (cb) {
@@ -38,6 +47,14 @@ gulp.task('log', function (cb) {
 
 gulp.task('changes', function (cb) {
     exec(script.changes, function (err, stdout, stderr) {
+        gulp_util.log(stdout);
+        gulp_util.log(stderr);
+        cb(err);
+    });
+});
+
+gulp.task('features', function (cb) {
+    exec(script.features, function (err, stdout, stderr) {
         gulp_util.log(stdout);
         gulp_util.log(stderr);
         cb(err);
