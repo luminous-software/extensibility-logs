@@ -45,7 +45,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Commands\ExtensibilityLogsCommand.cs" />
-    <Compile Include="Package.class.cs" />
+    <Compile Include="Package.class.cs">
+      <DependentUpon>Package.vsct</DependentUpon>
+    </Compile>
     <Compile Include="Package.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -66,8 +68,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="System" />
     <PackageReference Include="Luminous.Code.VisualStudio">
-      <Version>1.1.0.1</Version>
+      <Version>1.1.0.4</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.SDK" Version="15.9.3" ExcludeAssets="runtime" />
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.0.2258">
@@ -81,6 +84,16 @@
       <LastGenOutput>Package.cs</LastGenOutput>
     </Content>
     <Content Include="Resources\LightHouse-128x128.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\core\ExtensibilityLogs.Core.csproj">
+      <Project>{37c10221-0383-41e0-8c01-f06ca16b9d82}</Project>
+      <Name>ExtensibilityLogs.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\options\ExtensibilityLogs.Options.csproj">
+      <Project>{d1eaad10-2832-42de-b8e7-eba03af83bcd}</Project>
+      <Name>ExtensibilityLogs.Options</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
