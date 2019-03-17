@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <Extern href="stdidcmd.h" />
-  <Extern href="vsshlids.h" />
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
   <Include href="KnownImageIds.vsct" />
 
   <Commands package="Package">
@@ -16,25 +16,39 @@
     </Menus>
 
     <Groups>
-      <Group guid="PackageCommandSet" id="LogGroup" priority="0x0000" />
+      <Group guid="PackageCommandSet" id="LogCommandsGroup" priority="0x0600" />
     </Groups>
 
+    <Buttons>
+      <Button guid="PackageCommandSet" id="ActivityLogCommand" priority="0x0100" type="Button">
+        <Parent guid="PackageCommandSet" id="LogCommandsGroup" />
+        <Icon guid="ImageCatalogGuid" id="TriggerActionListActive" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <CommandName>ActivityLog</CommandName>
+          <CanonicalName>ActivityLog</CanonicalName>
+          <LocCanonicalName>ActivityLog</LocCanonicalName>
+          <ButtonText>Activity Log</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
   </Commands>
 
   <CommandPlacements>
-    <CommandPlacement guid="PackageCommandSet" id="LogGroup" priority="0x0400">
+    <CommandPlacement guid="PackageCommandSet" id="LogCommandsGroup" priority="0x0400">
       <Parent guid="PackageCommandSet" id="PackageToolbar" />
     </CommandPlacement>
   </CommandPlacements>
 
   <Symbols>
-    <GuidSymbol name="Package" value="{7eec6573-16c8-4fab-9de3-0b9520f4b08d}" />
+    <GuidSymbol name="Package" value="{83105ac0-ed72-46f5-a86b-dd6061844309}" />
 
-    <GuidSymbol name="PackageCommandSet" value="{ce6c0c30-b2b2-432e-96fa-0acd36855968}">
+    <GuidSymbol name="PackageCommandSet" value="{c78ba443-d01e-4373-b2fd-9e6bbc3460ac}">
       <IDSymbol name="PackageToolbar" value="0xA001" />
 
-      <IDSymbol name="LogGroup" value="0x0700" />
-
+      <IDSymbol name="LogCommandsGroup" value="0x1020" />
+      <IDSymbol name="ActivityLogCommand" value="0x0100" />
     </GuidSymbol>
   </Symbols>
 </CommandTable>

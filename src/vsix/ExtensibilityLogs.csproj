@@ -44,6 +44,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Commands\ActivityLogCommand.cs" />
     <Compile Include="Commands\ExtensibilityLogsCommand.cs" />
     <Compile Include="Package.class.cs">
       <DependentUpon>Package.vsct</DependentUpon>
@@ -81,6 +82,10 @@
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.0.2262" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\core\ExtensibilityLogs.Core.csproj">
+      <Project>{37c10221-0383-41e0-8c01-f06ca16b9d82}</Project>
+      <Name>ExtensibilityLogs.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\options\ExtensibilityLogs.Options.csproj">
       <Project>{d1eaad10-2832-42de-b8e7-eba03af83bcd}</Project>
       <Name>ExtensibilityLogs.Options</Name>

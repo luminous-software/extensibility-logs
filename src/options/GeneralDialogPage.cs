@@ -22,5 +22,11 @@ namespace ExtensibilityLogs.Options
         [DisplayName(Constants.ExtensibilityLogsVersion)]
         [Description("Installed " + ExtensibilityLogs + " version")]
         public string ExtensibilityLogsVersion { get; } = Vsix.Version;
+
+        [Category(H1 + ExtensibilityLogs)]
+        [DisplayName(Enable + Space + ExtensibilityLogs)]
+        [Description("Opens Visual Studio's activity log in a tab document")]
+        public bool ActivityLogCommandEnabled { get; set; } = true;
+
     }
 }
