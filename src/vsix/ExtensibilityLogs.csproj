@@ -83,7 +83,9 @@
       <Generator>VsctGenerator</Generator>
       <LastGenOutput>Package.cs</LastGenOutput>
     </Content>
-    <Content Include="Resources\LightHouse-128x128.jpg" />
+    <Content Include="Resources\LightHouse-128x128.jpg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\core\ExtensibilityLogs.Core.csproj">
