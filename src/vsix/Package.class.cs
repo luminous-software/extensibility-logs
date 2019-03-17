@@ -2,19 +2,20 @@
 using System.Threading;
 using System.Runtime.InteropServices;
 using Microsoft.VisualStudio.Shell;
-using Task = System.Threading.Tasks.Task;
+using Tasks = System.Threading.Tasks;
+
+using Luminous.Code.VisualStudio.Packages;
 
 namespace ExtensibilityLogs
 {
-    using Luminous.Code.VisualStudio.Packages;
-
+    using Commands;
     using Options;
 
     using static Core.Constants;
     using static PackageGuids;
     using static Vsix;
 
-    [InstalledProductRegistration(Name, Description, Version, IconResourceID = 400)]
+    [InstalledProductRegistration(Name, Description, Version)]
     [Guid(PackageString)]
 
     [ProvideOptionPage(typeof(GeneralDialogPage), Name, General, 0, 0, supportsAutomation: false)]
@@ -29,11 +30,15 @@ namespace ExtensibilityLogs
         public PackageClass() : base(PackageCommandSet, Name, Description)
         { }
 
-        protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
+        protected override async Tasks.Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
             await base.InitializeAsync(cancellationToken, progress);
 
-            await JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
+            InstantiateCommands();
+        }
+
+        private void InstantiateCommands()
+        {
         }
     }
 }
