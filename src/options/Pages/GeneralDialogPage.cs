@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using Microsoft.VisualStudio.Shell;
 
-namespace ExtensibilityLogs.Options
+namespace ExtensibilityLogs.Options.Pages
 {
     using static Core.Constants;
     using static Guids;
@@ -23,8 +23,8 @@ namespace ExtensibilityLogs.Options
         [Description("Installed " + ExtensibilityLogs + " version")]
         public string ExtensibilityLogsVersion { get; } = Vsix.Version;
 
-        [Category(H1 + ExtensibilityLogs)]
-        [DisplayName(Enable + Space + ExtensibilityLogs)]
+        [Category(H2 + Features)]
+        [DisplayName(Enable + Space + ActivityLog)]
         [Description("Opens Visual Studio's activity log in a tab document")]
         public bool ActivityLogCommandEnabled { get; set; } = true;
 
