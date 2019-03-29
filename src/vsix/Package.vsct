@@ -34,7 +34,19 @@
         </Strings>
       </Button>
 
-      <Button guid="PackageCommandSet" id="PackageOptionsCommand" priority="0x0100" type="Button">
+      <Button guid="PackageCommandSet" id="DiagnosticLogCommand" priority="0x0100" type="Button">
+        <Parent guid="PackageCommandSet" id="PackageGroup" />
+        <Icon guid="ImageCatalogGuid" id="LogError" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <CommandName>DiagnosticLog</CommandName>
+          <ButtonText>Diagnostic Log</ButtonText>
+        </Strings>
+      </Button>
+
+      <!--
+        <Button guid="PackageCommandSet" id="PackageOptionsCommand" priority="0x0100" type="Button">
         <Parent guid="PackageCommandSet" id="PackageGroup" />
         <Icon guid="ImageCatalogGuid" id="SettingsFile" />
         <CommandFlag>IconIsMoniker</CommandFlag>
@@ -44,6 +56,7 @@
           <ButtonText>Extensibility Logs Options</ButtonText>
         </Strings>
       </Button>
+      -->
     </Buttons>
   </Commands>
 
@@ -62,8 +75,8 @@
       <IDSymbol name="PackageGroup" value="0xB001" />
 
       <IDSymbol name="ActivityLogCommand" value="0x0100" />
+      <IDSymbol name="DiagnosticLogCommand" value="0x0105" />
       <IDSymbol name="PackageOptionsCommand" value="0x0215" />
-
     </GuidSymbol>
   </Symbols>
 </CommandTable>

@@ -19,5 +19,6 @@
         public const string ExtensibilityLogsVersion = "Version Number";
 
         public const string ActivityLog = "Activity Log";
+        public const string DiagnosticLog = "Diagnostic Log";
     }
 }

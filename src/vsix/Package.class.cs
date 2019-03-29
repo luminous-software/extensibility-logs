@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
-using System.Threading;
 using Microsoft.VisualStudio.Shell;
-using Tasks = System.Threading.Tasks;
 
 using Luminous.Code.VisualStudio.Packages;
 
@@ -40,6 +38,7 @@ namespace ExtensibilityLogs
         private void InstantiateCommands()
         {
             ActivityLogCommand.Instantiate(this);
+            DiagnosticLogCommand.Instantiate(this);
         }
     }
 }

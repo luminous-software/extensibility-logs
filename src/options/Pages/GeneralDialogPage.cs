@@ -28,5 +28,9 @@ namespace ExtensibilityLogs.Options.Pages
         [Description("Opens Visual Studio's activity log in a tab document")]
         public bool ActivityLogCommandEnabled { get; set; } = true;
 
+        [Category(H2 + Features)]
+        [DisplayName(Enable + Space + DiagnosticLog)]
+        [Description("Opens the latest MSBuild's diagnostic failure log in a tab document")]
+        public bool DiagnosticLogCommandEnabled { get; set; } = true;
     }
 }

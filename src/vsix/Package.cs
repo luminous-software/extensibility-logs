@@ -26,6 +26,7 @@ namespace ExtensibilityLogs
         public const int PackageToolbar = 0xB000;
         public const int PackageGroup = 0xB001;
         public const int ActivityLogCommand = 0x0100;
+        public const int DiagnosticLogCommand = 0x0105;
         public const int PackageOptionsCommand = 0x0215;
     }
 }
