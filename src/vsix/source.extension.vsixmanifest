@@ -7,7 +7,7 @@
 		<MoreInfo>https://luminous-software.solutions/extensibility-logs</MoreInfo>
 		<GettingStartedGuide>https://luminous-software.solutions/extensibility-logs/getting-started</GettingStartedGuide>
 		<ReleaseNotes>https://luminous-software.solutions/extensibility-logs/changelog</ReleaseNotes>
-        <Icon>Resources\LightHouse-128x128.jpg</Icon>
+		<Icon>Resources\logo.png</Icon>
 		<Tags>Visual Studio;extensibility;logs;productivity;yannduran;yd;Yann Duran</Tags>
 		<Preview>true</Preview>
 	</Metadata>
