@@ -5,9 +5,9 @@ namespace ExtensibilityLogs.Commands
     using Luminous.Code.VisualStudio.Packages;
     using Luminous.Code.VisualStudio.Commands;
 
-    internal abstract class ExtensibilitiesLogCommand : DynamicCommand
+    internal abstract class PackageCommand : DynamicCommand
     {
-        protected ExtensibilitiesLogCommand(PackageBase package, int id) : base(package, id)
+        protected PackageCommand(PackageBase package, int id) : base(package, id)
         {
         }
 
