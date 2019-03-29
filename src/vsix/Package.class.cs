@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Threading;
-using ExtensibilityLogs.Options;
 using Microsoft.VisualStudio.Shell;
 using Tasks = System.Threading.Tasks;
 
@@ -10,6 +9,8 @@ using Luminous.Code.VisualStudio.Packages;
 namespace ExtensibilityLogs
 {
     using Commands;
+    using Options.Pages;
+
     using static Core.Constants;
     using static PackageGuids;
     using static Vsix;
@@ -19,7 +20,7 @@ namespace ExtensibilityLogs
 
     [ProvideOptionPage(typeof(GeneralDialogPage), Name, General, 0, 0, supportsAutomation: false)]
 
-    public sealed class PackageClass : AsyncPackageBase
+    public sealed class PackageClass : PackageBase
     {
         private static GeneralDialogPage _generalOptions;
 
@@ -29,16 +30,16 @@ namespace ExtensibilityLogs
         public PackageClass() : base(PackageCommandSet, Name, Description)
         { }
 
-        protected override async Tasks.Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
+        protected override void Initialize()
         {
-            await base.InitializeAsync(cancellationToken, progress);
+            base.Initialize();
 
-            await InstantiateCommandsAsync();
+            InstantiateCommands();
         }
 
-        private async Tasks.Task InstantiateCommandsAsync()
+        private void InstantiateCommands()
         {
-            await ActivityLogCommand.InstantiateAsync(this);
+            ActivityLogCommand.Instantiate(this);
         }
     }
 }
