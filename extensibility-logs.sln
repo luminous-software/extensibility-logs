@@ -24,6 +24,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs.Options",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs", "src\vsix\ExtensibilityLogs.csproj", "{8BE769C9-FAD0-432D-AEA3-9F4E90FCFF8C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{41D7F889-D846-46E4-A04B-B3628863BB83}"
+	ProjectSection(SolutionItems) = preProject
+		docs-source\changelog.md = docs-source\changelog.md
+		docs-source\features.md = docs-source\features.md
+		docs-source\getting-started.md = docs-source\getting-started.md
+		docs-source\index.md = docs-source\index.md
+		docs-source\roadmap.md = docs-source\roadmap.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
