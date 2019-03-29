@@ -17,5 +17,7 @@
         public const string ExtensibilityLogs = "Extensibility Logs";
         public const string ExtensibilityLogsFeatureSet = ExtensibilityLogs + Space + FeatureSet;
         public const string ExtensibilityLogsVersion = "Version Number";
+
+        public const string ActivityLog = "Activity Log";
     }
 }

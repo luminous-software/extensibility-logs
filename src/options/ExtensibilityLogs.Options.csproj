@@ -42,11 +42,11 @@
     <Compile Include="..\vsix\source.extension.cs">
       <Link>source.extension.cs</Link>
     </Compile>
-    <Compile Include="Constants.cs" />
+    <Compile Include="Constants\Constants.cs" />
+    <Compile Include="Constants\Guids.cs" />
     <Compile Include="Pages\GeneralDialogPage.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Guids.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
