@@ -11,12 +11,12 @@ namespace ExtensibilityLogs.Commands
         private static string Path
             => $"{Package.UserDataPath}\\ActivityLog.xml";
 
-        private ActivityLogCommand(AsyncPackageBase package)
+        private ActivityLogCommand(PackageBase package)
             : base(package, PackageIds.ActivityLogCommand)
         { }
 
-        public async static Tasks.Task InstantiateAsync(AsyncPackageBase package)
-            => await InstantiateAsync(new ActivityLogCommand(package));
+        public static void Instantiate(PackageBase package)
+            => Instantiate(new ActivityLogCommand(package));
 
         protected override bool CanExecute
             => base.CanExecute && PackageClass.Options.ActivityLogCommandEnabled;
