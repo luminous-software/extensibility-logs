@@ -6,7 +6,7 @@ namespace ExtensibilityLogs.Commands
     using Luminous.Code.VisualStudio.Commands;
     using Luminous.Code.VisualStudio.Packages;
 
-    internal sealed class ActivityLogCommand : ExtensibilitiesLogCommand
+    internal sealed class ActivityLogCommand : PackageCommand
     {
         private static string Path
             => $"{Package.UserDataPath}\\ActivityLog.xml";
