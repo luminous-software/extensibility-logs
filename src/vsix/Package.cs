@@ -12,10 +12,10 @@ namespace ExtensibilityLogs
     /// </summary>
     internal sealed partial class PackageGuids
     {
-        public const string PackageString = "83105ac0-ed72-46f5-a86b-dd6061844309";
+        public const string PackageString = "0298784e-e549-4e67-b3f3-af01a28a9f88";
         public static Guid Package = new Guid(PackageString);
 
-        public const string PackageCommandSetString = "c78ba443-d01e-4373-b2fd-9e6bbc3460ac";
+        public const string PackageCommandSetString = "2275760e-e992-461e-ae66-2e42f176d277";
         public static Guid PackageCommandSet = new Guid(PackageCommandSetString);
     }
     /// <summary>
@@ -23,8 +23,9 @@ namespace ExtensibilityLogs
     /// </summary>
     internal sealed partial class PackageIds
     {
-        public const int PackageToolbar = 0xA001;
-        public const int LogCommandsGroup = 0x1020;
+        public const int PackageToolbar = 0xB000;
+        public const int PackageGroup = 0xB001;
         public const int ActivityLogCommand = 0x0100;
+        public const int PackageOptionsCommand = 0x0215;
     }
 }

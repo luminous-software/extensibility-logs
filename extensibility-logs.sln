@@ -20,7 +20,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs.Core", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs.Options", "src\options\ExtensibilityLogs.Options.csproj", "{D1EAAD10-2832-42DE-B8E7-EBA03AF83BCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs", "src\vsix\ExtensibilityLogs.csproj", "{A43EF325-717D-4AA9-8727-F52E5BDB58CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs", "src\vsix\ExtensibilityLogs.csproj", "{8BE769C9-FAD0-432D-AEA3-9F4E90FCFF8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs.saved", "src\vsix.saved\ExtensibilityLogs.saved.csproj", "{A43EF325-717D-4AA9-8727-F52E5BDB58CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,8 +38,11 @@ Global
 		{D1EAAD10-2832-42DE-B8E7-EBA03AF83BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1EAAD10-2832-42DE-B8E7-EBA03AF83BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1EAAD10-2832-42DE-B8E7-EBA03AF83BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE769C9-FAD0-432D-AEA3-9F4E90FCFF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE769C9-FAD0-432D-AEA3-9F4E90FCFF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE769C9-FAD0-432D-AEA3-9F4E90FCFF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE769C9-FAD0-432D-AEA3-9F4E90FCFF8C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A43EF325-717D-4AA9-8727-F52E5BDB58CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A43EF325-717D-4AA9-8727-F52E5BDB58CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43EF325-717D-4AA9-8727-F52E5BDB58CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43EF325-717D-4AA9-8727-F52E5BDB58CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
