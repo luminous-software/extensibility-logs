@@ -60,11 +60,13 @@
     </Buttons>
   </Commands>
 
+  <!--
   <CommandPlacements>
     <CommandPlacement guid="PackageCommandSet" id="PackageGroup" priority="0x0400">
       <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
     </CommandPlacement>
   </CommandPlacements>
+  -->
 
   <Symbols>
     <GuidSymbol name="Package" value="{0298784e-e549-4e67-b3f3-af01a28a9f88}" />
