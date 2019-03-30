@@ -36,7 +36,7 @@
 
       <Button guid="PackageCommandSet" id="DiagnosticLogCommand" priority="0x0100" type="Button">
         <Parent guid="PackageCommandSet" id="PackageGroup" />
-        <Icon guid="ImageCatalogGuid" id="LogError" />
+        <Icon guid="ImageCatalogGuid" id="DocumentError" />
         <CommandFlag>IconIsMoniker</CommandFlag>
         <CommandFlag>DynamicVisibility</CommandFlag>
         <Strings>
