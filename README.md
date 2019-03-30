@@ -18,7 +18,7 @@
 [paypal-badge]: https://img.shields.io/badge/donate-paypal-green.svg?style=flat-square
 [paypal-url]: https://www.paypal.me/yannduran/10
 
-You can download this extension from the Visual Studio Marketplace soon...
+You can download this extension [from the Visual Studio Marketplace][marketplace-url]
 
 [marketplace-url]: https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs
 [vsix-gallery-url]: http://vsixgallery.com
@@ -32,7 +32,8 @@ Save yourself the hassle of trying to remember where the various extensibility-r
 This extension adds a new toolbar that adds command buttons for a set of helpful extensibility-related logs, giving you a one-click experience to open the selected log file in a document tab in Visual Studio.
 
 You can read more about _Extensibility Logs_ on its website:
-[Description][website-url]  *  [Getting Started][getting-started-url]  *  [Features][features-url]  *  [Changelog][changelog-url]  *  [Roadmap][roadmap-url]
+
+[Description][website-url] | [Getting Started][getting-started-url] | [Features][features-url] | [Changelog][changelog-url] | [Roadmap][roadmap-url]
 
 [website-url]: https://luminous-software.solutions/extensibility-logs
 [getting-started-url]: https://luminous-software.solutions/extensibility-logs/getting-started
