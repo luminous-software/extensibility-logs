@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="595c271e-e4b3-40ea-9ef7-1138f49b529c" Version="0.2.0.2" Language="en-US" Publisher="Yann Duran" />
+        <Identity Id="595c271e-e4b3-40ea-9ef7-1138f49b529c" Version="1.0.0" Language="en-US" Publisher="Yann Duran" />
         <DisplayName>Extensibility Logs</DisplayName>
-        <Description xml:space="preserve">Quickest &amp; easiest way to view extensibility logs</Description>
+        <Description xml:space="preserve">Quickest &amp; easiest way to view extensibility logs!</Description>
         <MoreInfo>https://luminous-software.solutions/extensibility-logs</MoreInfo>
         <GettingStartedGuide>https://luminous-software.solutions/extensibility-logs/getting-started</GettingStartedGuide>
         <ReleaseNotes>https://luminous-software.solutions/extensibility-logs/changelog</ReleaseNotes>

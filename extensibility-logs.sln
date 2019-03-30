@@ -6,16 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C16762FB-2EF5-48DC-9727-00263BF0E306}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		.gitignore = .gitignore
-		CHANGELOG.md = CHANGELOG.md
 		gulpfile.js = gulpfile.js
-		LICENSE = LICENSE
-		mkdocs.yml = mkdocs.yml
 		package.json = package.json
 		project-data.json = project-data.json
-		publish-manifest.json = publish-manifest.json
-		publish.cmd = publish.cmd
-		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs.Core", "src\core\ExtensibilityLogs.Core.csproj", "{37C10221-0383-41E0-8C01-F06CA16B9D82}"
@@ -30,7 +23,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{41D7F889-D
 		docs-source\features.md = docs-source\features.md
 		docs-source\getting-started.md = docs-source\getting-started.md
 		docs-source\index.md = docs-source\index.md
+		mkdocs.yml = mkdocs.yml
 		docs-source\roadmap.md = docs-source\roadmap.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{294CB197-EE56-4104-B7AA-05616260A27A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\CONTRIBUTING.md = .github\CONTRIBUTING.md
+		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{5902E485-4274-4E36-9D86-2F99D6C8AD64}"
+	ProjectSection(SolutionItems) = preProject
+		publish-manifest.json = publish-manifest.json
+		publish.cmd = publish.cmd
 	EndProjectSection
 EndProject
 Global
@@ -54,6 +62,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41D7F889-D846-46E4-A04B-B3628863BB83} = {C16762FB-2EF5-48DC-9727-00263BF0E306}
+		{294CB197-EE56-4104-B7AA-05616260A27A} = {C16762FB-2EF5-48DC-9727-00263BF0E306}
+		{5902E485-4274-4E36-9D86-2F99D6C8AD64} = {C16762FB-2EF5-48DC-9727-00263BF0E306}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {80B9E67B-481F-435F-A8EC-05A28B5CC488}
