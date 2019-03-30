@@ -1,9 +1,13 @@
-# Change Log
-
 ## Public Releases
   - coming soon
 
-## Non-Public Releases 
+## Non-Public Releases
+
+### v1.0.0 - 2019-03-30
+  - added DiagnosticLogCommand
+  - added ActivityLogCommand
+  - added ExtensibilityLogsVersion option setting
+  - added ExtensibilityLogsEnabled option setting
 
 ### v0.1.1 - 2019-02-08
   - added documentation
