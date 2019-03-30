@@ -1,27 +1,34 @@
-There are three ways you can install *Extensibility Logs*
+# Getting Started
 
-- via Visual Studio's *Extensions and Updates* dialog
-- from the *Visual Studio Marketplace* website
-- download the source code and compile the extension yourself
+There are three ways you can install *Extensibility Logs*:
 
-## Install Via the Extensions and Updates Dialog
+1. From Inside Visual Studio
+2. Download and Install Manually
+3. From the *source code*
 
-1. Open the *Extensions and Updates* dialog in Visual Studio
+## Option 1 - From Inside Visual Studio
+
+1. In Visual Studio open the *Extensions* dialog
+   - VS 2017: *Extensions and Updates*
+   - VS 2019: *Manage Extensions* 
 2. Click on the *Online* tab
-3. Type 'extensibility logs' in the search box
+3. Type *extensibility logs* in the search box
 4. Click on *Extensibility Logs* in the list
-5. Click the download button
+5. Click the *Download* button
 
-## Install Via the Visual Studio Marketplace website
+## Option 2 - Download and Install Manually
 
-1. Click on [this link][marketplace-url] to open the *Visual Studio Marketplace* website
-2. Click the *download* button
-3. Click or dbl-click the extension file that you downloaded
+1. Click on this link to download from [Visual Studio Marketplace website][marketplace-url]
+2. Click the *Download* button, and select where to save it
+3. Install the downloaded VSIX file, from wherever you saved it
 
-## Download the Source Code
+[marketplace-url]: https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs
 
-You can find the source code on [GitHub][source-code], then fork it or clone it.
+## Option 3 - From the Source Code
 
-<!---->
-[marketplace-url]: https://marketplace.visualstudio.com
-[source-code]: https://github.com/luminous-software/extensibility-logs
+1. Find the [source code][source-code-url] on GitHub
+2. Fork it or clone it
+3. Compile the solution
+4. Install the compiled VSIX file
+
+[source-code-url]: https://github.com/luminous-software/extensibility-logs

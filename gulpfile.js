@@ -82,4 +82,4 @@ gulp.task('serve', function (cb) {
     opn('http://' + address);
 });
 
-gulp.task('default', ['serve']);
+//gulp.task('default', ['serve']);

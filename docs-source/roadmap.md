@@ -1,4 +1,3 @@
-
 ## Feature Ideas
 
 The list below is a list of **potential** _features_ or _enhancements_.
@@ -6,8 +5,9 @@ These might be entirely **new features** or **enhancements** to existing feature
 
 They may, or may not, end up being added into _Extensibility Logs_.
 
-- [ ] Activity Log
-- [ ] Diagnostic Log
+- [x] Activity Log
+- [x] Diagnostic Log
+- [ ] Path Variables
 - [ ] VSIX Installer Log
 - [ ] MEF Error Log
 - [ ] Service Hub Log
