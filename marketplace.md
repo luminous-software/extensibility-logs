@@ -31,7 +31,6 @@ This extension adds a new toolbar that adds command buttons for a set of helpful
 
 ## More Information
 
-
 You can read more about _Extensibility Logs_ on its website:
 
 [Description][website-url] | [Getting Started][getting-started-url] | [Features][features-url] | [Changelog][changelog-url] | [Roadmap][roadmap-url]

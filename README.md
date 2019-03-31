@@ -1,5 +1,7 @@
 # Extensibility Logs
 
+The quickest & easiest way to view extensibility logs!
+
 ![Version][version-badge-url]
 ![Installs][installs-badge-url]
 ![Rating][rating-badge-url]
@@ -25,11 +27,13 @@ You can download this extension [from the Visual Studio Marketplace][marketplace
 
 ---
 
-## Description
+## Save Time and Hassle
 
 Save yourself the hassle of trying to remember where the various extensibility-related log files are located. Once you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.
 
 This extension adds a new toolbar that adds command buttons for a set of helpful extensibility-related logs, giving you a one-click experience to open the selected log file in a document tab in Visual Studio.
+
+## More Information
 
 You can read more about _Extensibility Logs_ on its website:
 
@@ -43,14 +47,15 @@ You can read more about _Extensibility Logs_ on its website:
 
 ## Support the Project
 
-If you find this extension useful, please come back and show your support:
+If *Extensibility Logs* has saved you time and hassle, please come back and show your support:
+
   - you could [***rate *Extensibility Logs****][rate-or-review-url] (only takes a couple of seconds)
   - or [***review *Extensibility Logs****][rate-or-review-url] (help others benefit from your experience)
-  - or [***shout me a coke***](https://www.paypal.me/yannduran/5) (as I don't drink coffee or beer lol)
+  - or [***shout me a coke***](https://www.paypal.me/yannduran/5) (I don't drink coffee or beer lol)
 
 [rate-or-review-url]: https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs#review-details
 
-## Contribute
+## Contribution Guidlines
 
 Check out the [contribution guidelines][contributing-url]
 if you'd like to contribute to this project.
