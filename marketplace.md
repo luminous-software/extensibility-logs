@@ -1,7 +1,3 @@
-# Extensibility Logs
-
-The quickest & easiest way to view extensibility logs!
-
 ![Version][version-badge-url]
 ![Installs][installs-badge-url]
 ![Rating][rating-badge-url]
