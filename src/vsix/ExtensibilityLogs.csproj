@@ -48,6 +48,7 @@
     <Compile Include="Commands\ActivityLogCommand.cs" />
     <Compile Include="Commands\DiagnosticLogCommand.cs" />
     <Compile Include="Commands\PackageCommand.cs" />
+    <Compile Include="Commands\PathVariablesCommand.cs" />
     <Compile Include="Package.class.cs">
       <DependentUpon>Package.vsct</DependentUpon>
     </Compile>

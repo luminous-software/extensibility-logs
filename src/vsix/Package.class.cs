@@ -39,6 +39,7 @@ namespace ExtensibilityLogs
         {
             ActivityLogCommand.Instantiate(this);
             DiagnosticLogCommand.Instantiate(this);
+            PathVariablesCommand.Instantiate(this);
         }
     }
 }

@@ -32,5 +32,10 @@ namespace ExtensibilityLogs.Options.Pages
         [DisplayName(Enable + Space + DiagnosticLog)]
         [Description("Opens the latest MSBuild's diagnostic failure log in a tab document")]
         public bool DiagnosticLogCommandEnabled { get; set; } = true;
+
+        [Category(H2 + Features)]
+        [DisplayName(Enable + Space + PathVariables)]
+        [Description("Displays Window's current path variables in a tab document")]
+        public bool PathVariablesCommandEnabled { get; set; } = true;
     }
 }
