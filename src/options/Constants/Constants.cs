@@ -20,6 +20,7 @@
 
         public const string ActivityLog = "Activity Log";
         public const string DiagnosticLog = "Diagnostic Log";
+        public const string MefErrorLog = "MEF Error Log";
         public const string PathVariables = "Path Variables";
     }
 }

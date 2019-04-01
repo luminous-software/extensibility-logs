@@ -27,7 +27,8 @@ namespace ExtensibilityLogs
         public const int PackageGroup = 0xB001;
         public const int ActivityLogCommand = 0x0100;
         public const int DiagnosticLogCommand = 0x0105;
-        public const int PathVariablesCommand = 0x0106;
-        public const int PackageOptionsCommand = 0x0215;
+        public const int MefErrorLogCommand = 0x0110;
+        public const int PathVariablesCommand = 0x0115;
+        public const int PackageOptionsCommand = 0x0150;
     }
 }

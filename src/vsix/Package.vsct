@@ -34,7 +34,7 @@
         </Strings>
       </Button>
 
-      <Button guid="PackageCommandSet" id="DiagnosticLogCommand" priority="0x0100" type="Button">
+      <Button guid="PackageCommandSet" id="DiagnosticLogCommand" priority="0x0105" type="Button">
         <Parent guid="PackageCommandSet" id="PackageGroup" />
         <Icon guid="ImageCatalogGuid" id="DocumentError" />
         <CommandFlag>IconIsMoniker</CommandFlag>
@@ -45,7 +45,18 @@
         </Strings>
       </Button>
 
-      <Button guid="PackageCommandSet" id="PathVariablesCommand" priority="0x0100" type="Button">
+      <Button guid="PackageCommandSet" id="MefErrorLogCommand" priority="0x0110" type="Button">
+        <Parent guid="PackageCommandSet" id="PackageGroup" />
+        <Icon guid="ImageCatalogGuid" id="LogError" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <CommandName>MefErrorLog</CommandName>
+          <ButtonText>MEF Error Log</ButtonText>
+        </Strings>
+      </Button>
+
+      <Button guid="PackageCommandSet" id="PathVariablesCommand" priority="0x0115" type="Button">
         <Parent guid="PackageCommandSet" id="PackageGroup" />
         <Icon guid="ImageCatalogGuid" id="DataList" />
         <CommandFlag>IconIsMoniker</CommandFlag>
@@ -57,7 +68,7 @@
       </Button>
 
       <!--
-        <Button guid="PackageCommandSet" id="PackageOptionsCommand" priority="0x0100" type="Button">
+        <Button guid="PackageCommandSet" id="PackageOptionsCommand" priority="0x0150" type="Button">
         <Parent guid="PackageCommandSet" id="PackageGroup" />
         <Icon guid="ImageCatalogGuid" id="SettingsFile" />
         <CommandFlag>IconIsMoniker</CommandFlag>
@@ -89,8 +100,9 @@
 
       <IDSymbol name="ActivityLogCommand" value="0x0100" />
       <IDSymbol name="DiagnosticLogCommand" value="0x0105" />
-      <IDSymbol name="PathVariablesCommand" value="0x0106" />
-      <IDSymbol name="PackageOptionsCommand" value="0x0215" />
+      <IDSymbol name="MefErrorLogCommand" value="0x0110" />
+      <IDSymbol name="PathVariablesCommand" value="0x0115" />
+      <IDSymbol name="PackageOptionsCommand" value="0x0150" />
     </GuidSymbol>
   </Symbols>
 </CommandTable>
