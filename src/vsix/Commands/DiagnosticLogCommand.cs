@@ -11,14 +11,12 @@ namespace ExtensibilityLogs.Commands
     using Luminous.Code.VisualStudio.Commands;
     using Luminous.Code.VisualStudio.Packages;
 
-    using static Luminous.Code.VisualStudio.Commands.CommandKeys;
-
     internal sealed class DiagnosticLogCommand : PackageCommand
     {
-        private static int CommandId
-            => PackageIds.DiagnosticLogCommand;
+        private static string Path
+            => $"{GetTempPath()}";
 
-        private DiagnosticLogCommand(PackageBase package) : base(package, CommandId)
+        private DiagnosticLogCommand(PackageBase package) : base(package, PackageIds.DiagnosticLogCommand)
         { }
 
         public static void Instantiate(PackageBase package)
@@ -36,8 +34,7 @@ namespace ExtensibilityLogs.Commands
         {
             try
             {
-                var path = $"{GetTempPath()}";
-                var di = new DirectoryInfo(path);
+                var di = new DirectoryInfo(Path);
                 var files = di?.EnumerateFiles("*.failure.txt");
 
                 var fi = (

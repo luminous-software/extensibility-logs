@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.Shell;
-using Tasks = System.Threading.Tasks;
 
 namespace ExtensibilityLogs.Commands
 {
