@@ -56,6 +56,17 @@
         </Strings>
       </Button>
 
+      <Button guid="PackageCommandSet" id="VsixInstallerLogCommand" priority="0x0110" type="Button">
+        <Parent guid="PackageCommandSet" id="PackageGroup" />
+        <Icon guid="ImageCatalogGuid" id="Package" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <CommandName>VsixInstallerLog</CommandName>
+          <ButtonText>VSIX Installer Log</ButtonText>
+        </Strings>
+      </Button>
+
       <Button guid="PackageCommandSet" id="PathVariablesCommand" priority="0x0115" type="Button">
         <Parent guid="PackageCommandSet" id="PackageGroup" />
         <Icon guid="ImageCatalogGuid" id="DataList" />
@@ -101,6 +112,7 @@
       <IDSymbol name="ActivityLogCommand" value="0x0100" />
       <IDSymbol name="DiagnosticLogCommand" value="0x0105" />
       <IDSymbol name="MefErrorLogCommand" value="0x0110" />
+      <IDSymbol name="VsixInstallerLogCommand" value="0x0112" />
       <IDSymbol name="PathVariablesCommand" value="0x0115" />
       <IDSymbol name="PackageOptionsCommand" value="0x0150" />
     </GuidSymbol>
