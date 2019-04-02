@@ -33,7 +33,7 @@ theme:
 
 # layout
 pages:
-    - Description: 'index.md'
+    - Overview: 'index.md'
     - Getting Started: 'getting-started.md'
     - Features: 'features.md'
     - Changelog: 'changelog.md'
