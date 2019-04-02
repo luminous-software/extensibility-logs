@@ -55,7 +55,7 @@ If *Extensibility Logs* has saved you time and hassle, please come back and show
 
 [rate-or-review-url]: https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs#review-details
 
-## Contribution Guidlines
+## Contribution Guidelines
 
 Check out the [contribution guidelines][contributing-url]
 if you'd like to contribute to this project.
