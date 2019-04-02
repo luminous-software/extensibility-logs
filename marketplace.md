@@ -1,14 +1,10 @@
 ![Version][version-badge-url]
-![Installs][installs-badge-url]
-![Rating][rating-badge-url]
 [![License][license-badge]][license-url]
 ![Develop Badge][develop-badge-url]
 ![Master Badge][master-badge-url]
 [![Donate][paypal-badge]](https://www.paypal.me/yannduran/5)
 
 [version-badge-url]: http://vsmarketplacebadge.apphb.com/version-short/YannDuran.ExtensibilityLogs.svg?label=version&colorB=7E57C2&style=flat-square
-[installs-badge-url]: http://vsmarketplacebadge.apphb.com/installs-short/YannDuran.ExtensibilityLogs.svg?colorB=7E57C2&style=flat-square
-[rating-badge-url]: http://vsmarketplacebadge.apphb.com/rating-short/YannDuran.ExtensibilityLogs.svg?colorB=7E57C2&style=flat-square
 [license-badge]: https://img.shields.io/badge/license-MIT-7E57C2.svg?style=flat-square
 [license-url]: https://github.com/luminous-software/extensibility-logs/blob/master/LICENSE
 [develop-badge-url]: https://img.shields.io/azure-devops/build/lumiinus/107031f3-6e5a-4979-8e4a-a370199c9f9e/21.svg?label=Develop&style=flat-square
