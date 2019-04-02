@@ -169,8 +169,8 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="Description" class="md-nav__link">
-      Description
+    <a href=".." title="Overview" class="md-nav__link">
+      Overview
     </a>
   </li>
 
@@ -230,15 +230,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#activity-log-command" title="Activity Log Command" class="md-nav__link">
-    Activity Log Command
+  <a href="#activity-log" title="Activity Log" class="md-nav__link">
+    Activity Log
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagnostic-log" title="Diagnostic Log" class="md-nav__link">
-    Diagnostic Log
+  <a href="#diagnostic-failure-log" title="Diagnostic Failure Log" class="md-nav__link">
+    Diagnostic Failure Log
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mef-error-log" title="MEF Error Log" class="md-nav__link">
+    MEF Error Log
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#path-variables" title="Path Variables" class="md-nav__link">
+    Path Variables
   </a>
   
 </li>
@@ -309,15 +323,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#activity-log-command" title="Activity Log Command" class="md-nav__link">
-    Activity Log Command
+  <a href="#activity-log" title="Activity Log" class="md-nav__link">
+    Activity Log
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagnostic-log" title="Diagnostic Log" class="md-nav__link">
-    Diagnostic Log
+  <a href="#diagnostic-failure-log" title="Diagnostic Failure Log" class="md-nav__link">
+    Diagnostic Failure Log
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mef-error-log" title="MEF Error Log" class="md-nav__link">
+    MEF Error Log
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#path-variables" title="Path Variables" class="md-nav__link">
+    Path Variables
   </a>
   
 </li>
@@ -342,13 +370,28 @@
                 <h2 id="extensibility-logs-enabled-setting">Extensibility Logs Enabled Setting<a class="headerlink" href="#extensibility-logs-enabled-setting" title="Permanent link">&para;</a></h2>
 <p>This setting allows the whole set of <em>Extensibility Logs</em> features to be turned off together.</p>
 <h2 id="extensibility-logs-version">Extensibility Logs Version<a class="headerlink" href="#extensibility-logs-version" title="Permanent link">&para;</a></h2>
-<p>Displays the currently installed <em>Extensibility Logs</em> verion.</p>
-<h2 id="activity-log-command">Activity Log Command<a class="headerlink" href="#activity-log-command" title="Permanent link">&para;</a></h2>
+<p>Displays the currently installed <em>Extensibility Logs</em> version.</p>
+<h2 id="activity-log">Activity Log<a class="headerlink" href="#activity-log" title="Permanent link">&para;</a></h2>
 <p>Opens Visual Studio's <em>Activity Log</em> in a tab document, without having to first remember where the file is stored,
-and open it in an editor of choice.</p>
-<h2 id="diagnostic-log">Diagnostic Log<a class="headerlink" href="#diagnostic-log" title="Permanent link">&para;</a></h2>
-<p>Opens MSBuild's latest <em>Diagnostic Failure Log</em> in a tab document, without knowing how to find the first, 
-and then open it in an editorof choice,</p>
+and then open it in your editor of choice.</p>
+<p>The <em>Activity Log</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs |  Enable Activity Log</em>
+to <code>false</code>, or hidden by removing the button from the <em>Extensibility Logs</em> toolbar.</p>
+<h2 id="diagnostic-failure-log">Diagnostic Failure Log<a class="headerlink" href="#diagnostic-failure-log" title="Permanent link">&para;</a></h2>
+<p>Opens MSBuild's latest <em>Diagnostic Failure Log</em> in a tab document, without knowing how to find it first, 
+and then open it in your editor of choice.</p>
+<p>The <em>Diagnostic Failure Log</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable Diagnostic Log</em> to <code>false</code>, 
+or hidden by removing the button from the <em>Extensibility Logs</em> toolbar.</p>
+<h2 id="mef-error-log">MEF Error Log<a class="headerlink" href="#mef-error-log" title="Permanent link">&para;</a></h2>
+<p>Opens Visual Studio's <em>MEF Error Log</em> in a tab document, without having to search for it,
+and then open it in your editor of choice.</p>
+<p>The <em>MEF Error Log</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable MEF Error Log</em> to <code>false</code>, 
+or hidden by removing the button from the <em>Extensibility Logs</em> toolbar.</p>
+<h2 id="path-variables">Path Variables<a class="headerlink" href="#path-variables" title="Permanent link">&para;</a></h2>
+<p>Displays Windows' current <em>search paths for executable files</em> in a tab document, without having to open a command prompt.</p>
+<p>A future update will allow adding, removing, and re-ordering of the variables, inside , 
+without having to use Windows' <em>Settings</em> app.</p>
+<p>The <em>Path Variables</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable Path Variables</em> to <code>false</code>, 
+or hidden by removing the button from the <em>Extensibility Logs</em> toolbar.</p>
                 
                   
                 
