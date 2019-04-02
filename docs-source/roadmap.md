@@ -7,9 +7,9 @@ They may, or may not, end up being added into _Extensibility Logs_.
 
 - [x] Activity Log
 - [x] Diagnostic Log
-- [ ] Path Variables
+- [x] Path Variables
 - [ ] VSIX Installer Log
-- [ ] MEF Error Log
+- [x] MEF Error Log
 - [ ] Service Hub Log
 
 ## Contributions
