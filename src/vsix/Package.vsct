@@ -41,7 +41,7 @@
         <CommandFlag>DynamicVisibility</CommandFlag>
         <Strings>
           <CommandName>DiagnosticLog</CommandName>
-          <ButtonText>Diagnostic Log</ButtonText>
+          <ButtonText>Diagnostic Failure Log</ButtonText>
         </Strings>
       </Button>
 

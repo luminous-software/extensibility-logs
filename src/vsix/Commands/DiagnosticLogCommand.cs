@@ -48,8 +48,8 @@ namespace ExtensibilityLogs.Commands
                     ).FirstOrDefault();
 
                 return fi != null
-                    ? Package?.OpenTextFile(fi.FullName, problem: "Unable to view '{filename}'")
-                    : new InformationResult("No diagnostic log found");
+                    ? Package?.OpenTextFile(fi.FullName, problem: $"Unable to view '{fi.FullName}'")
+                    : new InformationResult("No diagnostic failure log found");
             }
             catch (Exception ex)
             {
