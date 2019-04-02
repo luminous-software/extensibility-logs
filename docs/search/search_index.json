@@ -2,17 +2,22 @@
     "docs": [
         {
             "location": "/",
-            "text": "Extensibility Logs\n is the quickest & easiest way to view extensibility logs!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSave Time and Hassle\n\u00b6\n\n\nSave yourself the hassle of trying to remember where the various extensibility-related log files are located. Once you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.\n\n\nThis extension adds a new toolbar that adds command buttons for a set of helpful extensibility-related logs, giving you a one-click experience to open the selected log file in a document tab in Visual Studio.\n\n\nYou can read more about \nExtensibility Logs\n on its website:\n\n\nDescription\n  *  \nGetting Started\n  *  \nFeatures\n  *  \nChangelog\n  *  \nRoadmap\n\n\nSupport the Project\n\u00b6\n\n\nIf \nExtensibility Logs\n has saved you time, please come back and show your support:\n\n\n\n\nyou could \nrate \nExtensibility Logs\n (only takes a couple of seconds)\n\n\nor \nreview \nExtensibility Logs\n (help others benefit from your experience)\n\n\nor \nshout me a coke\n (I don't drink coffee or beer lol)",
-            "title": "Description"
+            "text": "The quickest & easiest way to view extensibility logs!\n\n\n\n\n\n\n\n\n\n\n\n\nYou can download this extension \nfrom the Visual Studio Marketplace\n\n\n\n\nSave Time and Hassle\n\u00b6\n\n\nSave yourself the hassle of trying to remember where the various extensibility-related log files are located. Once you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.\n\n\nThis extension adds a new toolbar that adds command buttons for a set of helpful extensibility-related logs, giving you a one-click experience to open the selected log file in a document tab in Visual Studio.\n\n\nMore Information\n\u00b6\n\n\nYou can read more about \nExtensibility Logs\n on its website:\n\n\nDescription\n | \nGetting Started\n | \nFeatures\n | \nChangelog\n | \nRoadmap\n\n\nSupport the Project\n\u00b6\n\n\nIf \nExtensibility Logs\n has saved you time and hassle, please come back and show your support:\n\n\n\n\nyou could \nrate \nExtensibility Logs\n (only takes a couple of seconds)\n\n\nor \nreview \nExtensibility Logs\n (help others benefit from your experience)\n\n\nor \nshout me a coke\n (I don't drink coffee or beer lol)",
+            "title": "Overview"
         },
         {
             "location": "/#save-time-and-hassle",
-            "text": "Save yourself the hassle of trying to remember where the various extensibility-related log files are located. Once you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.  This extension adds a new toolbar that adds command buttons for a set of helpful extensibility-related logs, giving you a one-click experience to open the selected log file in a document tab in Visual Studio.  You can read more about  Extensibility Logs  on its website:  Description   *   Getting Started   *   Features   *   Changelog   *   Roadmap",
+            "text": "Save yourself the hassle of trying to remember where the various extensibility-related log files are located. Once you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.  This extension adds a new toolbar that adds command buttons for a set of helpful extensibility-related logs, giving you a one-click experience to open the selected log file in a document tab in Visual Studio.",
             "title": "Save Time and Hassle"
         },
         {
+            "location": "/#more-information",
+            "text": "You can read more about  Extensibility Logs  on its website:  Description  |  Getting Started  |  Features  |  Changelog  |  Roadmap",
+            "title": "More Information"
+        },
+        {
             "location": "/#support-the-project",
-            "text": "If  Extensibility Logs  has saved you time, please come back and show your support:   you could  rate  Extensibility Logs  (only takes a couple of seconds)  or  review  Extensibility Logs  (help others benefit from your experience)  or  shout me a coke  (I don't drink coffee or beer lol)",
+            "text": "If  Extensibility Logs  has saved you time and hassle, please come back and show your support:   you could  rate  Extensibility Logs  (only takes a couple of seconds)  or  review  Extensibility Logs  (help others benefit from your experience)  or  shout me a coke  (I don't drink coffee or beer lol)",
             "title": "Support the Project"
         },
         {
@@ -42,7 +47,7 @@
         },
         {
             "location": "/features/",
-            "text": "Extensibility Logs Enabled Setting\n\u00b6\n\n\nThis setting allows the whole set of \nExtensibility Logs\n features to be turned off together.\n\n\nExtensibility Logs Version\n\u00b6\n\n\nDisplays the currently installed \nExtensibility Logs\n verion.\n\n\nActivity Log Command\n\u00b6\n\n\nOpens Visual Studio's \nActivity Log\n in a tab document, without having to first remember where the file is stored,\nand open it in an editor of choice.\n\n\nDiagnostic Log\n\u00b6\n\n\nOpens MSBuild's latest \nDiagnostic Failure Log\n in a tab document, without knowing how to find the first, \nand then open it in an editorof choice,",
+            "text": "Extensibility Logs Enabled Setting\n\u00b6\n\n\nThis setting allows the whole set of \nExtensibility Logs\n features to be turned off together.\n\n\nExtensibility Logs Version\n\u00b6\n\n\nDisplays the currently installed \nExtensibility Logs\n version.\n\n\nActivity Log\n\u00b6\n\n\nOpens Visual Studio's \nActivity Log\n in a tab document, without having to first remember where the file is stored,\nand then open it in your editor of choice.\n\n\nThe \nActivity Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs |  Enable Activity Log\n\nto \nfalse\n, or hidden by removing the button from the \nExtensibility Logs\n toolbar.\n\n\nDiagnostic Failure Log\n\u00b6\n\n\nOpens MSBuild's latest \nDiagnostic Failure Log\n in a tab document, without knowing how to find it first, \nand then open it in your editor of choice.\n\n\nThe \nDiagnostic Failure Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Diagnostic Log\n to \nfalse\n, \nor hidden by removing the button from the \nExtensibility Logs\n toolbar.\n\n\nMEF Error Log\n\u00b6\n\n\nOpens Visual Studio's \nMEF Error Log\n in a tab document, without having to search for it,\nand then open it in your editor of choice.\n\n\nThe \nMEF Error Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable MEF Error Log\n to \nfalse\n, \nor hidden by removing the button from the \nExtensibility Logs\n toolbar.\n\n\nPath Variables\n\u00b6\n\n\nDisplays Windows' current \nsearch paths for executable files\n in a tab document, without having to open a command prompt.\n\n\nA future update will allow adding, removing, and re-ordering of the variables, inside , \nwithout having to use Windows' \nSettings\n app.\n\n\nThe \nPath Variables\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Path Variables\n to \nfalse\n, \nor hidden by removing the button from the \nExtensibility Logs\n toolbar.",
             "title": "Features"
         },
         {
@@ -52,38 +57,53 @@
         },
         {
             "location": "/features/#extensibility-logs-version",
-            "text": "Displays the currently installed  Extensibility Logs  verion.",
+            "text": "Displays the currently installed  Extensibility Logs  version.",
             "title": "Extensibility Logs Version"
         },
         {
-            "location": "/features/#activity-log-command",
-            "text": "Opens Visual Studio's  Activity Log  in a tab document, without having to first remember where the file is stored,\nand open it in an editor of choice.",
-            "title": "Activity Log Command"
+            "location": "/features/#activity-log",
+            "text": "Opens Visual Studio's  Activity Log  in a tab document, without having to first remember where the file is stored,\nand then open it in your editor of choice.  The  Activity Log  feature can be disabled by setting  Tools | Options | Extensibility Logs |  Enable Activity Log \nto  false , or hidden by removing the button from the  Extensibility Logs  toolbar.",
+            "title": "Activity Log"
         },
         {
-            "location": "/features/#diagnostic-log",
-            "text": "Opens MSBuild's latest  Diagnostic Failure Log  in a tab document, without knowing how to find the first, \nand then open it in an editorof choice,",
-            "title": "Diagnostic Log"
+            "location": "/features/#diagnostic-failure-log",
+            "text": "Opens MSBuild's latest  Diagnostic Failure Log  in a tab document, without knowing how to find it first, \nand then open it in your editor of choice.  The  Diagnostic Failure Log  feature can be disabled by setting  Tools | Options | Extensibility Logs | Enable Diagnostic Log  to  false , \nor hidden by removing the button from the  Extensibility Logs  toolbar.",
+            "title": "Diagnostic Failure Log"
+        },
+        {
+            "location": "/features/#mef-error-log",
+            "text": "Opens Visual Studio's  MEF Error Log  in a tab document, without having to search for it,\nand then open it in your editor of choice.  The  MEF Error Log  feature can be disabled by setting  Tools | Options | Extensibility Logs | Enable MEF Error Log  to  false , \nor hidden by removing the button from the  Extensibility Logs  toolbar.",
+            "title": "MEF Error Log"
+        },
+        {
+            "location": "/features/#path-variables",
+            "text": "Displays Windows' current  search paths for executable files  in a tab document, without having to open a command prompt.  A future update will allow adding, removing, and re-ordering of the variables, inside , \nwithout having to use Windows'  Settings  app.  The  Path Variables  feature can be disabled by setting  Tools | Options | Extensibility Logs | Enable Path Variables  to  false , \nor hidden by removing the button from the  Extensibility Logs  toolbar.",
+            "title": "Path Variables"
         },
         {
             "location": "/changelog/",
-            "text": "Public Releases\n\u00b6\n\n\n\n\ncoming soon\n\n\n\n\nNon-Public Releases\n\u00b6\n\n\nv1.0.0 - 2019-03-30\n\u00b6\n\n\n\n\nadded DiagnosticLogCommand\n\n\nadded ActivityLogCommand\n\n\nadded ExtensibilityLogsVersion option setting\n\n\nadded ExtensibilityLogsEnabled option setting\n\n\n\n\nv0.1.1 - 2019-02-08\n\u00b6\n\n\n\n\nadded documentation\n\n\n\n\nv0.1.0 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub",
+            "text": "Public Releases\n\u00b6\n\n\nv1.1 - 2019-04-02\n\u00b6\n\n\n\n\nadded 'MEF Error Log'\n\n\nadded 'Path Variables'\n\n\n\n\nv1.0 - 2019-03-30\n\u00b6\n\n\n\n\nadded 'Extensibility Logs Enabled' option setting\n\n\nadded 'Extensibility Logs Version' option setting\n\n\nadded 'Activity Log'\n\n\nadded 'Diagnostic Log'\n\n\n\n\nInternal Releases\n\u00b6\n\n\nv0.1.1 - 2019-02-08\n\u00b6\n\n\n\n\nadded documentation\n\n\n\n\nv0.1 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub",
             "title": "Changelog"
         },
         {
             "location": "/changelog/#public-releases",
-            "text": "coming soon",
+            "text": "",
             "title": "Public Releases"
         },
         {
-            "location": "/changelog/#non-public-releases",
-            "text": "",
-            "title": "Non-Public Releases"
+            "location": "/changelog/#v11-2019-04-02",
+            "text": "added 'MEF Error Log'  added 'Path Variables'",
+            "title": "v1.1 - 2019-04-02"
         },
         {
-            "location": "/changelog/#v100-2019-03-30",
-            "text": "added DiagnosticLogCommand  added ActivityLogCommand  added ExtensibilityLogsVersion option setting  added ExtensibilityLogsEnabled option setting",
-            "title": "v1.0.0 - 2019-03-30"
+            "location": "/changelog/#v10-2019-03-30",
+            "text": "added 'Extensibility Logs Enabled' option setting  added 'Extensibility Logs Version' option setting  added 'Activity Log'  added 'Diagnostic Log'",
+            "title": "v1.0 - 2019-03-30"
+        },
+        {
+            "location": "/changelog/#internal-releases",
+            "text": "",
+            "title": "Internal Releases"
         },
         {
             "location": "/changelog/#v011-2019-02-08",
@@ -91,9 +111,9 @@
             "title": "v0.1.1 - 2019-02-08"
         },
         {
-            "location": "/changelog/#v010-2019-02-03",
+            "location": "/changelog/#v01-2019-02-03",
             "text": "initial  master  branch on GitHub",
-            "title": "v0.1.0 - 2019-02-03"
+            "title": "v0.1 - 2019-02-03"
         },
         {
             "location": "/roadmap/",

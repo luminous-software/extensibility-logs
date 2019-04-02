@@ -1,5 +1,8 @@
 ## Public Releases
 
+### v1.1.1 - 2019-04-02
+  - fixed typo in README.md
+
 ### v1.1 - 2019-04-02
   - added 'MEF Error Log'
   - added 'Path Variables'
