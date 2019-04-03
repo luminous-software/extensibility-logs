@@ -38,6 +38,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{294CB1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{5902E485-4274-4E36-9D86-2F99D6C8AD64}"
 	ProjectSection(SolutionItems) = preProject
+		commands.json = commands.json
 		marketplace.md = marketplace.md
 		publish-manifest.json = publish-manifest.json
 		publish.cmd = publish.cmd
