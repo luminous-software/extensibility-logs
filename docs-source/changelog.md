@@ -1,5 +1,9 @@
 ## Public Releases
 
+### v1.2 - 2019-04-03
+  - added 'VSIX Installer Log'
+  - added 'View | Extensibility Logs'
+
 ### v1.1.1 - 2019-04-02
   - fixed typo in README.md
 
@@ -20,3 +24,4 @@
 
 ### v0.1 - 2019-02-03
   - initial `master` branch on GitHub
+  - added 'Extensibility Logs' toolbar

@@ -29,9 +29,18 @@ You can download this extension [from the Visual Studio Marketplace][marketplace
 
 ## Save Time and Hassle
 
-Save yourself the hassle of trying to remember where the various extensibility-related log files are located. Once you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.
+Save yourself the hassle of trying to remember where the various extensibility-related log files are located.
+Once you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.
 
-This extension adds a new toolbar that adds command buttons for a set of helpful extensibility-related logs, giving you a one-click experience to open the selected log file in a document tab in Visual Studio.
+For those people who prefer their commands front-and-center, available all all times with a single click,
+this extension adds a new toolbar to hold _Extensibility Logs_'s commands.
+
+For those people who don't want to add yet another toolbar, this extension also adds a new *Extensibility Logs* menu 
+to the _View_ menu.
+
+_Extensibility Logs_ gives you a one-click experience (on the toolbar),
+or a three-click experience (on the menu),
+to open the desired log file in a document tab in Visual Studio.
 
 ## More Information
 
@@ -60,12 +69,7 @@ If *Extensibility Logs* has saved you time and hassle, please come back and show
 Check out the [contribution guidelines][contributing-url]
 if you'd like to contribute to this project.
 
-For cloning and building this project yourself, make sure to install the
-[Extensibility Tools 2015][extensibility-tools-url]
-extension for Visual Studio which enables some features used by this project.
-
 [contributing-url]: https://github.com/luminous-software/extensibility-logs/blob/master/.github/CONTRIBUTING.md
-[extensibility-tools-url]: https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6
 
 ## License
 
