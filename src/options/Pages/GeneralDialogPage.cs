@@ -39,6 +39,11 @@ namespace ExtensibilityLogs.Options.Pages
         public bool MefErrorLogCommandEnabled { get; set; } = true;
 
         [Category(H2 + Features)]
+        [DisplayName(Enable + Space + VsixInstallerLog)]
+        [Description("Opens Visual Studio's latest " + VsixInstallerLog + " in a tab document")]
+        public bool VsixInstallerLogCommandEnabled { get; set; } = true;
+
+        [Category(H2 + Features)]
         [DisplayName(Enable + Space + PathVariables)]
         [Description("Displays Window's current path variables in a tab document")]
         public bool PathVariablesCommandEnabled { get; set; } = true;

@@ -8,9 +8,11 @@ They may, or may not, end up being added into _Extensibility Logs_.
 - [x] Activity Log
 - [x] Diagnostic Log
 - [x] Path Variables
-- [ ] VSIX Installer Log
+- [x] VSIX Installer Log
 - [x] MEF Error Log
 - [ ] Service Hub Log
+- [ ] Visual Studio Setup Log
+- [ ] Enable/Disable VSIP Logging
 
 ## Contributions
 

@@ -10,7 +10,7 @@
   "overview": "README.md",
   "priceCategory": "free",
   "publisher": "YannDuran",
-  "private": true,
+  "private": false,
   "qna": true,
   "repo": "https://github.com/luminous-software/extensibility-logs"
 }
