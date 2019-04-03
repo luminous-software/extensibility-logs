@@ -1,6 +1,6 @@
 {
   "name": "extensibility-logs",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "repository": "github.com/luminous-software/extensibility-logs",
   "license": "MIT",
   "devDependencies": {
