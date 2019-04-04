@@ -28,14 +28,14 @@ this extension adds a new toolbar to hold _Extensibility Logs_'s commands.
 
 ![Toolbar][toolbar-image-url]
 
-[toolbar-image-url]: https://github.com/luminous-software.solutions/extensibility-logs/master/toolbar.png
+[toolbar-image-url]: https://github.com/luminous-software.solutions/extensibility-logs/blob/master/toolbar.png
 
 For those people who don't want to add yet another toolbar, this extension also adds a new *Extensibility Logs* menu 
 to the _View_ menu.
 
 ![Menu][menu-image-url]
 
-[menu-image-url]: https://github.com/luminous-software.solutions/extensibility-logs/master/menu.png
+[menu-image-url]: https://github.com/luminous-software.solutions/extensibility-logs/blob/master/menu.png
 
 _Extensibility Logs_ gives you a one-click experience (on the toolbar),
 or a three-click experience (on the menu),
