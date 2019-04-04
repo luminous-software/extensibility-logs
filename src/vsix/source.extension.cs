@@ -11,7 +11,7 @@ namespace ExtensibilityLogs
         public const string Name = "Extensibility Logs";
         public const string Description = @"Quickest & easiest way to view extensibility logs!";
         public const string Language = "en-US";
-        public const string Version = "1.2.2";
+        public const string Version = "1.2.3";
         public const string Author = "Yann Duran";
         public const string Tags = "Visual Studio;extensibility;logs;productivity;yannduran;yd;Yann Duran";
     }

@@ -1,5 +1,8 @@
 ## Public Releases
 
+### v1.2.3 - 2019-04-04
+  - fixed image links
+
 ### v1.2.2 - 2019-04-04
   - added screenshots
 
