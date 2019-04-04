@@ -17,12 +17,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs.Options",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityLogs", "src\vsix\ExtensibilityLogs.csproj", "{8BE769C9-FAD0-432D-AEA3-9F4E90FCFF8C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{41D7F889-D846-46E4-A04B-B3628863BB83}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs-source", "docs-source", "{41D7F889-D846-46E4-A04B-B3628863BB83}"
 	ProjectSection(SolutionItems) = preProject
 		docs-source\changelog.md = docs-source\changelog.md
 		docs-source\features.md = docs-source\features.md
 		docs-source\getting-started.md = docs-source\getting-started.md
 		docs-source\index.md = docs-source\index.md
+		docs-source\marketplace.md = docs-source\marketplace.md
 		mkdocs.yml = mkdocs.yml
 		docs-source\roadmap.md = docs-source\roadmap.md
 	EndProjectSection
@@ -39,7 +40,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{5902E485-4274-4E36-9D86-2F99D6C8AD64}"
 	ProjectSection(SolutionItems) = preProject
 		commands.json = commands.json
-		marketplace.md = marketplace.md
 		publish-manifest.json = publish-manifest.json
 		publish.cmd = publish.cmd
 	EndProjectSection

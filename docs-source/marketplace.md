@@ -20,15 +20,18 @@ You can download this extension [from the Visual Studio Marketplace][marketplace
 
 ## Save Time and Hassle
 
-
 Save yourself the hassle of trying to remember where the various extensibility-related log files are located.
 Once you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.
 
 For those people who prefer their commands front-and-center, available all all times with a single click,
 this extension adds a new toolbar to hold _Extensibility Logs_'s commands.
 
+![Toolbar](../art/toolbar.png)
+
 For those people who don't want to add yet another toolbar, this extension also adds a new *Extensibility Logs* menu 
 to the _View_ menu.
+
+![Menu](../art/menu.png)
 
 _Extensibility Logs_ gives you a one-click experience (on the toolbar),
 or a three-click experience (on the menu),
