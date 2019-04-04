@@ -31,7 +31,8 @@ h1 {
 
 h2 {
     margin-top: 20px !important;
-    font-size: 2.5rem !important;
+    margin-bottom: 5px !important;
+    font-size: 2.25rem !important;
 }
 
 h1, h2 {
@@ -44,11 +45,10 @@ h3 {
     color: #7E57C2 !important;
     margin-top: 16px !important;
     margin-bottom: 0 !important;
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
 }
 
 article p {
-    /*margin: 8px 0 !important;*/
     font-size: 1.4rem;
 }
 

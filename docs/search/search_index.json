@@ -2,17 +2,17 @@
     "docs": [
         {
             "location": "/",
-            "text": "The quickest & easiest way to view extensibility logs!\n\n\n\n\n\n\n\n\n\n\n\n\nYou can download this extension \nfrom the Visual Studio Marketplace\n\n\n\n\nSave Time and Hassle\n\u00b6\n\n\nSave yourself the hassle of trying to remember where the various extensibility-related log files are located.\nOnce you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.\n\n\nFor those people who prefer their commands front-and-center, available all all times with a single click,\nthis extension adds a new toolbar to hold \nExtensibility Logs\n's commands.\n\n\nFor those people who don't want to add yet another toolbar, this extension also adds a new \nExtensibility Logs\n menu \nto the \nView\n menu.\n\n\nExtensibility Logs\n gives you a one-click experience (on the toolbar),\nor a three-click experience (on the menu),\nto open the desired log file in a document tab in Visual Studio.\n\n\nMore Information\n\u00b6\n\n\nYou can read more about \nExtensibility Logs\n on its website:\n\n\nDescription\n | \nGetting Started\n | \nFeatures\n | \nChangelog\n | \nRoadmap\n\n\nSupport the Project\n\u00b6\n\n\nIf \nExtensibility Logs\n has saved you time and hassle, please come back and show your support:\n\n\n\n\nyou could \nrate \nExtensibility Logs\n (only takes a couple of seconds)\n\n\nor \nreview \nExtensibility Logs\n (help others benefit from your experience)\n\n\nor \nshout me a coke\n (I don't drink coffee or beer lol)",
+            "text": "The quickest & easiest way to view extensibility logs!\n\n\n\n\n\n\n\n\n\n\n\n\nYou can download this extension \nfrom the Visual Studio Marketplace\n\n\n\n\nSave Time and Hassle\n\u00b6\n\n\nSave yourself the hassle of trying to remember where the various extensibility-related log files are located.\nOnce you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.\n\n\nFor those people who prefer their commands front-and-center, available all all times with a single click,\nthis extension adds a new toolbar to hold \nExtensibility Logs\n's commands.\n\n\n\n\nFor those people who don't want to add yet another toolbar, this extension also adds a new \nExtensibility Logs\n menu \nto the \nView\n menu.\n\n\n\n\nExtensibility Logs\n gives you a one-click experience (on the toolbar),\nor a three-click experience (on the menu),\nto open the desired log file in a document tab in Visual Studio.\n\n\nMore Information\n\u00b6\n\n\nYou can read more about \nExtensibility Logs\n on its website:\n\n\nOverview\n \n|\n \nGetting Started\n \n|\n \nFeatures\n \n|\n \nChangelog\n \n|\n \nRoadmap\n\n\nSupport the Project\n\u00b6\n\n\nIf \nExtensibility Logs\n has saved you time and hassle, please come back and show your support:\n\n\n\n\nyou could \nrate \nExtensibility Logs\n (only takes a couple of seconds)\n\n\nor \nreview \nExtensibility Logs\n (help others benefit from your experience)\n\n\nor \nshout me a coke\n (I don't drink coffee or beer lol)",
             "title": "Overview"
         },
         {
             "location": "/#save-time-and-hassle",
-            "text": "Save yourself the hassle of trying to remember where the various extensibility-related log files are located.\nOnce you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.  For those people who prefer their commands front-and-center, available all all times with a single click,\nthis extension adds a new toolbar to hold  Extensibility Logs 's commands.  For those people who don't want to add yet another toolbar, this extension also adds a new  Extensibility Logs  menu \nto the  View  menu.  Extensibility Logs  gives you a one-click experience (on the toolbar),\nor a three-click experience (on the menu),\nto open the desired log file in a document tab in Visual Studio.",
+            "text": "Save yourself the hassle of trying to remember where the various extensibility-related log files are located.\nOnce you've managed to find the file you're looking for, you still have to manually load it in your text editor of choice.  For those people who prefer their commands front-and-center, available all all times with a single click,\nthis extension adds a new toolbar to hold  Extensibility Logs 's commands.   For those people who don't want to add yet another toolbar, this extension also adds a new  Extensibility Logs  menu \nto the  View  menu.   Extensibility Logs  gives you a one-click experience (on the toolbar),\nor a three-click experience (on the menu),\nto open the desired log file in a document tab in Visual Studio.",
             "title": "Save Time and Hassle"
         },
         {
             "location": "/#more-information",
-            "text": "You can read more about  Extensibility Logs  on its website:  Description  |  Getting Started  |  Features  |  Changelog  |  Roadmap",
+            "text": "You can read more about  Extensibility Logs  on its website:  Overview   |   Getting Started   |   Features   |   Changelog   |   Roadmap",
             "title": "More Information"
         },
         {
@@ -132,13 +132,18 @@
         },
         {
             "location": "/changelog/",
-            "text": "Public Releases\n\u00b6\n\n\nv1.2 - 2019-04-03\n\u00b6\n\n\n\n\nadded 'VSIX Installer Log'\n\n\nadded 'View | Extensibility Logs'\n\n\n\n\nv1.1.1 - 2019-04-02\n\u00b6\n\n\n\n\nfixed typo in README.md\n\n\n\n\nv1.1 - 2019-04-02\n\u00b6\n\n\n\n\nadded 'MEF Error Log'\n\n\nadded 'Path Variables'\n\n\n\n\nv1.0 - 2019-03-30\n\u00b6\n\n\n\n\nadded 'Extensibility Logs Enabled' option setting\n\n\nadded 'Extensibility Logs Version' option setting\n\n\nadded 'Activity Log'\n\n\nadded 'Diagnostic Log'\n\n\n\n\nInternal Releases\n\u00b6\n\n\nv0.1.1 - 2019-02-08\n\u00b6\n\n\n\n\nadded documentation\n\n\n\n\nv0.1 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub\n\n\nadded 'Extensibility Logs' toolbar",
+            "text": "Public Releases\n\u00b6\n\n\nv1.2.1 - 2019-04-03\n\u00b6\n\n\n\n\nupdated website documentation\n\n\n\n\nv1.2 - 2019-04-03\n\u00b6\n\n\n\n\nadded 'VSIX Installer Log'\n\n\nadded 'View | Extensibility Logs'\n\n\n\n\nv1.1.1 - 2019-04-02\n\u00b6\n\n\n\n\nfixed typo in README.md\n\n\n\n\nv1.1 - 2019-04-02\n\u00b6\n\n\n\n\nadded 'MEF Error Log'\n\n\nadded 'Path Variables'\n\n\n\n\nv1.0 - 2019-03-30\n\u00b6\n\n\n\n\nadded 'Extensibility Logs Enabled' option setting\n\n\nadded 'Extensibility Logs Version' option setting\n\n\nadded 'Activity Log'\n\n\nadded 'Diagnostic Log'\n\n\n\n\nInternal Releases\n\u00b6\n\n\nv0.1.1 - 2019-02-08\n\u00b6\n\n\n\n\nadded documentation\n\n\n\n\nv0.1 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub\n\n\nadded 'Extensibility Logs' toolbar",
             "title": "Changelog"
         },
         {
             "location": "/changelog/#public-releases",
             "text": "",
             "title": "Public Releases"
+        },
+        {
+            "location": "/changelog/#v121-2019-04-03",
+            "text": "updated website documentation",
+            "title": "v1.2.1 - 2019-04-03"
         },
         {
             "location": "/changelog/#v12-2019-04-03",
