@@ -26,12 +26,12 @@ Once you've managed to find the file you're looking for, you still have to manua
 For those people who prefer their commands front-and-center, available all all times with a single click,
 this extension adds a new toolbar to hold _Extensibility Logs_'s commands.
 
-![Toolbar](../art/toolbar.png)
+![Toolbar](assets/images/toolbar.png)
 
 For those people who don't want to add yet another toolbar, this extension also adds a new *Extensibility Logs* menu 
 to the _View_ menu.
 
-![Menu](../art/menu.png)
+![Menu](assets/images/menu.png)
 
 _Extensibility Logs_ gives you a one-click experience (on the toolbar),
 or a three-click experience (on the menu),
@@ -41,7 +41,7 @@ to open the desired log file in a document tab in Visual Studio.
 
 You can read more about _Extensibility Logs_ on its website:
 
-[Description][website-url] | [Getting Started][getting-started-url] | [Features][features-url] | [Changelog][changelog-url] | [Roadmap][roadmap-url]
+[Overview][website-url] **|** [Getting Started][getting-started-url] **|** [Features][features-url] **|** [Changelog][changelog-url] **|** [Roadmap][roadmap-url]
 
 [website-url]: https://luminous-software.solutions/extensibility-logs
 [getting-started-url]: https://luminous-software.solutions/extensibility-logs/getting-started

@@ -7,7 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		gulpfile.js = gulpfile.js
-		package.json = package.json
 		project-data.json = project-data.json
 	EndProjectSection
 EndProject
@@ -25,6 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs-source", "docs-source"
 		docs-source\index.md = docs-source\index.md
 		docs-source\marketplace.md = docs-source\marketplace.md
 		mkdocs.yml = mkdocs.yml
+		README.md = README.md
 		docs-source\roadmap.md = docs-source\roadmap.md
 	EndProjectSection
 EndProject
@@ -34,7 +34,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{294CB1
 		.github\CONTRIBUTING.md = .github\CONTRIBUTING.md
 		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
 		LICENSE = LICENSE
-		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{5902E485-4274-4E36-9D86-2F99D6C8AD64}"
@@ -42,6 +41,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{5902
 		commands.json = commands.json
 		publish-manifest.json = publish-manifest.json
 		publish.cmd = publish.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "version", "version", "{FF79E1AA-781F-4B14-AB12-5A528E9C2FF4}"
+	ProjectSection(SolutionItems) = preProject
+		package.json = package.json
+		src\vsix\source.extension.vsixmanifest = src\vsix\source.extension.vsixmanifest
 	EndProjectSection
 EndProject
 Global
@@ -70,6 +75,7 @@ Global
 		{41D7F889-D846-46E4-A04B-B3628863BB83} = {C16762FB-2EF5-48DC-9727-00263BF0E306}
 		{294CB197-EE56-4104-B7AA-05616260A27A} = {C16762FB-2EF5-48DC-9727-00263BF0E306}
 		{5902E485-4274-4E36-9D86-2F99D6C8AD64} = {C16762FB-2EF5-48DC-9727-00263BF0E306}
+		{FF79E1AA-781F-4B14-AB12-5A528E9C2FF4} = {C16762FB-2EF5-48DC-9727-00263BF0E306}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {80B9E67B-481F-435F-A8EC-05A28B5CC488}
