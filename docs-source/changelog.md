@@ -1,5 +1,8 @@
 ## Public Releases
 
+### v1.2.2 - 2019-04-04
+  - added screenshots
+
 ### v1.2.1 - 2019-04-03
   - updated website documentation
 
