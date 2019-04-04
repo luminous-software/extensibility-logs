@@ -26,12 +26,16 @@ Once you've managed to find the file you're looking for, you still have to manua
 For those people who prefer their commands front-and-center, available all all times with a single click,
 this extension adds a new toolbar to hold _Extensibility Logs_'s commands.
 
-![Toolbar](assets/images/toolbar.png)
+![Toolbar][toolbar-image-url]
+
+[toolbar-image-url]: https://github.com/luminous-software.solutions/extensibility-logs/master/toolbar.png
 
 For those people who don't want to add yet another toolbar, this extension also adds a new *Extensibility Logs* menu 
 to the _View_ menu.
 
-![Menu](assets/images/menu.png)
+![Menu][menu-image-url]
+
+[menu-image-url]: https://github.com/luminous-software.solutions/extensibility-logs/master/menu.png
 
 _Extensibility Logs_ gives you a one-click experience (on the toolbar),
 or a three-click experience (on the menu),
