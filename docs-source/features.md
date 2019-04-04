@@ -43,6 +43,8 @@ Any logs that have been disabled will still appear on the toolbar, but will be i
 but they won't appear in the menu.
 The toolbar buttons can be hidden by removing them from the _Extensibility Logs_ toolbar.
 
+![Options](assets/images/options.png)
+
 ### Enable Extensibility Logs
 
 This setting allows the whole set of _Extensibility Logs_ features to be turned off together.
