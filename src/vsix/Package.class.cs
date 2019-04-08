@@ -41,6 +41,7 @@ namespace ExtensibilityLogs
             DiagnosticLogCommand.Instantiate(this);
             MefErrorLogCommand.Instantiate(this);
             VsixInstallerLogCommand.Instantiate(this);
+            VisualStudioFolderCommand.Instantiate(this);
             PathVariablesCommand.Instantiate(this);
         }
     }

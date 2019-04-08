@@ -22,6 +22,7 @@
         public const string DiagnosticLog = "Diagnostic Failure Log";
         public const string MefErrorLog = "MEF Error Log";
         public const string VsixInstallerLog = "VSIX Installer Log";
+        public const string VisualStudioFolder = "Visual Studio Folder";
         public const string PathVariables = "Path Variables";
     }
 }

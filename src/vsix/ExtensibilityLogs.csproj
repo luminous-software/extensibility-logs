@@ -45,6 +45,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Commands\VisualStudioFolderCommand.cs" />
     <Compile Include="Commands\ActivityLogCommand.cs" />
     <Compile Include="Commands\VsixInstallerLogCommand.cs" />
     <Compile Include="Commands\DiagnosticLogCommand.cs" />
@@ -67,6 +68,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
       <Generator>VsixManifestGenerator</Generator>
@@ -80,6 +82,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.SDK" Version="15.9.3" ExcludeAssets="runtime" />
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.0.2264" />
+    <PackageReference Include="Luminous.Code.VisualStudio" Version="1.3.0" />
   </ItemGroup>
   <ItemGroup>
     <VSCTCompile Include="Package.vsct">

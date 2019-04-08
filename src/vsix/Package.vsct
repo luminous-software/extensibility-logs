@@ -23,7 +23,6 @@
       </Menu>
     </Menus>
 
-
     <Groups>
       <Group guid="PackageCommandSet" id="PackageGroup" priority="0x0600">
         <Parent guid="PackageCommandSet" id="PackageToolbar" />
@@ -90,6 +89,17 @@
         </Strings>
       </Button>
 
+      <Button guid="PackageCommandSet" id="VisualStudioFolderCommand" priority="0x0115" type="Button">
+        <Parent guid="PackageCommandSet" id="PackageGroup" />
+        <Icon guid="ImageCatalogGuid" id="FolderOpened" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <CommandName>VisualStudioFolder</CommandName>
+          <ButtonText>Visual Studio Folder</ButtonText>
+        </Strings>
+      </Button>
+
       <!--
         <Button guid="PackageCommandSet" id="PackageOptionsCommand" priority="0x0150" type="Button">
         <Parent guid="PackageCommandSet" id="PackageGroup" />
@@ -124,8 +134,9 @@
       <IDSymbol name="ActivityLogCommand" value="0x0100" />
       <IDSymbol name="DiagnosticLogCommand" value="0x0105" />
       <IDSymbol name="MefErrorLogCommand" value="0x0110" />
-      <IDSymbol name="VsixInstallerLogCommand" value="0x0112" />
-      <IDSymbol name="PathVariablesCommand" value="0x0115" />
+      <IDSymbol name="VsixInstallerLogCommand" value="0x0120" />
+      <IDSymbol name="VisualStudioFolderCommand" value="0x0125" />
+      <IDSymbol name="PathVariablesCommand" value="0x0130" />
       <IDSymbol name="PackageOptionsCommand" value="0x0150" />
     </GuidSymbol>
   </Symbols>
