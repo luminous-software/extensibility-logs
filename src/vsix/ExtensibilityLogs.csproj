@@ -45,13 +45,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Commands\VisualStudioFolderCommand.cs" />
-    <Compile Include="Commands\ActivityLogCommand.cs" />
-    <Compile Include="Commands\VsixInstallerLogCommand.cs" />
-    <Compile Include="Commands\DiagnosticLogCommand.cs" />
+    <Compile Include="Commands\Tools\VisualStudioFolderCommand.cs" />
+    <Compile Include="Commands\Logs\ActivityLogCommand.cs" />
+    <Compile Include="Commands\Logs\VsixInstallerLogCommand.cs" />
+    <Compile Include="Commands\Logs\DiagnosticLogCommand.cs" />
     <Compile Include="Commands\PackageCommand.cs" />
-    <Compile Include="Commands\MefErrorLogCommand.cs" />
-    <Compile Include="Commands\PathVariablesCommand.cs" />
+    <Compile Include="Commands\Logs\MefErrorLogCommand.cs" />
+    <Compile Include="Commands\Tools\PathVariablesCommand.cs" />
     <Compile Include="Package.class.cs">
       <DependentUpon>Package.vsct</DependentUpon>
     </Compile>
@@ -106,6 +106,7 @@
       <Name>ExtensibilityLogs.Options</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup>

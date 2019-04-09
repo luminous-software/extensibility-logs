@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.Shell;
 
-namespace ExtensibilityLogs.Commands
+namespace ExtensibilityLogs.Commands.Logs
 {
     using Luminous.Code.VisualStudio.Commands;
     using Luminous.Code.VisualStudio.Packages;
@@ -15,10 +15,11 @@ namespace ExtensibilityLogs.Commands
         { }
 
         public static void Instantiate(PackageBase package)
+
             => Instantiate(new ActivityLogCommand(package));
 
         protected override bool CanExecute
-            => base.CanExecute && PackageClass.Options.ActivityLogCommandEnabled;
+            => base.CanExecute && PackageClass.LogsOptions.ActivityLogCommandEnabled;
 
         protected override void OnExecute(OleMenuCommand command)
             => ExecuteCommand()

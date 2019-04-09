@@ -6,7 +6,7 @@ using Luminous.Code.VisualStudio.Packages;
 
 using static System.Environment;
 
-namespace ExtensibilityLogs.Commands
+namespace ExtensibilityLogs.Commands.Tools
 {
     internal sealed class PathVariablesCommand : PackageCommand
     {
@@ -17,7 +17,7 @@ namespace ExtensibilityLogs.Commands
             => Instantiate(new PathVariablesCommand(package));
 
         protected override bool CanExecute
-            => base.CanExecute && PackageClass.Options.PathVariablesCommandEnabled;
+            => base.CanExecute && PackageClass.ToolsOptions.PathVariablesCommandEnabled;
 
         protected override void OnExecute(OleMenuCommand command)
 #pragma warning disable VSTHRD010 // Invoke single-threaded types on Main thread

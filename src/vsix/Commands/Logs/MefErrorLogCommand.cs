@@ -2,7 +2,7 @@
 using Luminous.Code.VisualStudio.Commands;
 using Luminous.Code.VisualStudio.Packages;
 
-namespace ExtensibilityLogs.Commands
+namespace ExtensibilityLogs.Commands.Logs
 {
     internal sealed class MefErrorLogCommand : PackageCommand
     {
@@ -16,7 +16,7 @@ namespace ExtensibilityLogs.Commands
             => Instantiate(new MefErrorLogCommand(package));
 
         protected override bool CanExecute
-            => base.CanExecute && PackageClass.Options.MefErrorLogCommandEnabled;
+            => base.CanExecute && PackageClass.LogsOptions.MefErrorLogCommandEnabled;
 
         protected override void OnExecute(OleMenuCommand command)
             => ExecuteCommand()

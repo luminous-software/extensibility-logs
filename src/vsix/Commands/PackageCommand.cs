@@ -12,6 +12,6 @@ namespace ExtensibilityLogs.Commands
         }
 
         protected override bool CanExecute
-           => PackageClass.Options.ExtensibilityLogsEnabled;
+           => PackageClass.GeneralOptions.ExtensibilityLogsEnabled;
     }
 }
