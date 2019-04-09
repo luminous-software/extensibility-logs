@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Commands\Logs\LogsCommand.cs" />
+    <Compile Include="Commands\Tools\ToolsCommand.cs" />
     <Compile Include="Commands\Tools\VisualStudioFolderCommand.cs" />
     <Compile Include="Commands\Logs\ActivityLogCommand.cs" />
     <Compile Include="Commands\Logs\VsixInstallerLogCommand.cs" />
