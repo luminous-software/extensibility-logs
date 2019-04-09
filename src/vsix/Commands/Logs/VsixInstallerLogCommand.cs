@@ -13,7 +13,7 @@ namespace ExtensibilityLogs.Commands.Logs
 
     using static ExtensibilityLogs.Options.Constants;
 
-    internal sealed class VsixInstallerLogCommand : PackageCommand
+    internal sealed class VsixInstallerLogCommand : LogsCommand
     {
         private static int CommandId
             => PackageIds.VsixInstallerLogCommand;

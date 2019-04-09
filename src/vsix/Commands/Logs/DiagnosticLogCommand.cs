@@ -11,7 +11,7 @@ namespace ExtensibilityLogs.Commands.Logs
     using Luminous.Code.VisualStudio.Commands;
     using Luminous.Code.VisualStudio.Packages;
 
-    internal sealed class DiagnosticLogCommand : PackageCommand
+    internal sealed class DiagnosticLogCommand : LogsCommand
     {
         private static string Path
             => $"{GetTempPath()}";

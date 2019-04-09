@@ -4,7 +4,7 @@ using Luminous.Code.VisualStudio.Packages;
 
 namespace ExtensibilityLogs.Commands.Logs
 {
-    internal sealed class MefErrorLogCommand : PackageCommand
+    internal sealed class MefErrorLogCommand : LogsCommand
     {
         private static string Path
             => $"{Package.UserLocalDataPath}\\ComponentModelCache\\Microsoft.VisualStudio.Default.err";
