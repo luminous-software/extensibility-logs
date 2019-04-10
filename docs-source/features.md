@@ -2,9 +2,13 @@
 For those people who prefer their commands front-and-center, available all the time with a single click,
 this extension adds a new _Extensibility Logs_ toolbar. You'll need to enable the toolbar before you'll see it.
 
+![Menu](assets/images/toolbar.png)
+
 ## Menu
 For those people who don't want to add yet another toolbar, this extension also adds a new *Extensibility Logs* menu 
 to the _View_ menu.
+
+![Menu](assets/images/menu.png)
 
 ## Logs
 
@@ -55,42 +59,52 @@ Any logs/tools that have been disabled will still appear on the toolbar, but wil
 but they won't appear in the menu.
 The toolbar buttons can be hidden by removing them from the _Extensibility Logs_ toolbar.
 
-![Options](assets/images/options.png)
+### General Options
 
-### Enable Extensibility Logs
+![Options](assets/images/general-options.png)
+
+#### Enable Extensibility Logs
 
 This setting allows the whole set of _Extensibility Logs_ features to be turned off together.
 
-### Version Number
+#### Version Number
 
 Displays then version number of _Extensibility Logs_ that's currently installed.
 
-### Enable Activity Log
+### Logs Options
+
+![Options](assets/images/logs-options.png)
+
+#### Enable Activity Log
 
 The _Activity Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs |  Enable Activity Log_
 to `false`.
 
-### Enable Diagnostic Failure Log
+#### Enable Diagnostic Failure Log
 
 The _Diagnostic Failure Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Diagnostic Log_
 to `false`.
 
-### Enable MEF Error Log
+#### Enable MEF Error Log
 
 The _MEF Error Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable MEF Error Log_
 to `false`.
 
-### Enable VSIX Installer Log
+#### Enable VSIX Installer Log
 
 The _VSIX Installer Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable MEF Error Log_
 to `false`.
 
-### Enable Visual Studio Folder
+### Tools Options
+
+![Options](assets/images/tools-options.png)
+
+#### Enable Visual Studio Folder
 
 The _Visual Studio Folder_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Open Visual Studio Folder_
 to `false`.
 
-### Enable Path Variables
+#### Enable Path Variables
 
 The _Path Variables_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Path Variables_
 to `false`.

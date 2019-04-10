@@ -1,5 +1,10 @@
 ## Public Releases
 
+### v1.3 - 2019-04-10
+  - added 'Visual Studio Folder'
+  - added 'Logs' group and 'Tools' group
+  - added 'Logs' options and 'Tools' options
+
 ### v1.2.3 - 2019-04-04
   - fixed image links
 
