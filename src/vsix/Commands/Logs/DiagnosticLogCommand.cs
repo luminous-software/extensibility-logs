@@ -5,27 +5,22 @@ using Microsoft.VisualStudio.Shell;
 
 using static System.IO.Path;
 
-namespace ExtensibilityLogs.Commands
+namespace ExtensibilityLogs.Commands.Logs
 {
     using Luminous.Code.Exceptions.ExceptionExtensions;
     using Luminous.Code.VisualStudio.Commands;
     using Luminous.Code.VisualStudio.Packages;
 
-    using static ExtensibilityLogs.Options.Constants;
-
-    internal sealed class VsixInstallerLogCommand : PackageCommand
+    internal sealed class DiagnosticLogCommand : LogsCommand
     {
-        private static int CommandId
-            => PackageIds.VsixInstallerLogCommand;
-
         private static string Path
             => $"{GetTempPath()}";
 
-        private VsixInstallerLogCommand(PackageBase package) : base(package, CommandId)
+        private DiagnosticLogCommand(PackageBase package) : base(package, PackageIds.DiagnosticLogCommand)
         { }
 
         public static void Instantiate(PackageBase package)
-            => Instantiate(new VsixInstallerLogCommand(package));
+            => Instantiate(new DiagnosticLogCommand(package));
 
         protected override void OnExecute(OleMenuCommand command)
             => ExecuteCommand()
@@ -33,14 +28,14 @@ namespace ExtensibilityLogs.Commands
                 .ShowInformation();
 
         protected override bool CanExecute
-            => base.CanExecute && PackageClass.Options.VsixInstallerLogCommandEnabled;
+            => base.CanExecute && PackageClass.LogsOptions.DiagnosticLogCommandEnabled;
 
         private static CommandResult ExecuteCommand()
         {
             try
             {
                 var di = new DirectoryInfo(Path);
-                var files = di?.EnumerateFiles("dd_VSIXInstaller_*.log");
+                var files = di?.EnumerateFiles("*.failure.txt");
 
                 var fi = (
                     from file in files
@@ -50,8 +45,8 @@ namespace ExtensibilityLogs.Commands
                     ).FirstOrDefault();
 
                 return fi != null
-                    ? Package?.OpenFile(fi.FullName, problem: $"Unable to view '{fi.FullName}'")
-                    : new InformationResult($"No {VsixInstallerLog} found");
+                    ? Package?.OpenTextFile(fi.FullName, problem: $"Unable to view '{fi.FullName}'")
+                    : new InformationResult("No diagnostic failure log found");
             }
             catch (Exception ex)
             {
