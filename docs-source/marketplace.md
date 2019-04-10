@@ -1,5 +1,5 @@
 ![Version][version-badge-url]
-[![License][license-badge]][license-url]
+[![License][license-badge]](https://github.com/luminous-software/extensibility-logs/blob/master/LICENSE)
 ![Develop Badge][develop-badge-url]
 ![Master Badge][master-badge-url]
 [![Donate][paypal-badge]](https://www.paypal.me/yannduran/5)
@@ -28,14 +28,14 @@ this extension adds a new toolbar to hold _Extensibility Logs_'s commands.
 
 ![Toolbar][toolbar-image-url]
 
-[toolbar-image-url]: https://github.com/luminous-software.solutions/extensibility-logs/master/toolbar.png
+[toolbar-image-url]: https://raw.github.com/luminous-software/extensibility-logs/master/docs/assets/images/toolbar.png
 
 For those people who don't want to add yet another toolbar, this extension also adds a new *Extensibility Logs* menu 
 to the _View_ menu.
 
 ![Menu][menu-image-url]
 
-[menu-image-url]: https://github.com/luminous-software.solutions/extensibility-logs/master/menu.png
+[menu-image-url]: https://raw.github.com/luminous-software/extensibility-logs/master/docs/assets/images/menu.png
 
 _Extensibility Logs_ gives you a one-click experience (on the toolbar),
 or a three-click experience (on the menu),

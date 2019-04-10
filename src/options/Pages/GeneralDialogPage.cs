@@ -22,30 +22,5 @@ namespace ExtensibilityLogs.Options.Pages
         [DisplayName(Constants.ExtensibilityLogsVersion)]
         [Description("Installed " + ExtensibilityLogs + " version")]
         public string ExtensibilityLogsVersion { get; } = Vsix.Version;
-
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + ActivityLog)]
-        [Description("Opens Visual Studio's " + ActivityLog + " in a tab document")]
-        public bool ActivityLogCommandEnabled { get; set; } = true;
-
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + DiagnosticLog)]
-        [Description("Opens the latest MSBuild's diagnostic failure log in a tab document")]
-        public bool DiagnosticLogCommandEnabled { get; set; } = true;
-
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + MefErrorLog)]
-        [Description("Opens Visual Studio's " + MefErrorLog + " in a tab document")]
-        public bool MefErrorLogCommandEnabled { get; set; } = true;
-
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + VsixInstallerLog)]
-        [Description("Opens Visual Studio's latest " + VsixInstallerLog + " in a tab document")]
-        public bool VsixInstallerLogCommandEnabled { get; set; } = true;
-
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + PathVariables)]
-        [Description("Displays Window's current path variables in a tab document")]
-        public bool PathVariablesCommandEnabled { get; set; } = true;
     }
 }
