@@ -24,5 +24,6 @@
         public const string VsixInstallerLog = "VSIX Installer Log";
         public const string VisualStudioFolder = "Visual Studio Folder";
         public const string PathVariables = "Path Variables";
+        public const string EnvironmentVariables = "Environment Variables";
     }
 }

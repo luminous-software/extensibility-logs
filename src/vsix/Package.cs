@@ -35,6 +35,7 @@ namespace ExtensibilityLogs
         public const int VsixInstallerLogCommand = 0x0120;
         public const int VisualStudioFolderCommand = 0x0125;
         public const int PathVariablesCommand = 0x0130;
+        public const int EnvironmentVariablesCommand = 0x0140;
         public const int PackageOptionsCommand = 0x0150;
     }
 }
