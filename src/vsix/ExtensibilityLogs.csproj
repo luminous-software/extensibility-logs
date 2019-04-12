@@ -45,6 +45,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Commands\Logs\ServiceHubLogCommand.cs" />
     <Compile Include="Commands\Logs\LogsCommand.cs" />
     <Compile Include="Commands\Tools\EnvironmentVariablesCommand.cs" />
     <Compile Include="Commands\Tools\ToolsCommand.cs" />

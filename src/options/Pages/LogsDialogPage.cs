@@ -1,12 +1,12 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.VisualStudio.Shell;
+using System.ComponentModel;
 using System.Runtime.InteropServices;
-using Microsoft.VisualStudio.Shell;
 
 namespace ExtensibilityLogs.Options.Pages
 {
+    using static Constants;
     using static Core.Constants;
     using static Guids;
-    using static Constants;
 
     [ClassInterface(ClassInterfaceType.AutoDual)]
     [ComVisible(true)]
@@ -32,6 +32,11 @@ namespace ExtensibilityLogs.Options.Pages
         [DisplayName(Enable + Space + MefErrorLog)]
         [Description("Opens Visual Studio's " + MefErrorLog + " in a tab document")]
         public bool MefErrorLogCommandEnabled { get; set; } = true;
+
+        [Category(H2 + Features)]
+        [DisplayName(Enable + Space + ServiceHubLog)]
+        [Description("Opens the latest service hub log in a tab document")]
+        public bool ServiceHubLogCommandEnabled { get; set; } = true;
 
         [Category(H2 + Features)]
         [DisplayName(Enable + Space + VsixInstallerLog)]

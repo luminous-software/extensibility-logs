@@ -23,19 +23,20 @@ namespace ExtensibilityLogs
     /// </summary>
     internal sealed partial class PackageIds
     {
-        public const int PackageToolbar = 0xA000;
-        public const int PackageMenu = 0xA010;
-        public const int PackageGroup = 0xA020;
-        public const int PackageMenuGroup = 0xA030;
-        public const int LogGroup = 0xA040;
-        public const int ToolGroup = 0xA050;
+        public const int PackageToolbar = 0x0000;
+        public const int PackageMenu = 0x0005;
+        public const int PackageGroup = 0x0010;
+        public const int PackageMenuGroup = 0x0015;
+        public const int LogGroup = 0x0020;
+        public const int ToolGroup = 0x0025;
         public const int ActivityLogCommand = 0x0100;
         public const int DiagnosticLogCommand = 0x0105;
         public const int MefErrorLogCommand = 0x0110;
+        public const int ServiceHubLogCommand = 0x0115;
         public const int VsixInstallerLogCommand = 0x0120;
-        public const int VisualStudioFolderCommand = 0x0125;
-        public const int PathVariablesCommand = 0x0130;
-        public const int EnvironmentVariablesCommand = 0x0140;
-        public const int PackageOptionsCommand = 0x0150;
+        public const int EnvironmentVariablesCommand = 0x0200;
+        public const int PathVariablesCommand = 0x0205;
+        public const int VisualStudioFolderCommand = 0x0210;
+        public const int PackageOptionsCommand = 0x0500;
     }
 }
