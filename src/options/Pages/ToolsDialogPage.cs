@@ -1,12 +1,12 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.VisualStudio.Shell;
+using System.ComponentModel;
 using System.Runtime.InteropServices;
-using Microsoft.VisualStudio.Shell;
 
 namespace ExtensibilityLogs.Options.Pages
 {
+    using static Constants;
     using static Core.Constants;
     using static Guids;
-    using static Constants;
 
     [ClassInterface(ClassInterfaceType.AutoDual)]
     [ComVisible(true)]
@@ -19,13 +19,23 @@ namespace ExtensibilityLogs.Options.Pages
         public bool ToolsEnabled { get; set; } = true;
 
         [Category(H2 + Features)]
+        [DisplayName(Enable + Space + VisualStudioFolder)]
+        [Description("Opens the current Visual Studio instance's folder")]
+        public bool VisualStudioFolderCommandEnabled { get; set; } = true;
+
+        [Category(H2 + Features)]
         [DisplayName(Enable + Space + PathVariables)]
         [Description("Displays Window's current path variables in a tab document")]
         public bool PathVariablesCommandEnabled { get; set; } = true;
 
         [Category(H2 + Features)]
-        [DisplayName(Enable + Space + VisualStudioFolder)]
-        [Description("Opens the current Visual Studio instance's folder")]
-        public bool VisualStudioFolderCommandEnabled { get; set; } = true;
+        [DisplayName(Enable + Space + EnvironmentVariables)]
+        [Description("Displays Window's current environment variables in a tab document")]
+        public bool EnvironmentVariablesCommandEnabled { get; set; } = true;
+
+        //[Category(H2 + Features)]
+        //[DisplayName(Enable + Space + EnvironmentVariables + " Filter")]
+        //[Description("Environmental variables whose key is specified here is filtered out of the variables")]
+        //public Collection<string> EnvironmentVariablesFilter { get; set; }
     }
 }

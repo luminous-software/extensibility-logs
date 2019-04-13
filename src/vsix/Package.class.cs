@@ -1,8 +1,7 @@
-﻿using System;
-using System.Runtime.InteropServices;
+﻿using Luminous.Code.VisualStudio.Packages;
 using Microsoft.VisualStudio.Shell;
-
-using Luminous.Code.VisualStudio.Packages;
+using System;
+using System.Runtime.InteropServices;
 
 namespace ExtensibilityLogs
 {
@@ -57,6 +56,7 @@ namespace ExtensibilityLogs
             ActivityLogCommand.Instantiate(this);
             DiagnosticLogCommand.Instantiate(this);
             MefErrorLogCommand.Instantiate(this);
+            ServiceHubLogCommand.Instantiate(this);
             VsixInstallerLogCommand.Instantiate(this);
         }
 
@@ -64,6 +64,7 @@ namespace ExtensibilityLogs
         {
             VisualStudioFolderCommand.Instantiate(this);
             PathVariablesCommand.Instantiate(this);
+            EnvironmentVariablesCommand.Instantiate(this);
         }
     }
 }

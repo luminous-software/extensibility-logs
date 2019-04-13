@@ -23,7 +23,6 @@
 You can download this extension [from the Visual Studio Marketplace][marketplace-url]
 
 [marketplace-url]: https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs
-[vsix-gallery-url]: http://vsixgallery.com
 
 ---
 

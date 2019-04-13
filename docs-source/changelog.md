@@ -1,5 +1,10 @@
 ## Public Releases
 
+### v1.3 - 2019-04-13
+- added 'Service Hub Log'
+- added 'Environment Variables'
+
+
 ### v1.3 - 2019-04-10
   - added 'Visual Studio Folder'
   - added 'Logs' group and 'Tools' group

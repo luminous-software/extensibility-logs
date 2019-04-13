@@ -10,18 +10,16 @@ namespace ExtensibilityLogs.Commands.Logs
     using Luminous.Code.VisualStudio.Commands;
     using Luminous.Code.VisualStudio.Packages;
 
-    using static ExtensibilityLogs.Options.Constants;
-
-    internal sealed class VsixInstallerLogCommand : LogsCommand
+    internal sealed class ServiceHubLogCommand : LogsCommand
     {
         private static string Path
-            => $"{GetTempPath()}";
+            => $"{GetTempPath()}\\servicehub\\logs";
 
-        private VsixInstallerLogCommand(PackageBase package) : base(package, PackageIds.VsixInstallerLogCommand)
+        private ServiceHubLogCommand(PackageBase package) : base(package, PackageIds.ServiceHubLogCommand)
         { }
 
         public static void Instantiate(PackageBase package)
-            => Instantiate(new VsixInstallerLogCommand(package));
+            => Instantiate(new ServiceHubLogCommand(package));
 
         protected override void OnExecute(OleMenuCommand command)
             => ExecuteCommand()
@@ -29,14 +27,14 @@ namespace ExtensibilityLogs.Commands.Logs
                 .ShowInformation();
 
         protected override bool CanExecute
-            => base.CanExecute && PackageClass.LogsOptions.VsixInstallerLogCommandEnabled;
+            => base.CanExecute && PackageClass.LogsOptions.ServiceHubLogCommandEnabled;
 
         private static CommandResult ExecuteCommand()
         {
             try
             {
                 var di = new DirectoryInfo(Path);
-                var files = di?.EnumerateFiles("dd_VSIXInstaller_*.log");
+                var files = di?.EnumerateFiles("VsixServiceDiscovery*.log");
 
                 var fi = (
                     from file in files
@@ -46,8 +44,8 @@ namespace ExtensibilityLogs.Commands.Logs
                     ).FirstOrDefault();
 
                 return fi != null
-                    ? Package?.OpenFile(fi.FullName, problem: $"Unable to view '{fi.FullName}'")
-                    : new InformationResult($"No {VsixInstallerLog} found");
+                    ? Package?.OpenTextFile(fi.FullName, problem: $"Unable to view '{fi.FullName}'")
+                    : new InformationResult("No Service Hub log found");
             }
             catch (Exception ex)
             {

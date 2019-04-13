@@ -1,9 +1,8 @@
-﻿using System;
-using Microsoft.VisualStudio.Shell;
-using Luminous.Code.Exceptions.ExceptionExtensions;
+﻿using Luminous.Code.Exceptions.ExceptionExtensions;
 using Luminous.Code.VisualStudio.Commands;
 using Luminous.Code.VisualStudio.Packages;
-
+using Microsoft.VisualStudio.Shell;
+using System;
 using static System.Environment;
 
 namespace ExtensibilityLogs.Commands.Tools
@@ -30,7 +29,7 @@ namespace ExtensibilityLogs.Commands.Tools
         {
             try
             {
-                ThreadHelper.ThrowIfNotOnUIThread(nameof(ExecuteCommand));
+                ThreadHelper.ThrowIfNotOnUIThread(nameof(PathVariablesCommand));
 
                 const string semi_colon = ";";
                 var pane = Package?.PackageOutputPane;
