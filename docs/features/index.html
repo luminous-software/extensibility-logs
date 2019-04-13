@@ -259,6 +259,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#service-hub-log" title="Service Hub Log" class="md-nav__link">
+    Service Hub Log
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#vsix-installer-log" title="VSIX Installer Log" class="md-nav__link">
     VSIX Installer Log
   </a>
@@ -279,8 +286,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visual-studio-folder" title="Visual Studio Folder" class="md-nav__link">
-    Visual Studio Folder
+  <a href="#environment-variables" title="Environment Variables" class="md-nav__link">
+    Environment Variables
   </a>
   
 </li>
@@ -288,6 +295,13 @@
           <li class="md-nav__item">
   <a href="#path-variables" title="Path Variables" class="md-nav__link">
     Path Variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-studio-folder" title="Visual Studio Folder" class="md-nav__link">
+    Visual Studio Folder
   </a>
   
 </li>
@@ -362,6 +376,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#enable-service-hub-log" title="Enable Service Hub Log" class="md-nav__link">
+    Enable Service Hub Log
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#enable-vsix-installer-log" title="Enable VSIX Installer Log" class="md-nav__link">
     Enable VSIX Installer Log
   </a>
@@ -382,8 +403,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#enable-visual-studio-folder" title="Enable Visual Studio Folder" class="md-nav__link">
-    Enable Visual Studio Folder
+  <a href="#enable-environment-variables" title="Enable Environment Variables" class="md-nav__link">
+    Enable Environment Variables
   </a>
   
 </li>
@@ -391,6 +412,13 @@
           <li class="md-nav__item">
   <a href="#enable-path-variables" title="Enable Path Variables" class="md-nav__link">
     Enable Path Variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-visual-studio-folder" title="Enable Visual Studio Folder" class="md-nav__link">
+    Enable Visual Studio Folder
   </a>
   
 </li>
@@ -500,6 +528,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#service-hub-log" title="Service Hub Log" class="md-nav__link">
+    Service Hub Log
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#vsix-installer-log" title="VSIX Installer Log" class="md-nav__link">
     VSIX Installer Log
   </a>
@@ -520,8 +555,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visual-studio-folder" title="Visual Studio Folder" class="md-nav__link">
-    Visual Studio Folder
+  <a href="#environment-variables" title="Environment Variables" class="md-nav__link">
+    Environment Variables
   </a>
   
 </li>
@@ -529,6 +564,13 @@
           <li class="md-nav__item">
   <a href="#path-variables" title="Path Variables" class="md-nav__link">
     Path Variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-studio-folder" title="Visual Studio Folder" class="md-nav__link">
+    Visual Studio Folder
   </a>
   
 </li>
@@ -603,6 +645,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#enable-service-hub-log" title="Enable Service Hub Log" class="md-nav__link">
+    Enable Service Hub Log
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#enable-vsix-installer-log" title="Enable VSIX Installer Log" class="md-nav__link">
     Enable VSIX Installer Log
   </a>
@@ -623,8 +672,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#enable-visual-studio-folder" title="Enable Visual Studio Folder" class="md-nav__link">
-    Enable Visual Studio Folder
+  <a href="#enable-environment-variables" title="Enable Environment Variables" class="md-nav__link">
+    Enable Environment Variables
   </a>
   
 </li>
@@ -632,6 +681,13 @@
           <li class="md-nav__item">
   <a href="#enable-path-variables" title="Enable Path Variables" class="md-nav__link">
     Enable Path Variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-visual-studio-folder" title="Enable Visual Studio Folder" class="md-nav__link">
+    Enable Visual Studio Folder
   </a>
   
 </li>
@@ -677,27 +733,55 @@ to the <em>View</em> menu.</p>
 <p>Opens Visual Studio's <em>Activity Log</em> in a tab in Visual Studio,
 without having to first remember where the file is stored,
 and then open it in your editor of choice.</p>
+<ul>
+<li><strong>Folder:</strong> %APPDATA%\Microsoft\VisualStudio\instance_id\</li>
+<li><strong>File:</strong> ActivityLog.xml</li>
+</ul>
 <h3 id="diagnostic-failure-log">Diagnostic Failure Log<a class="headerlink" href="#diagnostic-failure-log" title="Permanent link">&para;</a></h3>
 <p>Opens MSBuild's latest <em>Diagnostic Failure Log</em> in a tab in Visual Studio,
 without knowing how to find it first, 
 and then open it in your editor of choice.</p>
+<ul>
+<li><strong>Folder:</strong> %TEMP%</li>
+<li><strong>Files:</strong> MSBuild_*.failure.log</li>
+</ul>
 <h3 id="mef-error-log">MEF Error Log<a class="headerlink" href="#mef-error-log" title="Permanent link">&para;</a></h3>
 <p>Opens Visual Studio's <em>MEF Error Log</em> in a tab in Visual Studio,
 without having to search for it,
 and then open it in your editor of choice.</p>
+<ul>
+<li><strong>Folder:</strong> %LOCALAPPDATA%\Microsoft\VisualStudio\instance_id\ComponentModelCache</li>
+<li><strong>File:</strong> Microsoft.VisualStudio.Default.err</li>
+</ul>
+<h3 id="service-hub-log">Service Hub Log<a class="headerlink" href="#service-hub-log" title="Permanent link">&para;</a></h3>
+<p>Opens the latest <em>Service Hub Log</em> in a tab in Visual Studio,
+without knowing how to find it first, 
+and then open it in your editor of choice.</p>
+<ul>
+<li><strong>Folder:</strong> %TEMP%\servicehub\logs </li>
+<li><strong>Files:</strong> VsixServiceDiscovery-*.log</li>
+</ul>
 <h3 id="vsix-installer-log">VSIX Installer Log<a class="headerlink" href="#vsix-installer-log" title="Permanent link">&para;</a></h3>
 <p>Opens the latest <em>VSIX Installer Log</em> in a tab in Visual Studio, scrambling to find it,
 and then open it in your editor of choice.</p>
+<ul>
+<li><strong>Folder:</strong> %TEMP%</li>
+<li><strong>Files:</strong> dd_VSIXInstaller_*.log</li>
+</ul>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h2>
+<h3 id="environment-variables">Environment Variables<a class="headerlink" href="#environment-variables" title="Permanent link">&para;</a></h3>
+<p>Displays the <em>environment variables</em> for the current process in a tab in Visual Studio,
+without having to open a command prompt and issue a SET command.</p>
+<h3 id="path-variables">Path Variables<a class="headerlink" href="#path-variables" title="Permanent link">&para;</a></h3>
+<p>Displays Windows' current <em>search paths for executable files</em> in a tab in Visual Studio,
+without having to open a command prompt.</p>
 <h3 id="visual-studio-folder">Visual Studio Folder<a class="headerlink" href="#visual-studio-folder" title="Permanent link">&para;</a></h3>
 <p>Opens the <em>current Visual Studio instance's folder</em> in a <em>File Explorer</em> window,
 without having to first remember the location of the folder,
 and then open it in a File Explorer window.</p>
-<h3 id="path-variables">Path Variables<a class="headerlink" href="#path-variables" title="Permanent link">&para;</a></h3>
-<p>Displays Windows' current <em>search paths for executable files</em> in a tab in Visual Studio,
-without having to open a command prompt.</p>
-<p>A future update will allow adding, removing, and re-ordering of the variables, inside , 
-without having to use Windows' <em>Settings</em> app.</p>
+<ul>
+<li><strong>Folder:</strong> %LOCALAPPDATA%\Microsoft\VisualStudio\instance_id\</li>
+</ul>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
 <p>Any logs/tools that have been disabled will still appear on the toolbar, but will be inactive,
 but they won't appear in the menu.
@@ -719,16 +803,22 @@ to <code>false</code>.</p>
 <h4 id="enable-mef-error-log">Enable MEF Error Log<a class="headerlink" href="#enable-mef-error-log" title="Permanent link">&para;</a></h4>
 <p>The <em>MEF Error Log</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable MEF Error Log</em>
 to <code>false</code>.</p>
+<h4 id="enable-service-hub-log">Enable Service Hub Log<a class="headerlink" href="#enable-service-hub-log" title="Permanent link">&para;</a></h4>
+<p>The <em>MEF Error Log</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable MEF Error Log</em>
+to <code>false</code>.</p>
 <h4 id="enable-vsix-installer-log">Enable VSIX Installer Log<a class="headerlink" href="#enable-vsix-installer-log" title="Permanent link">&para;</a></h4>
 <p>The <em>VSIX Installer Log</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable MEF Error Log</em>
 to <code>false</code>.</p>
 <h3 id="tools-options">Tools Options<a class="headerlink" href="#tools-options" title="Permanent link">&para;</a></h3>
 <p><img alt="Options" src="../assets/images/tools-options.png" /></p>
-<h4 id="enable-visual-studio-folder">Enable Visual Studio Folder<a class="headerlink" href="#enable-visual-studio-folder" title="Permanent link">&para;</a></h4>
-<p>The <em>Visual Studio Folder</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable Open Visual Studio Folder</em>
+<h4 id="enable-environment-variables">Enable Environment Variables<a class="headerlink" href="#enable-environment-variables" title="Permanent link">&para;</a></h4>
+<p>The <em>Environment Variables</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable Environment Variables</em>
 to <code>false</code>.</p>
 <h4 id="enable-path-variables">Enable Path Variables<a class="headerlink" href="#enable-path-variables" title="Permanent link">&para;</a></h4>
 <p>The <em>Path Variables</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable Path Variables</em>
+to <code>false</code>.</p>
+<h4 id="enable-visual-studio-folder">Enable Visual Studio Folder<a class="headerlink" href="#enable-visual-studio-folder" title="Permanent link">&para;</a></h4>
+<p>The <em>Visual Studio Folder</em> feature can be disabled by setting <em>Tools | Options | Extensibility Logs | Enable Open Visual Studio Folder</em>
 to <code>false</code>.</p>
                 
                   
