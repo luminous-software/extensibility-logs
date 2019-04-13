@@ -20,11 +20,17 @@ Opens Visual Studio's _Activity Log_ in a tab in Visual Studio,
 without having to first remember where the file is stored,
 and then open it in your editor of choice.
 
+- **Folder:** %APPDATA%\Microsoft\VisualStudio\instance_id\
+- **File:** ActivityLog.xml
+
 ### Diagnostic Failure Log
 
 Opens MSBuild's latest _Diagnostic Failure Log_ in a tab in Visual Studio,
 without knowing how to find it first, 
 and then open it in your editor of choice.
+
+- **Folder:** %TEMP%
+- **Files:** MSBuild_*.failure.log
 
 ### MEF Error Log
 
@@ -32,12 +38,37 @@ Opens Visual Studio's _MEF Error Log_ in a tab in Visual Studio,
 without having to search for it,
 and then open it in your editor of choice.
 
+- **Folder:** %LOCALAPPDATA%\Microsoft\VisualStudio\instance_id\ComponentModelCache
+- **File:** Microsoft.VisualStudio.Default.err
+
+### Service Hub Log
+
+Opens the latest _Service Hub Log_ in a tab in Visual Studio,
+without knowing how to find it first, 
+and then open it in your editor of choice.
+
+- **Folder:** %TEMP%\servicehub\logs 
+- **Files:** VsixServiceDiscovery-*.log
+
 ### VSIX Installer Log
 
 Opens the latest _VSIX Installer Log_ in a tab in Visual Studio, scrambling to find it,
 and then open it in your editor of choice.
 
+- **Folder:** %TEMP%
+- **Files:** dd_VSIXInstaller_*.log
+
 ## Tools
+
+### Environment Variables
+
+Displays the _environment variables_ for the current process in a tab in Visual Studio,
+without having to open a command prompt and issue a SET command.
+
+### Path Variables
+
+Displays Windows' current _search paths for executable files_ in a tab in Visual Studio,
+without having to open a command prompt.
 
 ### Visual Studio Folder
 
@@ -45,13 +76,7 @@ Opens the *current Visual Studio instance's folder* in a *File Explorer* window,
 without having to first remember the location of the folder,
 and then open it in a File Explorer window.
 
-### Path Variables
-
-Displays Windows' current _search paths for executable files_ in a tab in Visual Studio,
-without having to open a command prompt.
-
-A future update will allow adding, removing, and re-ordering of the variables, inside , 
-without having to use Windows' _Settings_ app.
+- **Folder:** %LOCALAPPDATA%\Microsoft\VisualStudio\instance_id\
 
 ## Options
 
@@ -90,6 +115,11 @@ to `false`.
 The _MEF Error Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable MEF Error Log_
 to `false`.
 
+#### Enable Service Hub Log
+
+The _MEF Error Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable MEF Error Log_
+to `false`.
+
 #### Enable VSIX Installer Log
 
 The _VSIX Installer Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable MEF Error Log_
@@ -99,12 +129,17 @@ to `false`.
 
 ![Options](assets/images/tools-options.png)
 
-#### Enable Visual Studio Folder
+#### Enable Environment Variables
 
-The _Visual Studio Folder_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Open Visual Studio Folder_
+The _Environment Variables_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Environment Variables_
 to `false`.
 
 #### Enable Path Variables
 
 The _Path Variables_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Path Variables_
+to `false`.
+
+#### Enable Visual Studio Folder
+
+The _Visual Studio Folder_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Open Visual Studio Folder_
 to `false`.

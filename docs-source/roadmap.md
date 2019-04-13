@@ -10,11 +10,13 @@ They may, or may not, end up being added into _Extensibility Logs_.
 - [x] Path Variables
 - [x] VSIX Installer Log
 - [x] MEF Error Log
-- [ ] Service Hub Log
-- [ ] Visual Studio Setup Log
+- [x] Service Hub Log
+- [x] Environment Variables
+- [ ] Visual Studio Setup Log?
 - [ ] Enable/Disable VSIP Logging?
-- [ ] Environment Variables?
 - [ ] Enhance Path Variables?
+
+Ticked items are available in the lastest version of _Extensibility Logs_.
 
 ## Contributions
 
