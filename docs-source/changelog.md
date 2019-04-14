@@ -1,9 +1,11 @@
 ## Public Releases
 
-### v1.3 - 2019-04-13
-- added 'Service Hub Log'
-- added 'Environment Variables'
+### v1.5 - 2019-04-??
+  - added 'Visual Studio Setup Log'
 
+### v1.4 - 2019-04-13
+  - added 'Service Hub Log'
+  - added 'Environment Variables'
 
 ### v1.3 - 2019-04-10
   - added 'Visual Studio Folder'
@@ -43,4 +45,4 @@
 
 ### v0.1 - 2019-02-03
   - initial `master` branch on GitHub
-  - added 'Extensibility Logs' toolbar
+  - added 'Extensibility Logs' toolbar 

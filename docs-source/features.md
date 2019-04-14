@@ -44,15 +44,24 @@ and then open it in your editor of choice.
 ### Service Hub Log
 
 Opens the latest _Service Hub Log_ in a tab in Visual Studio,
-without knowing how to find it first, 
+without first knowing how to it first, 
 and then open it in your editor of choice.
 
 - **Folder:** %TEMP%\servicehub\logs 
 - **Files:** VsixServiceDiscovery-*.log
 
+### Visual Studio Setup Log
+
+Opens the latest _Visual Studio Setup Log_ in a tab in Visual Studio, scrambling to find it,
+and then open it in your editor of choice.
+
+- **Folder:** %TEMP%
+- **Files:** dd_setup_*.log
+
 ### VSIX Installer Log
 
-Opens the latest _VSIX Installer Log_ in a tab in Visual Studio, scrambling to find it,
+Opens the latest _VSIX Installer Log_ in a tab in Visual Studio, 
+without knowing what the file's called and how to find it, 
 and then open it in your editor of choice.
 
 - **Folder:** %TEMP%
@@ -117,12 +126,17 @@ to `false`.
 
 #### Enable Service Hub Log
 
-The _MEF Error Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable MEF Error Log_
+The _MEF Error Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Service Hub Log_
+to `false`.
+
+#### Enable Visual Studio Setup Log
+
+The _Visual Studio Setup Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Visual Studio Setup Log_
 to `false`.
 
 #### Enable VSIX Installer Log
 
-The _VSIX Installer Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable MEF Error Log_
+The _VSIX Installer Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable VSIX Installer Log_
 to `false`.
 
 ### Tools Options
