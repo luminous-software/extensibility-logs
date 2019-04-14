@@ -88,6 +88,17 @@
         </Strings>
       </Button>
 
+      <Button guid="PackageCommandSet" id="VisualStudioSetupLogCommand" priority="0x0120" type="Button">
+        <Parent guid="PackageCommandSet" id="LogGroup" />
+        <Icon guid="ImageCatalogGuid" id="PrintSetup" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <CommandName>VisualStudioSetupLog</CommandName>
+          <ButtonText>Visual Studio Setup Log</ButtonText>
+        </Strings>
+      </Button>
+
       <Button guid="PackageCommandSet" id="VsixInstallerLogCommand" priority="0x0120" type="Button">
         <Parent guid="PackageCommandSet" id="LogGroup" />
         <Icon guid="ImageCatalogGuid" id="Package" />
@@ -179,7 +190,8 @@
       <IDSymbol name="DiagnosticLogCommand" value="0x0105" />
       <IDSymbol name="MefErrorLogCommand" value="0x0110" />
       <IDSymbol name="ServiceHubLogCommand" value="0x0115" />
-      <IDSymbol name="VsixInstallerLogCommand" value="0x0120" />
+      <IDSymbol name="VisualStudioSetupLogCommand" value="0x0120" />
+      <IDSymbol name="VsixInstallerLogCommand" value="0x0125" />
 
       <IDSymbol name="EnvironmentVariablesCommand" value="0x0200" />
       <IDSymbol name="PathVariablesCommand" value="0x0205" />

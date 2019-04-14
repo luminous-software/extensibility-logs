@@ -39,6 +39,11 @@ namespace ExtensibilityLogs.Options.Pages
         public bool ServiceHubLogCommandEnabled { get; set; } = true;
 
         [Category(H2 + Features)]
+        [DisplayName(Enable + Space + VisualStudioSetupLog)]
+        [Description("Opens the latest " + VisualStudioSetupLog + " in a tab document")]
+        public bool VisualStudioSetupLogCommandEnabled { get; set; } = true;
+
+        [Category(H2 + Features)]
         [DisplayName(Enable + Space + VsixInstallerLog)]
         [Description("Opens Visual Studio's latest " + VsixInstallerLog + " in a tab document")]
         public bool VsixInstallerLogCommandEnabled { get; set; } = true;

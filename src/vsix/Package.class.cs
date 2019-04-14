@@ -57,6 +57,7 @@ namespace ExtensibilityLogs
             DiagnosticLogCommand.Instantiate(this);
             MefErrorLogCommand.Instantiate(this);
             ServiceHubLogCommand.Instantiate(this);
+            VisualStudioSetupLogCommand.Instantiate(this);
             VsixInstallerLogCommand.Instantiate(this);
         }
 

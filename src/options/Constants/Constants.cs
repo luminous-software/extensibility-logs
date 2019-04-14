@@ -22,6 +22,7 @@
         public const string DiagnosticLog = "Diagnostic Failure Log";
         public const string MefErrorLog = "MEF Error Log";
         public const string ServiceHubLog = "Service Hub Log";
+        public const string VisualStudioSetupLog = "Visual Studio Setup Log";
         public const string VsixInstallerLog = "VSIX Installer Log";
 
         public const string EnvironmentVariables = "Environment Variables";

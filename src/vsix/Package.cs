@@ -33,7 +33,8 @@ namespace ExtensibilityLogs
         public const int DiagnosticLogCommand = 0x0105;
         public const int MefErrorLogCommand = 0x0110;
         public const int ServiceHubLogCommand = 0x0115;
-        public const int VsixInstallerLogCommand = 0x0120;
+        public const int VisualStudioSetupLogCommand = 0x0120;
+        public const int VsixInstallerLogCommand = 0x0125;
         public const int EnvironmentVariablesCommand = 0x0200;
         public const int PathVariablesCommand = 0x0205;
         public const int VisualStudioFolderCommand = 0x0210;
