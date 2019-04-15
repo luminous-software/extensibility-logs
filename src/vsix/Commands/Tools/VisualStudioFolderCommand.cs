@@ -6,7 +6,7 @@ namespace ExtensibilityLogs.Commands.Tools
     using Luminous.Code.VisualStudio.Commands;
     using Luminous.Code.VisualStudio.Packages;
 
-    internal sealed class VisualStudioFolderCommand : ToolsCommand
+    internal sealed class VisualStudioFolderCommand : OtherCommand
     {
         private static string Path
             => $"{Package.UserDataPath}";

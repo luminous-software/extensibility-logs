@@ -8,7 +8,7 @@ using static System.Environment;
 
 namespace ExtensibilityLogs.Commands.Tools
 {
-    internal sealed class EnvironmentVariablesCommand : ToolsCommand
+    internal sealed class EnvironmentVariablesCommand : OtherCommand
     {
         private EnvironmentVariablesCommand(PackageBase package) : base(package, PackageIds.EnvironmentVariablesCommand)
         { }

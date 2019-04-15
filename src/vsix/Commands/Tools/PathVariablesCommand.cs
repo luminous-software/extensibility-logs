@@ -7,7 +7,7 @@ using static System.Environment;
 
 namespace ExtensibilityLogs.Commands.Tools
 {
-    internal sealed class PathVariablesCommand : ToolsCommand
+    internal sealed class PathVariablesCommand : OtherCommand
     {
         private PathVariablesCommand(PackageBase package) : base(package, PackageIds.PathVariablesCommand)
         { }
