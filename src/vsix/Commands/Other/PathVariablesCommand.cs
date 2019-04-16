@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.Shell;
 using System;
 using static System.Environment;
 
-namespace ExtensibilityLogs.Commands.Tools
+namespace ExtensibilityLogs.Commands.Other
 {
     internal sealed class PathVariablesCommand : OtherCommand
     {
@@ -16,7 +16,7 @@ namespace ExtensibilityLogs.Commands.Tools
             => Instantiate(new PathVariablesCommand(package));
 
         protected override bool CanExecute
-            => base.CanExecute && PackageClass.ToolsOptions.PathVariablesCommandEnabled;
+            => base.CanExecute && PackageClass.OtherOptions.PathVariablesCommandEnabled;
 
         protected override void OnExecute(OleMenuCommand command)
 #pragma warning disable VSTHRD010 // Invoke single-threaded types on Main thread

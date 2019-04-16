@@ -6,7 +6,7 @@ using System;
 using System.Collections;
 using static System.Environment;
 
-namespace ExtensibilityLogs.Commands.Tools
+namespace ExtensibilityLogs.Commands.Other
 {
     internal sealed class EnvironmentVariablesCommand : OtherCommand
     {
@@ -17,7 +17,7 @@ namespace ExtensibilityLogs.Commands.Tools
             => Instantiate(new EnvironmentVariablesCommand(package));
 
         protected override bool CanExecute
-            => base.CanExecute && PackageClass.ToolsOptions.EnvironmentVariablesCommandEnabled;
+            => base.CanExecute && PackageClass.OtherOptions.EnvironmentVariablesCommandEnabled;
 
         protected override void OnExecute(OleMenuCommand command)
 #pragma warning disable VSTHRD010 // Invoke single-threaded types on Main thread

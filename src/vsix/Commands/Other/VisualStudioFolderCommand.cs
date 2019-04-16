@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.Shell;
 using System.Diagnostics;
 
-namespace ExtensibilityLogs.Commands.Tools
+namespace ExtensibilityLogs.Commands.Other
 {
     using Luminous.Code.VisualStudio.Commands;
     using Luminous.Code.VisualStudio.Packages;
@@ -19,7 +19,7 @@ namespace ExtensibilityLogs.Commands.Tools
             => Instantiate(new VisualStudioFolderCommand(package));
 
         protected override bool CanExecute
-            => base.CanExecute && PackageClass.ToolsOptions.VisualStudioFolderCommandEnabled;
+            => base.CanExecute && PackageClass.OtherOptions.VisualStudioFolderCommandEnabled;
 
         protected override void OnExecute(OleMenuCommand command)
             => ExecuteCommand()

@@ -10,13 +10,13 @@ namespace ExtensibilityLogs.Options.Pages
 
     [ClassInterface(ClassInterfaceType.AutoDual)]
     [ComVisible(true)]
-    [Guid(ToolsDialogPageString)]
-    public class ToolsDialogPage : DialogPage
+    [Guid(OtherDialogPageString)]
+    public class OtherDialogPage : DialogPage
     {
-        [Category(H1 + Tools + Space + FeatureSet)]
-        [DisplayName(Enable + Space + Tools)]
-        [Description("Allows the whole set of " + Tools + " features to be turned off together")]
-        public bool ToolsEnabled { get; set; } = true;
+        [Category(H1 + Other + Space + FeatureSet)]
+        [DisplayName(Enable + Space + Other)]
+        [Description("Allows the whole set of " + Other + " features to be turned off together")]
+        public bool OtherEnabled { get; set; } = true;
 
         [Category(H2 + Features)]
         [DisplayName(Enable + Space + VisualStudioFolder)]

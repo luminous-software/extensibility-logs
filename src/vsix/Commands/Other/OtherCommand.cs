@@ -10,6 +10,6 @@
         }
 
         protected override bool CanExecute
-           => base.CanExecute && PackageClass.ToolsOptions.ToolsEnabled;
+           => base.CanExecute && PackageClass.OtherOptions.OtherEnabled;
     }
 }

@@ -48,15 +48,15 @@
     <Compile Include="Commands\Logs\VisualStudioSetupLogCommand.cs" />
     <Compile Include="Commands\Logs\ServiceHubLogCommand.cs" />
     <Compile Include="Commands\Logs\LogsCommand.cs" />
-    <Compile Include="Commands\Tools\EnvironmentVariablesCommand.cs" />
-    <Compile Include="Commands\Tools\OtherCommand.cs" />
-    <Compile Include="Commands\Tools\VisualStudioFolderCommand.cs" />
+    <Compile Include="Commands\Other\EnvironmentVariablesCommand.cs" />
+    <Compile Include="Commands\Other\OtherCommand.cs" />
+    <Compile Include="Commands\Other\VisualStudioFolderCommand.cs" />
     <Compile Include="Commands\Logs\ActivityLogCommand.cs" />
     <Compile Include="Commands\Logs\VsixInstallerLogCommand.cs" />
     <Compile Include="Commands\Logs\DiagnosticLogCommand.cs" />
     <Compile Include="Commands\PackageCommand.cs" />
     <Compile Include="Commands\Logs\MefErrorLogCommand.cs" />
-    <Compile Include="Commands\Tools\PathVariablesCommand.cs" />
+    <Compile Include="Commands\Other\PathVariablesCommand.cs" />
     <Compile Include="Package.class.cs">
       <DependentUpon>Package.vsct</DependentUpon>
     </Compile>

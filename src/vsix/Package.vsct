@@ -32,7 +32,7 @@
         <Parent guid="PackageCommandSet" id="PackageToolbar" />
       </Group>
 
-      <Group guid="PackageCommandSet" id="ToolGroup" priority="0x0200">
+      <Group guid="PackageCommandSet" id="OtherGroup" priority="0x0200">
         <Parent guid="PackageCommandSet" id="PackageToolbar" />
       </Group>
 
@@ -110,10 +110,10 @@
         </Strings>
       </Button>
 
-      <!-- Tools -->
+      <!-- Other -->
 
       <Button guid="PackageCommandSet" id="EnvironmentVariablesCommand" priority="0x0100" type="Button">
-        <Parent guid="PackageCommandSet" id="ToolGroup" />
+        <Parent guid="PackageCommandSet" id="OtherGroup" />
         <Icon guid="ImageCatalogGuid" id="FlatList" />
         <CommandFlag>IconIsMoniker</CommandFlag>
         <CommandFlag>DynamicVisibility</CommandFlag>
@@ -124,7 +124,7 @@
       </Button>
 
       <Button guid="PackageCommandSet" id="PathVariablesCommand" priority="0x0105" type="Button">
-        <Parent guid="PackageCommandSet" id="ToolGroup" />
+        <Parent guid="PackageCommandSet" id="OtherGroup" />
         <Icon guid="ImageCatalogGuid" id="DataList" />
         <CommandFlag>IconIsMoniker</CommandFlag>
         <CommandFlag>DynamicVisibility</CommandFlag>
@@ -135,7 +135,7 @@
       </Button>
 
       <Button guid="PackageCommandSet" id="VisualStudioFolderCommand" priority="0x0110" type="Button">
-        <Parent guid="PackageCommandSet" id="ToolGroup" />
+        <Parent guid="PackageCommandSet" id="OtherGroup" />
         <Icon guid="ImageCatalogGuid" id="FolderOpened" />
         <CommandFlag>IconIsMoniker</CommandFlag>
         <CommandFlag>DynamicVisibility</CommandFlag>
@@ -169,11 +169,15 @@
       <Parent guid="PackageCommandSet" id="PackageMenu"/>
     </CommandPlacement>
 
-    <CommandPlacement guid="PackageCommandSet" id="ToolGroup" priority="0x0010">
+    <CommandPlacement guid="PackageCommandSet" id="OtherGroup" priority="0x0010">
       <Parent guid="PackageCommandSet" id="PackageMenu"/>
     </CommandPlacement>
   </CommandPlacements>
 
+  <KeyBindings>
+    <KeyBinding guid="PackageCommandSet" id="PackageMenu" key1="L" editor="guidVSStd97"/>
+  </KeyBindings>
+  
   <Symbols>
     <GuidSymbol name="Package" value="{0298784e-e549-4e67-b3f3-af01a28a9f88}" />
 
@@ -184,7 +188,7 @@
       <IDSymbol name="PackageGroup" value="0x0010" />
       <IDSymbol name="PackageMenuGroup" value="0x0015"/>
       <IDSymbol name="LogGroup" value="0x0020" />
-      <IDSymbol name="ToolGroup" value="0x0025" />
+      <IDSymbol name="OtherGroup" value="0x0025" />
 
       <IDSymbol name="ActivityLogCommand" value="0x0100" />
       <IDSymbol name="DiagnosticLogCommand" value="0x0105" />
