@@ -1,6 +1,6 @@
 ## Public Releases
 
-### v1.5 - 2019-04-??
+### v1.5 - 2019-04-16
   - added 'Visual Studio Setup Log'
   - renamed 'Tools' to 'Other'
 

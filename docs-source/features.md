@@ -52,7 +52,8 @@ and then open it in your editor of choice.
 
 ### Visual Studio Setup Log
 
-Opens the latest _Visual Studio Setup Log_ in a tab in Visual Studio, scrambling to find it,
+Opens the latest _Visual Studio Setup Log_ in a tab in Visual Studio,
+without scrambling to find it,
 and then open it in your editor of choice.
 
 - **Folder:** %TEMP%
@@ -77,13 +78,13 @@ without having to open a command prompt and issue a SET command.
 ### Path Variables
 
 Displays Windows' current _search paths for executable files_ in a tab in Visual Studio,
-without having to open a command prompt.
+without having to open a command prompt and issue a PATH command.
 
 ### Visual Studio Folder
 
 Opens the *current Visual Studio instance's folder* in a *File Explorer* window,
 without having to first remember the location of the folder,
-and then open it in a File Explorer window.
+and then open it in an external File Explorer window.
 
 - **Folder:** %LOCALAPPDATA%\Microsoft\VisualStudio\instance_id\
 
