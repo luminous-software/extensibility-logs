@@ -7,6 +7,7 @@
         public const string H1 = "1." + Space;
         public const string H2 = "2." + Space;
         public const string Feature = "Feature";
+        public const string Individual = "Individual";
         public const string Features = "Features";
         public const string FeatureSet = "Feature Set";
         public const string Enable = "Enable";

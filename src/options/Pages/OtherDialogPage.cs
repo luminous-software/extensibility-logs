@@ -13,24 +13,27 @@ namespace ExtensibilityLogs.Options.Pages
     [Guid(OtherDialogPageString)]
     public class OtherDialogPage : DialogPage
     {
-        [Category(H1 + Other + Space + FeatureSet)]
-        [DisplayName(Enable + Space + Other)]
-        [Description("Allows the whole set of " + Other + " features to be turned off together")]
+        private const string FeatureSetHeading = H1 + Quote + Other + Quote + Space + FeatureSet;
+        private const string IndividualFeaturesHeading = H2 + Individual + Space + Features;
+
+        [Category(FeatureSetHeading)]
+        [DisplayName(Enable + Space + Quote + Other + Quote)]
+        [Description("Enables/disables the whole set of " + Quote + Other + Quote + " features")]
         public bool OtherEnabled { get; set; } = true;
 
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + VisualStudioFolder)]
-        [Description("Opens the current Visual Studio instance's folder")]
+        [Category(IndividualFeaturesHeading)]
+        [DisplayName(Enable + Space + Quote + VisualStudioFolder + Quote)]
+        [Description("Enables/disables the " + Quote + VisualStudioFolder + Quote + " feature")]
         public bool VisualStudioFolderCommandEnabled { get; set; } = true;
 
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + PathVariables)]
-        [Description("Displays Window's current path variables in a tab document")]
+        [Category(IndividualFeaturesHeading)]
+        [DisplayName(Enable + Space + Quote + PathVariables + Quote)]
+        [Description("Enables/disables the " + Quote + PathVariables + Quote + " feature")]
         public bool PathVariablesCommandEnabled { get; set; } = true;
 
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + EnvironmentVariables)]
-        [Description("Displays Window's current environment variables in a tab document")]
+        [Category(IndividualFeaturesHeading)]
+        [DisplayName(Enable + Space + Quote + EnvironmentVariables + Quote)]
+        [Description("Enables/disables the " + Quote + EnvironmentVariables + Quote + " feature")]
         public bool EnvironmentVariablesCommandEnabled { get; set; } = true;
 
         //[Category(H2 + Features)]
