@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="595c271e-e4b3-40ea-9ef7-1138f49b529c" Version="1.4" Language="en-US" Publisher="Yann Duran" />
+        <Identity Id="595c271e-e4b3-40ea-9ef7-1138f49b529c" Version="1.5.0" Language="en-US" Publisher="Yann Duran" />
         <DisplayName>Extensibility Logs</DisplayName>
         <Description xml:space="preserve">Quickest &amp; easiest way to view extensibility logs!</Description>
         <MoreInfo>https://luminous-software.solutions/extensibility-logs</MoreInfo>
@@ -11,14 +11,13 @@
         <Tags>Visual Studio;extensibility;logs;productivity;yannduran;yd;Yann Duran</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0, 17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 17.0)" />
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-        <Dependency Id="Microsoft.VisualStudio.MPF.16.0" DisplayName="Visual Studio MPF 16.0" d:Source="Installed" Version="[16.0,17.0)" />
     </Dependencies>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />

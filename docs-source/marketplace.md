@@ -68,4 +68,3 @@ If *Extensibility Logs* has saved you time and hassle, please come back and show
 [icon-url]: /assets/images/favicon.ico
 
 [contributing-url]: https://github.com/luminous-software/extensibility-logs/blob/master/.github/CONTRIBUTING.md
-[extensibility-tools-url]: https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6

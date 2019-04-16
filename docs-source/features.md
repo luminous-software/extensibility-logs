@@ -44,21 +44,31 @@ and then open it in your editor of choice.
 ### Service Hub Log
 
 Opens the latest _Service Hub Log_ in a tab in Visual Studio,
-without knowing how to find it first, 
+without first knowing how to it first, 
 and then open it in your editor of choice.
 
 - **Folder:** %TEMP%\servicehub\logs 
 - **Files:** VsixServiceDiscovery-*.log
 
+### Visual Studio Setup Log
+
+Opens the latest _Visual Studio Setup Log_ in a tab in Visual Studio,
+without scrambling to find it,
+and then open it in your editor of choice.
+
+- **Folder:** %TEMP%
+- **Files:** dd_setup_*.log
+
 ### VSIX Installer Log
 
-Opens the latest _VSIX Installer Log_ in a tab in Visual Studio, scrambling to find it,
+Opens the latest _VSIX Installer Log_ in a tab in Visual Studio, 
+without knowing what the file's called and how to find it, 
 and then open it in your editor of choice.
 
 - **Folder:** %TEMP%
 - **Files:** dd_VSIXInstaller_*.log
 
-## Tools
+## Other
 
 ### Environment Variables
 
@@ -68,19 +78,19 @@ without having to open a command prompt and issue a SET command.
 ### Path Variables
 
 Displays Windows' current _search paths for executable files_ in a tab in Visual Studio,
-without having to open a command prompt.
+without having to open a command prompt and issue a PATH command.
 
 ### Visual Studio Folder
 
 Opens the *current Visual Studio instance's folder* in a *File Explorer* window,
 without having to first remember the location of the folder,
-and then open it in a File Explorer window.
+and then open it in an external File Explorer window.
 
 - **Folder:** %LOCALAPPDATA%\Microsoft\VisualStudio\instance_id\
 
 ## Options
 
-Any logs/tools that have been disabled will still appear on the toolbar, but will be inactive,
+Any commands that have been disabled will still appear on the toolbar, but will be inactive,
 but they won't appear in the menu.
 The toolbar buttons can be hidden by removing them from the _Extensibility Logs_ toolbar.
 
@@ -100,6 +110,10 @@ Displays then version number of _Extensibility Logs_ that's currently installed.
 
 ![Options](assets/images/logs-options.png)
 
+#### Enable Logs Features
+
+This setting allows the whole set of _Logs_ features to be turned off together.
+
 #### Enable Activity Log
 
 The _Activity Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs |  Enable Activity Log_
@@ -117,17 +131,26 @@ to `false`.
 
 #### Enable Service Hub Log
 
-The _MEF Error Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable MEF Error Log_
+The _MEF Error Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Service Hub Log_
+to `false`.
+
+#### Enable Visual Studio Setup Log
+
+The _Visual Studio Setup Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable Visual Studio Setup Log_
 to `false`.
 
 #### Enable VSIX Installer Log
 
-The _VSIX Installer Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable MEF Error Log_
+The _VSIX Installer Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable VSIX Installer Log_
 to `false`.
 
-### Tools Options
+### Other Options
 
-![Options](assets/images/tools-options.png)
+![Options](assets/images/other-options.png)
+
+#### Enable Other Features
+
+This setting allows the whole set of _Other_ features to be turned off together.
 
 #### Enable Environment Variables
 

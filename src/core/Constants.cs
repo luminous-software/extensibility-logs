@@ -4,9 +4,10 @@
 
     {
         public const string Space = " ";
+        public const string Quote = "'";
 
         public const string General = "General";
         public const string Logs = "Logs";
-        public const string Tools = "Tools";
+        public const string Other = "Other";
     }
 }

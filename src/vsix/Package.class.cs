@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 namespace ExtensibilityLogs
 {
     using Commands.Logs;
-    using Commands.Tools;
+    using Commands.Other;
     using Options.Pages;
 
     using static Core.Constants;
@@ -18,13 +18,13 @@ namespace ExtensibilityLogs
 
     [ProvideOptionPage(typeof(GeneralDialogPage), Name, General, 0, 0, supportsAutomation: false)]
     [ProvideOptionPage(typeof(LogsDialogPage), Name, Logs, 0, 0, supportsAutomation: false)]
-    [ProvideOptionPage(typeof(ToolsDialogPage), Name, Tools, 0, 0, supportsAutomation: false)]
+    [ProvideOptionPage(typeof(OtherDialogPage), Name, Other, 0, 0, supportsAutomation: false)]
 
     public sealed class PackageClass : PackageBase
     {
         private static GeneralDialogPage _generalOptions;
         private static LogsDialogPage _logsOptions;
-        private static ToolsDialogPage _toolsOptions;
+        private static OtherDialogPage _otherOptions;
 
         public static GeneralDialogPage GeneralOptions
             => _generalOptions ?? (_generalOptions = GetDialogPage<GeneralDialogPage>());
@@ -32,8 +32,8 @@ namespace ExtensibilityLogs
         public static LogsDialogPage LogsOptions
             => _logsOptions ?? (_logsOptions = GetDialogPage<LogsDialogPage>());
 
-        public static ToolsDialogPage ToolsOptions
-            => _toolsOptions ?? (_toolsOptions = GetDialogPage<ToolsDialogPage>());
+        public static OtherDialogPage OtherOptions
+            => _otherOptions ?? (_otherOptions = GetDialogPage<OtherDialogPage>());
 
         public PackageClass() : base(PackageCommandSet, Name, Description)
         { }
@@ -57,6 +57,7 @@ namespace ExtensibilityLogs
             DiagnosticLogCommand.Instantiate(this);
             MefErrorLogCommand.Instantiate(this);
             ServiceHubLogCommand.Instantiate(this);
+            VisualStudioSetupLogCommand.Instantiate(this);
             VsixInstallerLogCommand.Instantiate(this);
         }
 

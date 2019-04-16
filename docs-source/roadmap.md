@@ -12,7 +12,7 @@ They may, or may not, end up being added into _Extensibility Logs_.
 - [x] MEF Error Log
 - [x] Service Hub Log
 - [x] Environment Variables
-- [ ] Visual Studio Setup Log?
+- [x] Visual Studio Setup Log?
 - [ ] Enable/Disable VSIP Logging?
 - [ ] Enhance Path Variables?
 

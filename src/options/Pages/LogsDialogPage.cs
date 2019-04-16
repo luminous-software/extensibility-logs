@@ -4,43 +4,51 @@ using System.Runtime.InteropServices;
 
 namespace ExtensibilityLogs.Options.Pages
 {
-    using static Constants;
     using static Core.Constants;
-    using static Guids;
+    using static OptionConstants;
+    using static OptionGuids;
 
     [ClassInterface(ClassInterfaceType.AutoDual)]
     [ComVisible(true)]
     [Guid(LogsDialogPageString)]
     public class LogsDialogPage : DialogPage
     {
-        [Category(H1 + Logs + Space + FeatureSet)]
-        [DisplayName(Enable + Space + Logs)]
-        [Description("Allows the whole set of " + Logs + " features to be turned off together")]
+        private const string FeatureSetHeading = H1 + Quote + Logs + Quote + Space + FeatureSet;
+        private const string IndividualFeaturesHeading = H2 + Individual + Space + Features;
+
+        [Category(FeatureSetHeading)]
+        [DisplayName(Enable + Space + Quote + Logs + Quote + Space + Features)]
+        [Description("Enables/disables the whole set of " + Quote + Logs + Quote + " features")]
         public bool LogsEnabled { get; set; } = true;
 
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + ActivityLog)]
-        [Description("Opens Visual Studio's " + ActivityLog + " in a tab document")]
+        [Category(IndividualFeaturesHeading)]
+        [DisplayName(Enable + Space + Quote + ActivityLog + Quote)]
+        [Description("Enables/disables the " + Quote + ActivityLog + Quote + " feature")]
         public bool ActivityLogCommandEnabled { get; set; } = true;
 
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + DiagnosticLog)]
-        [Description("Opens the latest MSBuild's diagnostic failure log in a tab document")]
+        [Category(IndividualFeaturesHeading)]
+        [DisplayName(Enable + Space + Quote + DiagnosticLog + Quote)]
+        [Description("Enables/disables the " + Quote + DiagnosticLog + Quote + " feature")]
         public bool DiagnosticLogCommandEnabled { get; set; } = true;
 
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + MefErrorLog)]
-        [Description("Opens Visual Studio's " + MefErrorLog + " in a tab document")]
+        [Category(IndividualFeaturesHeading)]
+        [DisplayName(Enable + Space + Quote + MefErrorLog + Quote)]
+        [Description("Enables/disables the " + Quote + MefErrorLog + Quote + " feature")]
         public bool MefErrorLogCommandEnabled { get; set; } = true;
 
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + ServiceHubLog)]
-        [Description("Opens the latest service hub log in a tab document")]
+        [Category(IndividualFeaturesHeading)]
+        [DisplayName(Enable + Space + Quote + ServiceHubLog + Quote)]
+        [Description("Enables/disables the " + Quote + ServiceHubLog + Quote + " feature")]
         public bool ServiceHubLogCommandEnabled { get; set; } = true;
 
-        [Category(H2 + Features)]
-        [DisplayName(Enable + Space + VsixInstallerLog)]
-        [Description("Opens Visual Studio's latest " + VsixInstallerLog + " in a tab document")]
+        [Category(IndividualFeaturesHeading)]
+        [DisplayName(Enable + Space + Quote + VisualStudioSetupLog + Quote)]
+        [Description("Enables/disables the " + Quote + VisualStudioSetupLog + Quote + " feature")]
+        public bool VisualStudioSetupLogCommandEnabled { get; set; } = true;
+
+        [Category(IndividualFeaturesHeading)]
+        [DisplayName(Enable + Space + Quote + VsixInstallerLog + Quote)]
+        [Description("Enables/disables the " + Quote + VsixInstallerLog + Quote + " feature")]
         public bool VsixInstallerLogCommandEnabled { get; set; } = true;
     }
 }

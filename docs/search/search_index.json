@@ -47,7 +47,7 @@
         },
         {
             "location": "/features/",
-            "text": "Toolbar\n\u00b6\n\n\nFor those people who prefer their commands front-and-center, available all the time with a single click,\nthis extension adds a new \nExtensibility Logs\n toolbar. You'll need to enable the toolbar before you'll see it.\n\n\n\n\nMenu\n\u00b6\n\n\nFor those people who don't want to add yet another toolbar, this extension also adds a new \nExtensibility Logs\n menu \nto the \nView\n menu.\n\n\n\n\nLogs\n\u00b6\n\n\nEach of the logs can be individually disabled, or all logs disabled together.\n\n\nActivity Log\n\u00b6\n\n\nOpens Visual Studio's \nActivity Log\n in a tab in Visual Studio,\nwithout having to first remember where the file is stored,\nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %APPDATA%\\Microsoft\\VisualStudio\\instance_id\\\n\n\nFile:\n ActivityLog.xml\n\n\n\n\nDiagnostic Failure Log\n\u00b6\n\n\nOpens MSBuild's latest \nDiagnostic Failure Log\n in a tab in Visual Studio,\nwithout knowing how to find it first, \nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %TEMP%\n\n\nFiles:\n MSBuild_*.failure.log\n\n\n\n\nMEF Error Log\n\u00b6\n\n\nOpens Visual Studio's \nMEF Error Log\n in a tab in Visual Studio,\nwithout having to search for it,\nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %LOCALAPPDATA%\\Microsoft\\VisualStudio\\instance_id\\ComponentModelCache\n\n\nFile:\n Microsoft.VisualStudio.Default.err\n\n\n\n\nService Hub Log\n\u00b6\n\n\nOpens the latest \nService Hub Log\n in a tab in Visual Studio,\nwithout knowing how to find it first, \nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %TEMP%\\servicehub\\logs \n\n\nFiles:\n VsixServiceDiscovery-*.log\n\n\n\n\nVSIX Installer Log\n\u00b6\n\n\nOpens the latest \nVSIX Installer Log\n in a tab in Visual Studio, scrambling to find it,\nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %TEMP%\n\n\nFiles:\n dd_VSIXInstaller_*.log\n\n\n\n\nTools\n\u00b6\n\n\nEnvironment Variables\n\u00b6\n\n\nDisplays the \nenvironment variables\n for the current process in a tab in Visual Studio,\nwithout having to open a command prompt and issue a SET command.\n\n\nPath Variables\n\u00b6\n\n\nDisplays Windows' current \nsearch paths for executable files\n in a tab in Visual Studio,\nwithout having to open a command prompt.\n\n\nVisual Studio Folder\n\u00b6\n\n\nOpens the \ncurrent Visual Studio instance's folder\n in a \nFile Explorer\n window,\nwithout having to first remember the location of the folder,\nand then open it in a File Explorer window.\n\n\n\n\nFolder:\n %LOCALAPPDATA%\\Microsoft\\VisualStudio\\instance_id\\\n\n\n\n\nOptions\n\u00b6\n\n\nAny logs/tools that have been disabled will still appear on the toolbar, but will be inactive,\nbut they won't appear in the menu.\nThe toolbar buttons can be hidden by removing them from the \nExtensibility Logs\n toolbar.\n\n\nGeneral Options\n\u00b6\n\n\n\n\nEnable Extensibility Logs\n\u00b6\n\n\nThis setting allows the whole set of \nExtensibility Logs\n features to be turned off together.\n\n\nVersion Number\n\u00b6\n\n\nDisplays then version number of \nExtensibility Logs\n that's currently installed.\n\n\nLogs Options\n\u00b6\n\n\n\n\nEnable Activity Log\n\u00b6\n\n\nThe \nActivity Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs |  Enable Activity Log\n\nto \nfalse\n.\n\n\nEnable Diagnostic Failure Log\n\u00b6\n\n\nThe \nDiagnostic Failure Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Diagnostic Log\n\nto \nfalse\n.\n\n\nEnable MEF Error Log\n\u00b6\n\n\nThe \nMEF Error Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable MEF Error Log\n\nto \nfalse\n.\n\n\nEnable Service Hub Log\n\u00b6\n\n\nThe \nMEF Error Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable MEF Error Log\n\nto \nfalse\n.\n\n\nEnable VSIX Installer Log\n\u00b6\n\n\nThe \nVSIX Installer Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable MEF Error Log\n\nto \nfalse\n.\n\n\nTools Options\n\u00b6\n\n\n\n\nEnable Environment Variables\n\u00b6\n\n\nThe \nEnvironment Variables\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Environment Variables\n\nto \nfalse\n.\n\n\nEnable Path Variables\n\u00b6\n\n\nThe \nPath Variables\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Path Variables\n\nto \nfalse\n.\n\n\nEnable Visual Studio Folder\n\u00b6\n\n\nThe \nVisual Studio Folder\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Open Visual Studio Folder\n\nto \nfalse\n.",
+            "text": "Toolbar\n\u00b6\n\n\nFor those people who prefer their commands front-and-center, available all the time with a single click,\nthis extension adds a new \nExtensibility Logs\n toolbar. You'll need to enable the toolbar before you'll see it.\n\n\n\n\nMenu\n\u00b6\n\n\nFor those people who don't want to add yet another toolbar, this extension also adds a new \nExtensibility Logs\n menu \nto the \nView\n menu.\n\n\n\n\nLogs\n\u00b6\n\n\nEach of the logs can be individually disabled, or all logs disabled together.\n\n\nActivity Log\n\u00b6\n\n\nOpens Visual Studio's \nActivity Log\n in a tab in Visual Studio,\nwithout having to first remember where the file is stored,\nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %APPDATA%\\Microsoft\\VisualStudio\\instance_id\\\n\n\nFile:\n ActivityLog.xml\n\n\n\n\nDiagnostic Failure Log\n\u00b6\n\n\nOpens MSBuild's latest \nDiagnostic Failure Log\n in a tab in Visual Studio,\nwithout knowing how to find it first, \nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %TEMP%\n\n\nFiles:\n MSBuild_*.failure.log\n\n\n\n\nMEF Error Log\n\u00b6\n\n\nOpens Visual Studio's \nMEF Error Log\n in a tab in Visual Studio,\nwithout having to search for it,\nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %LOCALAPPDATA%\\Microsoft\\VisualStudio\\instance_id\\ComponentModelCache\n\n\nFile:\n Microsoft.VisualStudio.Default.err\n\n\n\n\nService Hub Log\n\u00b6\n\n\nOpens the latest \nService Hub Log\n in a tab in Visual Studio,\nwithout first knowing how to it first, \nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %TEMP%\\servicehub\\logs \n\n\nFiles:\n VsixServiceDiscovery-*.log\n\n\n\n\nVisual Studio Setup Log\n\u00b6\n\n\nOpens the latest \nVisual Studio Setup Log\n in a tab in Visual Studio,\nwithout scrambling to find it,\nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %TEMP%\n\n\nFiles:\n dd_setup_*.log\n\n\n\n\nVSIX Installer Log\n\u00b6\n\n\nOpens the latest \nVSIX Installer Log\n in a tab in Visual Studio, \nwithout knowing what the file's called and how to find it, \nand then open it in your editor of choice.\n\n\n\n\nFolder:\n %TEMP%\n\n\nFiles:\n dd_VSIXInstaller_*.log\n\n\n\n\nOther\n\u00b6\n\n\nEnvironment Variables\n\u00b6\n\n\nDisplays the \nenvironment variables\n for the current process in a tab in Visual Studio,\nwithout having to open a command prompt and issue a SET command.\n\n\nPath Variables\n\u00b6\n\n\nDisplays Windows' current \nsearch paths for executable files\n in a tab in Visual Studio,\nwithout having to open a command prompt and issue a PATH command.\n\n\nVisual Studio Folder\n\u00b6\n\n\nOpens the \ncurrent Visual Studio instance's folder\n in a \nFile Explorer\n window,\nwithout having to first remember the location of the folder,\nand then open it in an external File Explorer window.\n\n\n\n\nFolder:\n %LOCALAPPDATA%\\Microsoft\\VisualStudio\\instance_id\\\n\n\n\n\nOptions\n\u00b6\n\n\nAny commands that have been disabled will still appear on the toolbar, but will be inactive,\nbut they won't appear in the menu.\nThe toolbar buttons can be hidden by removing them from the \nExtensibility Logs\n toolbar.\n\n\nGeneral Options\n\u00b6\n\n\n\n\nEnable Extensibility Logs\n\u00b6\n\n\nThis setting allows the whole set of \nExtensibility Logs\n features to be turned off together.\n\n\nVersion Number\n\u00b6\n\n\nDisplays then version number of \nExtensibility Logs\n that's currently installed.\n\n\nLogs Options\n\u00b6\n\n\n\n\nEnable Logs Features\n\u00b6\n\n\nThis setting allows the whole set of \nLogs\n features to be turned off together.\n\n\nEnable Activity Log\n\u00b6\n\n\nThe \nActivity Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs |  Enable Activity Log\n\nto \nfalse\n.\n\n\nEnable Diagnostic Failure Log\n\u00b6\n\n\nThe \nDiagnostic Failure Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Diagnostic Log\n\nto \nfalse\n.\n\n\nEnable MEF Error Log\n\u00b6\n\n\nThe \nMEF Error Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable MEF Error Log\n\nto \nfalse\n.\n\n\nEnable Service Hub Log\n\u00b6\n\n\nThe \nMEF Error Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Service Hub Log\n\nto \nfalse\n.\n\n\nEnable Visual Studio Setup Log\n\u00b6\n\n\nThe \nVisual Studio Setup Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Visual Studio Setup Log\n\nto \nfalse\n.\n\n\nEnable VSIX Installer Log\n\u00b6\n\n\nThe \nVSIX Installer Log\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable VSIX Installer Log\n\nto \nfalse\n.\n\n\nOther Options\n\u00b6\n\n\n\n\nEnable Other Features\n\u00b6\n\n\nThis setting allows the whole set of \nOther\n features to be turned off together.\n\n\nEnable Environment Variables\n\u00b6\n\n\nThe \nEnvironment Variables\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Environment Variables\n\nto \nfalse\n.\n\n\nEnable Path Variables\n\u00b6\n\n\nThe \nPath Variables\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Path Variables\n\nto \nfalse\n.\n\n\nEnable Visual Studio Folder\n\u00b6\n\n\nThe \nVisual Studio Folder\n feature can be disabled by setting \nTools | Options | Extensibility Logs | Enable Open Visual Studio Folder\n\nto \nfalse\n.",
             "title": "Features"
         },
         {
@@ -82,18 +82,23 @@
         },
         {
             "location": "/features/#service-hub-log",
-            "text": "Opens the latest  Service Hub Log  in a tab in Visual Studio,\nwithout knowing how to find it first, \nand then open it in your editor of choice.   Folder:  %TEMP%\\servicehub\\logs   Files:  VsixServiceDiscovery-*.log",
+            "text": "Opens the latest  Service Hub Log  in a tab in Visual Studio,\nwithout first knowing how to it first, \nand then open it in your editor of choice.   Folder:  %TEMP%\\servicehub\\logs   Files:  VsixServiceDiscovery-*.log",
             "title": "Service Hub Log"
         },
         {
+            "location": "/features/#visual-studio-setup-log",
+            "text": "Opens the latest  Visual Studio Setup Log  in a tab in Visual Studio,\nwithout scrambling to find it,\nand then open it in your editor of choice.   Folder:  %TEMP%  Files:  dd_setup_*.log",
+            "title": "Visual Studio Setup Log"
+        },
+        {
             "location": "/features/#vsix-installer-log",
-            "text": "Opens the latest  VSIX Installer Log  in a tab in Visual Studio, scrambling to find it,\nand then open it in your editor of choice.   Folder:  %TEMP%  Files:  dd_VSIXInstaller_*.log",
+            "text": "Opens the latest  VSIX Installer Log  in a tab in Visual Studio, \nwithout knowing what the file's called and how to find it, \nand then open it in your editor of choice.   Folder:  %TEMP%  Files:  dd_VSIXInstaller_*.log",
             "title": "VSIX Installer Log"
         },
         {
-            "location": "/features/#tools",
+            "location": "/features/#other",
             "text": "",
-            "title": "Tools"
+            "title": "Other"
         },
         {
             "location": "/features/#environment-variables",
@@ -102,17 +107,17 @@
         },
         {
             "location": "/features/#path-variables",
-            "text": "Displays Windows' current  search paths for executable files  in a tab in Visual Studio,\nwithout having to open a command prompt.",
+            "text": "Displays Windows' current  search paths for executable files  in a tab in Visual Studio,\nwithout having to open a command prompt and issue a PATH command.",
             "title": "Path Variables"
         },
         {
             "location": "/features/#visual-studio-folder",
-            "text": "Opens the  current Visual Studio instance's folder  in a  File Explorer  window,\nwithout having to first remember the location of the folder,\nand then open it in a File Explorer window.   Folder:  %LOCALAPPDATA%\\Microsoft\\VisualStudio\\instance_id\\",
+            "text": "Opens the  current Visual Studio instance's folder  in a  File Explorer  window,\nwithout having to first remember the location of the folder,\nand then open it in an external File Explorer window.   Folder:  %LOCALAPPDATA%\\Microsoft\\VisualStudio\\instance_id\\",
             "title": "Visual Studio Folder"
         },
         {
             "location": "/features/#options",
-            "text": "Any logs/tools that have been disabled will still appear on the toolbar, but will be inactive,\nbut they won't appear in the menu.\nThe toolbar buttons can be hidden by removing them from the  Extensibility Logs  toolbar.",
+            "text": "Any commands that have been disabled will still appear on the toolbar, but will be inactive,\nbut they won't appear in the menu.\nThe toolbar buttons can be hidden by removing them from the  Extensibility Logs  toolbar.",
             "title": "Options"
         },
         {
@@ -136,6 +141,11 @@
             "title": "Logs Options"
         },
         {
+            "location": "/features/#enable-logs-features",
+            "text": "This setting allows the whole set of  Logs  features to be turned off together.",
+            "title": "Enable Logs Features"
+        },
+        {
             "location": "/features/#enable-activity-log",
             "text": "The  Activity Log  feature can be disabled by setting  Tools | Options | Extensibility Logs |  Enable Activity Log \nto  false .",
             "title": "Enable Activity Log"
@@ -152,18 +162,28 @@
         },
         {
             "location": "/features/#enable-service-hub-log",
-            "text": "The  MEF Error Log  feature can be disabled by setting  Tools | Options | Extensibility Logs | Enable MEF Error Log \nto  false .",
+            "text": "The  MEF Error Log  feature can be disabled by setting  Tools | Options | Extensibility Logs | Enable Service Hub Log \nto  false .",
             "title": "Enable Service Hub Log"
         },
         {
+            "location": "/features/#enable-visual-studio-setup-log",
+            "text": "The  Visual Studio Setup Log  feature can be disabled by setting  Tools | Options | Extensibility Logs | Enable Visual Studio Setup Log \nto  false .",
+            "title": "Enable Visual Studio Setup Log"
+        },
+        {
             "location": "/features/#enable-vsix-installer-log",
-            "text": "The  VSIX Installer Log  feature can be disabled by setting  Tools | Options | Extensibility Logs | Enable MEF Error Log \nto  false .",
+            "text": "The  VSIX Installer Log  feature can be disabled by setting  Tools | Options | Extensibility Logs | Enable VSIX Installer Log \nto  false .",
             "title": "Enable VSIX Installer Log"
         },
         {
-            "location": "/features/#tools-options",
+            "location": "/features/#other-options",
             "text": "",
-            "title": "Tools Options"
+            "title": "Other Options"
+        },
+        {
+            "location": "/features/#enable-other-features",
+            "text": "This setting allows the whole set of  Other  features to be turned off together.",
+            "title": "Enable Other Features"
         },
         {
             "location": "/features/#enable-environment-variables",
@@ -182,7 +202,7 @@
         },
         {
             "location": "/changelog/",
-            "text": "Public Releases\n\u00b6\n\n\nv1.3 - 2019-04-13\n\u00b6\n\n\n\n\nadded 'Service Hub Log'\n\n\nadded 'Environment Variables'\n\n\n\n\nv1.3 - 2019-04-10\n\u00b6\n\n\n\n\nadded 'Visual Studio Folder'\n\n\nadded 'Logs' group and 'Tools' group\n\n\nadded 'Logs' options and 'Tools' options\n\n\n\n\nv1.2.3 - 2019-04-04\n\u00b6\n\n\n\n\nfixed image links\n\n\n\n\nv1.2.2 - 2019-04-04\n\u00b6\n\n\n\n\nadded screenshots\n\n\n\n\nv1.2.1 - 2019-04-03\n\u00b6\n\n\n\n\nupdated website documentation\n\n\n\n\nv1.2 - 2019-04-03\n\u00b6\n\n\n\n\nadded 'VSIX Installer Log'\n\n\nadded 'View | Extensibility Logs'\n\n\n\n\nv1.1.1 - 2019-04-02\n\u00b6\n\n\n\n\nfixed typo in README.md\n\n\n\n\nv1.1 - 2019-04-02\n\u00b6\n\n\n\n\nadded 'MEF Error Log'\n\n\nadded 'Path Variables'\n\n\n\n\nv1.0 - 2019-03-30\n\u00b6\n\n\n\n\nadded 'Extensibility Logs Enabled' option setting\n\n\nadded 'Extensibility Logs Version' option setting\n\n\nadded 'Activity Log'\n\n\nadded 'Diagnostic Log'\n\n\n\n\nInternal Releases\n\u00b6\n\n\nv0.1.1 - 2019-02-08\n\u00b6\n\n\n\n\nadded documentation\n\n\n\n\nv0.1 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub\n\n\nadded 'Extensibility Logs' toolbar",
+            "text": "Public Releases\n\u00b6\n\n\nv1.5 - 2019-04-16\n\u00b6\n\n\n\n\nadded 'Visual Studio Setup Log'\n\n\nrenamed 'Tools' to 'Other'\n\n\n\n\nv1.4 - 2019-04-13\n\u00b6\n\n\n\n\nadded 'Service Hub Log'\n\n\nadded 'Environment Variables'\n\n\n\n\nv1.3 - 2019-04-10\n\u00b6\n\n\n\n\nadded 'Visual Studio Folder'\n\n\nadded 'Logs' group and 'Tools' group\n\n\nadded 'Logs' options and 'Tools' options\n\n\n\n\nv1.2.3 - 2019-04-04\n\u00b6\n\n\n\n\nfixed image links\n\n\n\n\nv1.2.2 - 2019-04-04\n\u00b6\n\n\n\n\nadded screenshots\n\n\n\n\nv1.2.1 - 2019-04-03\n\u00b6\n\n\n\n\nupdated website documentation\n\n\n\n\nv1.2 - 2019-04-03\n\u00b6\n\n\n\n\nadded 'VSIX Installer Log'\n\n\nadded 'View | Extensibility Logs'\n\n\n\n\nv1.1.1 - 2019-04-02\n\u00b6\n\n\n\n\nfixed typo in README.md\n\n\n\n\nv1.1 - 2019-04-02\n\u00b6\n\n\n\n\nadded 'MEF Error Log'\n\n\nadded 'Path Variables'\n\n\n\n\nv1.0 - 2019-03-30\n\u00b6\n\n\n\n\nadded 'Extensibility Logs Enabled' option setting\n\n\nadded 'Extensibility Logs Version' option setting\n\n\nadded 'Activity Log'\n\n\nadded 'Diagnostic Log'\n\n\n\n\nInternal Releases\n\u00b6\n\n\nv0.1.1 - 2019-02-08\n\u00b6\n\n\n\n\nadded documentation\n\n\n\n\nv0.1 - 2019-02-03\n\u00b6\n\n\n\n\ninitial \nmaster\n branch on GitHub\n\n\nadded 'Extensibility Logs' toolbar",
             "title": "Changelog"
         },
         {
@@ -191,9 +211,14 @@
             "title": "Public Releases"
         },
         {
-            "location": "/changelog/#v13-2019-04-13",
+            "location": "/changelog/#v15-2019-04-16",
+            "text": "added 'Visual Studio Setup Log'  renamed 'Tools' to 'Other'",
+            "title": "v1.5 - 2019-04-16"
+        },
+        {
+            "location": "/changelog/#v14-2019-04-13",
             "text": "added 'Service Hub Log'  added 'Environment Variables'",
-            "title": "v1.3 - 2019-04-13"
+            "title": "v1.4 - 2019-04-13"
         },
         {
             "location": "/changelog/#v13-2019-04-10",
