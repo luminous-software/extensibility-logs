@@ -17,7 +17,7 @@ namespace ExtensibilityLogs.Options.Pages
         private const string IndividualFeaturesHeading = H2 + Individual + Space + Features;
 
         [Category(FeatureSetHeading)]
-        [DisplayName(Enable + Space + Quote + Other + Quote)]
+        [DisplayName(Enable + Space + Quote + Other + Quote + Space + Features)]
         [Description("Enables/disables the whole set of " + Quote + Other + Quote + " features")]
         public bool OtherEnabled { get; set; } = true;
 
