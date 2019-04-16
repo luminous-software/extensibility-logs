@@ -44,7 +44,7 @@
     </Compile>
     <Compile Include="Constants\Constants.cs" />
     <Compile Include="Constants\Guids.cs" />
-    <Compile Include="Pages\ToolsDialogPage.cs">
+    <Compile Include="Pages\OtherDialogPage.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Pages\LogsDialogPage.cs">

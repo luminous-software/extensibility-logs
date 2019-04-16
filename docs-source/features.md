@@ -67,7 +67,7 @@ and then open it in your editor of choice.
 - **Folder:** %TEMP%
 - **Files:** dd_VSIXInstaller_*.log
 
-## Tools
+## Other
 
 ### Environment Variables
 
@@ -89,7 +89,7 @@ and then open it in a File Explorer window.
 
 ## Options
 
-Any logs/tools that have been disabled will still appear on the toolbar, but will be inactive,
+Any commands that have been disabled will still appear on the toolbar, but will be inactive,
 but they won't appear in the menu.
 The toolbar buttons can be hidden by removing them from the _Extensibility Logs_ toolbar.
 
@@ -108,6 +108,10 @@ Displays then version number of _Extensibility Logs_ that's currently installed.
 ### Logs Options
 
 ![Options](assets/images/logs-options.png)
+
+#### Enable Logs Features
+
+This setting allows the whole set of _Logs_ features to be turned off together.
 
 #### Enable Activity Log
 
@@ -139,9 +143,13 @@ to `false`.
 The _VSIX Installer Log_ feature can be disabled by setting _Tools | Options | Extensibility Logs | Enable VSIX Installer Log_
 to `false`.
 
-### Tools Options
+### Other Options
 
-![Options](assets/images/tools-options.png)
+![Options](assets/images/other-options.png)
+
+#### Enable Other Features
+
+This setting allows the whole set of _Other_ features to be turned off together.
 
 #### Enable Environment Variables
 

@@ -28,7 +28,7 @@ namespace ExtensibilityLogs
         public const int PackageGroup = 0x0010;
         public const int PackageMenuGroup = 0x0015;
         public const int LogGroup = 0x0020;
-        public const int ToolGroup = 0x0025;
+        public const int OtherGroup = 0x0025;
         public const int ActivityLogCommand = 0x0100;
         public const int DiagnosticLogCommand = 0x0105;
         public const int MefErrorLogCommand = 0x0110;

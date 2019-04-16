@@ -2,6 +2,7 @@
 
 ### v1.5 - 2019-04-??
   - added 'Visual Studio Setup Log'
+  - renamed 'Tools' to 'Other'
 
 ### v1.4 - 2019-04-13
   - added 'Service Hub Log'
