@@ -2,7 +2,7 @@
 {
     using static Core.Constants;
 
-    public static class Constants
+    public static class OptionConstants
     {
         public const string H1 = "1." + Space;
         public const string H2 = "2." + Space;

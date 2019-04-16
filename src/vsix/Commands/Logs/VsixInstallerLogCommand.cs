@@ -10,7 +10,7 @@ namespace ExtensibilityLogs.Commands.Logs
     using Luminous.Code.VisualStudio.Commands;
     using Luminous.Code.VisualStudio.Packages;
 
-    using static ExtensibilityLogs.Options.Constants;
+    using static ExtensibilityLogs.Options.OptionConstants;
 
     internal sealed class VsixInstallerLogCommand : LogsCommand
     {

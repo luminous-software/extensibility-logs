@@ -4,9 +4,9 @@ using System.Runtime.InteropServices;
 
 namespace ExtensibilityLogs.Options.Pages
 {
-    using static Constants;
     using static Core.Constants;
-    using static Guids;
+    using static OptionConstants;
+    using static OptionGuids;
 
     [ClassInterface(ClassInterfaceType.AutoDual)]
     [ComVisible(true)]

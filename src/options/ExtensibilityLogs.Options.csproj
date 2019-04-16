@@ -42,8 +42,8 @@
     <Compile Include="..\vsix\source.extension.cs">
       <Link>source.extension.cs</Link>
     </Compile>
-    <Compile Include="Constants\Constants.cs" />
-    <Compile Include="Constants\Guids.cs" />
+    <Compile Include="Constants\OptionConstants.cs" />
+    <Compile Include="Constants\OptionGuids.cs" />
     <Compile Include="Pages\OtherDialogPage.cs">
       <SubType>Component</SubType>
     </Compile>

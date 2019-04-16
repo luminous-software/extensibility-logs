@@ -4,9 +4,9 @@ using System.Runtime.InteropServices;
 
 namespace ExtensibilityLogs.Options.Pages
 {
-    using static Constants;
     using static Core.Constants;
-    using static Guids;
+    using static OptionConstants;
+    using static OptionGuids;
 
     [ClassInterface(ClassInterfaceType.AutoDual)]
     [ComVisible(true)]
@@ -19,7 +19,7 @@ namespace ExtensibilityLogs.Options.Pages
         public bool ExtensibilityLogsEnabled { get; set; } = true;
 
         [Category(H1 + ExtensibilityLogs)]
-        [DisplayName(Constants.ExtensibilityLogsVersion)]
+        [DisplayName(OptionConstants.ExtensibilityLogsVersion)]
         [Description("The version number of " + Quote + ExtensibilityLogs + Quote + " that's currently installed")]
         public string ExtensibilityLogsVersion { get; } = Vsix.Version;
     }
